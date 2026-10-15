@@ -1,0 +1,192 @@
+{
+  "vertical": "hotel8",
+  "name": "Hotel8",
+  "org": "Hotel8",
+  "domain": "hotel8.dev",
+  "tagline": "Hospitality on Sentin8 — property management, point of sale, distribution, metasearch, loyalty, and guest upsell as one composable vertical.",
+  "accent": "#C08A3E",
+  "pillarsLead": "Hotel8 inherits the Sentin8 security model by construction and adds hospitality's own guarantees — rate integrity, reservation atomicity, and PCI-clean money flows.",
+  "pillars": [
+    {
+      "title": "Property truth in one place",
+      "summary": "PMS owns properties, room inventory, rate plans, reservations, and front-desk operations — every other service composes against it, never shadow-writes it."
+    },
+    {
+      "title": "Channel parity without leaks",
+      "summary": "Distrib registers channels and maps room/rate inventory once; availability and restrictions flow outward, never inward unvalidated."
+    },
+    {
+      "title": "Payments delegated, never duplicated",
+      "summary": "POS and PMS cashiering collect; money movement is delegated to Bank8:Payments — no vertical re-implements card rails."
+    },
+    {
+      "title": "Offers with consent discipline",
+      "summary": "Upsell reacts to booking events within the guest's consent scope; pricing lanes present workload certificates, not static tokens."
+    },
+    {
+      "title": "Loyalty is deterministic",
+      "summary": "Stay points award from check-out events through declarative rules; tier progress and redemptions are event-sourced and auditable."
+    }
+  ],
+  "units": [
+    {
+      "slug": "pms",
+      "kind": "service",
+      "name": "Hotel8:PMS",
+      "repo": "hotel8-pms",
+      "org": "Hotel8",
+      "summary": "The property-management core: properties, room inventory, rate plans, reservations, front-desk operations, housekeeping, cashiering (folios), group blocks.",
+      "scopes": [
+        "hotel8:pms:reservations:write",
+        "hotel8:pms:inventory:read"
+      ]
+    },
+    {
+      "slug": "pos",
+      "kind": "service",
+      "name": "Hotel8:POS",
+      "repo": "hotel8-pos",
+      "org": "Hotel8",
+      "summary": "Food-and-beverage point of sale: outlets, tables, menu with modifiers, checks with split/merge lifecycle, kitchen routing, payments.",
+      "scopes": [
+        "hotel8:pos:checks:write",
+        "hotel8:pos:menu:read"
+      ]
+    },
+    {
+      "slug": "upsell",
+      "kind": "service",
+      "name": "Hotel8:Upsell",
+      "repo": "hotel8-upsell",
+      "org": "Hotel8",
+      "summary": "The offer-generation and guest-upsell engine: reacts to PMS booking events, generates context-appropriate offers (upgrades, early check-in), prices them through Bank8.",
+      "scopes": [
+        "hotel8:upsell:offers:write",
+        "hotel8:upsell:guest:read"
+      ]
+    },
+    {
+      "slug": "distrib",
+      "kind": "service",
+      "name": "Hotel8:Distrib",
+      "repo": "hotel8-distrib",
+      "org": "Hotel8",
+      "summary": "Channel distribution: registers OTA/GDS/wholesale/corporate/metasearch channels, maps channel-side properties and rate plans, pushes availability and restrictions.",
+      "scopes": [
+        "hotel8:distrib:channels:write",
+        "hotel8:distrib:mapping:read"
+      ]
+    },
+    {
+      "slug": "meta",
+      "kind": "service",
+      "name": "Hotel8:Meta",
+      "repo": "hotel8-meta",
+      "org": "Hotel8",
+      "summary": "Metasearch integration (Google Hotel Ads, Trivago, Kayak, TripAdvisor, Skyscanner, Bing): channel registration, bid/pricing sync, booking link integrity.",
+      "scopes": [
+        "hotel8:meta:channels:write",
+        "hotel8:meta:bids:read"
+      ]
+    },
+    {
+      "slug": "loyalty",
+      "kind": "service",
+      "name": "Hotel8:Loyalty",
+      "repo": "hotel8-loyalty",
+      "org": "Hotel8",
+      "summary": "The guest-loyalty engine: reward programs and tiers, member enrollment and linking, stay points from PMS check-out events, earning rules and redemptions.",
+      "scopes": [
+        "hotel8:loyalty:members:write",
+        "hotel8:loyalty:points:read"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "slug": "epms",
+      "kind": "app",
+      "name": "ePMS",
+      "repo": "hotel8-epms",
+      "org": "Hotel8",
+      "summary": "The property staff app: front desk, housekeeping boards, cashiering, reservations management."
+    },
+    {
+      "slug": "epos",
+      "kind": "app",
+      "name": "ePOS",
+      "repo": "hotel8-epos",
+      "org": "Hotel8",
+      "summary": "The outlet staff app: table service, checks, kitchen routing, POS payments."
+    },
+    {
+      "slug": "ebooking",
+      "kind": "app",
+      "name": "eBooking",
+      "repo": "hotel8-ebooking",
+      "org": "Hotel8",
+      "summary": "The guest booking app: availability search, rate display, reservation booking and management."
+    },
+    {
+      "slug": "ecorpbooking",
+      "kind": "app",
+      "name": "eCorpBooking",
+      "repo": "hotel8-ecorpbooking",
+      "org": "Hotel8",
+      "summary": "The corporate booking app: negotiated rates, corporate policies, authorized-user booking."
+    },
+    {
+      "slug": "eguest",
+      "kind": "app",
+      "name": "eGuest",
+      "repo": "hotel8-eguest",
+      "org": "Hotel8",
+      "summary": "The guest app: digital check-in, folio view, upsell offers, loyalty status."
+    },
+    {
+      "slug": "ekiosk",
+      "kind": "app",
+      "name": "eKiosk",
+      "repo": "hotel8-ekiosk",
+      "org": "Hotel8",
+      "summary": "The lobby kiosk: self check-in/out, key pickup, upsell surfacing."
+    }
+  ],
+  "sdks": [
+    {
+      "slug": "sdk",
+      "kind": "sdk",
+      "name": "hotel8 Rust SDK",
+      "repo": "hotel8-sdk",
+      "org": "Hotel8",
+      "summary": "The unified namespace facade (hotel8::pms::…, hotel8::pos::…) over the per-service contracts — the typed integration surface for every hotel8 API.",
+      "href": "/docs/sdk/"
+    }
+  ],
+  "showcaseTitle": "Built on the Sentin8 platform",
+  "showcaseLead": "Hotel8 contains no platform infrastructure of its own — identity, events, storage, scheduling, and money movement are delegated.",
+  "showcase": [
+    {
+      "slug": "sentin8",
+      "name": "Sentin8 — the platform",
+      "chip": "sentin8.dev",
+      "accent": "#D4AF37",
+      "summary": "17 services: identity, events, storage, workflows, scheduling — everything hotel8 doesn't rebuild.",
+      "href": "https://sentin8.dev/"
+    },
+    {
+      "slug": "bank8",
+      "name": "Bank8",
+      "chip": "bank8.dev",
+      "accent": "#1B6CA8",
+      "summary": "Hotel8 delegates card and settlement flows to Bank8:Payments.",
+      "href": "https://bank8.dev/"
+    }
+  ],
+  "crossrefs": [
+    {
+      "label": "POS and Upsell payments ride Bank8:Payments",
+      "url": "https://bank8.dev/docs/products/payments/"
+    }
+  ]
+}
