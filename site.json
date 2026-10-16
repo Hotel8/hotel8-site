@@ -3,13 +3,13 @@
   "name": "Hotel8",
   "org": "Hotel8",
   "domain": "hotel8.dev",
-  "tagline": "Hospitality on Sentin8 \u2014 property management, point of sale, distribution, metasearch, loyalty, and guest upsell as one composable vertical.",
+  "tagline": "Hospitality on Sentin8 — property management, point of sale, distribution, metasearch, loyalty, and guest upsell as one composable vertical.",
   "accent": "#C08A3E",
-  "pillarsLead": "Hotel8 inherits the Sentin8 security model by construction and adds hospitality's own guarantees \u2014 rate integrity, reservation atomicity, and PCI-clean money flows.",
+  "pillarsLead": "Hotel8 inherits the Sentin8 security model by construction and adds hospitality's own guarantees — rate integrity, reservation atomicity, and PCI-clean money flows.",
   "pillars": [
     {
       "title": "Property truth in one place",
-      "summary": "PMS owns properties, room inventory, rate plans, reservations, and front-desk operations \u2014 every other service composes against it, never shadow-writes it."
+      "summary": "PMS owns properties, room inventory, rate plans, reservations, and front-desk operations — every other service composes against it, never shadow-writes it."
     },
     {
       "title": "Channel parity without leaks",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Payments delegated, never duplicated",
-      "summary": "POS and PMS cashiering collect; money movement is delegated to Bank8:Payments \u2014 no vertical re-implements card rails."
+      "summary": "POS and PMS cashiering collect; money movement is delegated to Bank8:Payments — no vertical re-implements card rails."
     },
     {
       "title": "Offers with consent discipline",
@@ -159,19 +159,19 @@
       "name": "hotel8 Rust SDK",
       "repo": "hotel8-sdk",
       "org": "Hotel8",
-      "summary": "The unified namespace facade (hotel8::pms::\u2026, hotel8::pos::\u2026) over the per-service contracts \u2014 the typed integration surface for every hotel8 API.",
+      "summary": "The unified namespace facade (hotel8::pms::…, hotel8::pos::…) over the per-service contracts — the typed integration surface for every hotel8 API.",
       "href": "/docs/sdk/"
     }
   ],
   "showcaseTitle": "Built on the Sentin8 platform",
-  "showcaseLead": "Hotel8 contains no platform infrastructure of its own \u2014 identity, events, storage, scheduling, and money movement are delegated.",
+  "showcaseLead": "Hotel8 contains no platform infrastructure of its own — identity, events, storage, scheduling, and money movement are delegated.",
   "showcase": [
     {
       "slug": "sentin8",
-      "name": "Sentin8 \u2014 the platform",
+      "name": "Sentin8 — the platform",
       "chip": "sentin8.dev",
       "accent": "#D4AF37",
-      "summary": "17 services: identity, events, storage, workflows, scheduling \u2014 everything hotel8 doesn't rebuild.",
+      "summary": "17 services: identity, events, storage, workflows, scheduling — everything hotel8 doesn't rebuild.",
       "href": "https://sentin8.dev/"
     },
     {
@@ -188,34 +188,5 @@
       "label": "POS and Upsell payments ride Bank8:Payments",
       "url": "https://bank8.dev/docs/products/payments/"
     }
-  ],
-  "eyebrow": "Hospitality \u00b7 PMS \u00b7 POS \u00b7 distribution on Sentin8",
-  "stats": [
-    {
-      "value": "6",
-      "label": "services"
-    },
-    {
-      "value": "6",
-      "label": "apps"
-    },
-    {
-      "value": "1",
-      "label": "property truth"
-    },
-    {
-      "value": "0",
-      "label": "re-implemented rails"
-    }
-  ],
-  "code": {
-    "title": "book a room",
-    "lang": "bash",
-    "lines": [
-      "$ curl -b jar.txt https://bff.ops.sys.example.com/proxy/pms/v1/reservations",
-      "  -d '{ \"room_type_id\": \"<rt>\", \"from\": \"2026-11-01\", \"to\": \"2026-11-03\" }'",
-      "# publishes hotel8:pms:reservation:created",
-      "# \u2192 loyalty, upsell, and distribution all react"
-    ]
-  }
+  ]
 }
