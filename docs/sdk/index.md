@@ -5,7 +5,7 @@ sidebar_position: 1
 # hotel8 Rust SDK
 
 The unified namespace facade: every hotel8 crate imports through
-`hotel8::{service}::{…}` — the typed integration surface for every
+`hotel8::{service}::{…}` - the typed integration surface for every
 hotel8 API, consumed as a pinned git tag.
 
 ```rust
@@ -35,5 +35,5 @@ use hotel8::pos::client::PosClient;
 
 ## Deep dive
 
-[hotel8-sdk reference](/docs/reference/sdk/) — harvested from
+[hotel8-sdk reference](/docs/reference/sdk/) - harvested from
 `Hotel8/hotel8-sdk`.

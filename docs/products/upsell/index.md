@@ -2,28 +2,28 @@
 sidebar_position: 4
 ---
 
-# Hotel8:Upsell — Offer Engine
+# Hotel8:Upsell - Offer Engine
 
 The offer-generation and guest-upsell engine: it reacts to PMS
 booking events, generates context-appropriate offers (room upgrades,
 early check-in, late check-out, services), prices them, and delivers
-them to the guest surfaces — with tenant-authored hooks running in
+them to the guest surfaces - with tenant-authored hooks running in
 Sentin8:Func.
 
 ## Use cases
 
-- **Contextual offers** — a booking event (room type, stay dates,
+- **Contextual offers** - a booking event (room type, stay dates,
   party profile) triggers offer generation; the same inputs always
-  produce the same offer set — the pricing lanes are deterministic
+  produce the same offer set - the pricing lanes are deterministic
   functions, not black boxes.
-- **Dynamic pricing** — offers price against the property's live
+- **Dynamic pricing** - offers price against the property's live
   inventory and rate rules; the pricing path presents the vertical's
   workload certificate, never a static token.
-- **Guest delivery** — offers surface in eBooking, eGuest, and eKiosk;
+- **Guest delivery** - offers surface in eBooking, eGuest, and eKiosk;
   acceptance flows back as a folio charge or reservation change.
-- **Tenant hooks** — property-authored offer logic (custom bundles,
+- **Tenant hooks** - property-authored offer logic (custom bundles,
   loyalty-weighted pricing) runs as WASM functions in the platform's
-  Func service — zero platform redeploys per property.
+  Func service - zero platform redeploys per property.
 
 ## API surface (selected)
 
@@ -37,8 +37,8 @@ Sentin8:Func.
 
 The complete detail lives in this product's sub-pages:
 
-- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
-- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
-- [Security](security) — the full document, harvested from the unit's repository at build time.
-- [Overview (repo README)](/docs/reference/upsell/) — the maintainer's README in the consolidated reference section.
+- [Architecture (DDD)](design) - the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) - the full document, harvested from the unit's repository at build time.
+- [Security](security) - the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/upsell/) - the maintainer's README in the consolidated reference section.
 

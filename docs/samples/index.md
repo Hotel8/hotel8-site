@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Samples
 
-First calls against a running hotel8 deployment — through the BFF
+First calls against a running hotel8 deployment - through the BFF
 proxy, from cURL and Dart.
 
 ## 1. Search availability and book a room (guest flow)
@@ -31,7 +31,7 @@ curl -b jar.txt \
   }'
 ```
 
-The booking publishes `hotel8:pms:reservation:created` — Loyalty,
+The booking publishes `hotel8:pms:reservation:created` - Loyalty,
 Upsell, and Distrib all react to it through their Bus consumers.
 
 ## 2. Open and settle a POS check
@@ -49,7 +49,7 @@ curl -b jar.txt \
 ```
 
 Settlement captures the card and delegates the money movement to
-Bank8:Payments — POS never touches a raw card rail.
+Bank8:Payments - POS never touches a raw card rail.
 
 ## 3. Enroll a loyalty member
 
@@ -83,5 +83,5 @@ let reservations = pms_client
     .await?;
 ```
 
-The client rides the platform's certificate-presenting transport — no
+The client rides the platform's certificate-presenting transport - no
 token configuration, no static secret to leak.

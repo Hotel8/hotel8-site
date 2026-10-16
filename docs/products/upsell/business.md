@@ -1,11 +1,11 @@
 ---
-title: "Hotel8:Upsell — Business rules (BRD)"
+title: "Hotel8:Upsell - Business rules (BRD)"
 sidebar_label: "Business rules (BRD)"
 mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-upsell/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Upsell — Business Requirements & Functionality
+# BUSINESS.md: Hotel8:Upsell - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Upsell **does for the business**. For architecture read `README.md`;
@@ -53,7 +53,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-upsell/edit/main/BUSINESS.md
 | A/B testing | Guests are assigned to a variant deterministically; conversion compares like-for-like. |
 | Acceptance | Accepting a paid offer records a transaction and settles; the offer cannot be double-charged. |
 | Decline | Declining is recorded; no further generation for that class. |
-| Expiry | Offers expire per stay timeline — stale offers cannot be accepted. |
+| Expiry | Offers expire per stay timeline - stale offers cannot be accepted. |
 | Modification coupling | Accepted upsells that change the stay are reflected back as a reservation modification event. |
 
 ## 4. Business Events (Outbound)
@@ -70,7 +70,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-upsell/edit/main/BUSINESS.md
 | `hotel8:upsell:confirmation:sent`, `notification:sent` | Guest communication dispatched |
 | `hotel8:upsell:ab_test:created`, `rule:created`, `rule:test` | Rule administration |
 
-**Inbound (consumed):** `hotel8:pms:reservation:created` — triggers offer
+**Inbound (consumed):** `hotel8:pms:reservation:created` - triggers offer
 generation.
 
 ## 5. Business Rules & Invariants
@@ -79,7 +79,7 @@ generation.
    tenant allows retargeting.
 2. Guest consent gates presentation.
 3. An accepted offer's price never changes after the guest's acceptance.
-4. Payment state is only reflected from the payments lane — never asserted.
+4. Payment state is only reflected from the payments lane - never asserted.
 5. Rule changes affect future generation only; existing offers honor their
    recorded provenance.
 6. Declined offers are remembered for the stay; guests cannot be re-shown.
@@ -95,7 +95,7 @@ generation.
 
 ## 7. KPIs / Success Criteria
 
-- Offer conversion (accepted/offered) per variant — measurable and honest.
+- Offer conversion (accepted/offered) per variant - measurable and honest.
 - Zero duplicate charges (payment idempotency holds).
 - Zero guest complaints of repeated declined offers (cap memory works).
 - Generation completes inside the booking-moment budget.

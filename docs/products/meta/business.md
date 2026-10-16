@@ -1,11 +1,11 @@
 ---
-title: "Hotel8:Meta — Business rules (BRD)"
+title: "Hotel8:Meta - Business rules (BRD)"
 sidebar_label: "Business rules (BRD)"
 mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Meta — Business Requirements & Functionality
+# BUSINESS.md: Hotel8:Meta - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Meta **does for the business**. For architecture read `README.md`;
@@ -15,7 +15,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/BUSINESS.md
 
 - Put the hotel's live rates in front of metasearch shoppers (Google Hotel
   Ads, Trivago, Kayak, Skyscanner, TripAdvisor, Bing) with correct content.
-- Custody partner credentials safely (encrypted, by reference — never
+- Custody partner credentials safely (encrypted, by reference - never
   plaintext).
 - Attribute metasearch clicks to bookings so acquisition spend is measurable.
 
@@ -49,7 +49,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/BUSINESS.md
 |---|---|
 | Channel setup | A metasearch channel operates only with stored credentials and an active configuration. |
 | Rate ads | An advertised rate is always the verified derivation of the property's live retail rate plus the channel's configured adjustment. |
-| Verification | Unverified rates are withheld from publication — parity incidents are prevented at the source. |
+| Verification | Unverified rates are withheld from publication - parity incidents are prevented at the source. |
 | Content | Property content publishes separately from rates so marketing changes don't disturb pricing. |
 | Sync | Full syncs re-establish the complete catalog; partial (ARI) syncs propagate deltas; both are logged. |
 | Attribution | Clicks are recorded with partner context so bookings can be traced to their source. |
@@ -66,17 +66,17 @@ custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/BUSINESS.md
 | `hotel8:meta:full_sync:completed` | Full sync finished |
 | `hotel8:meta:content:pushed` | Content publication |
 
-**Inbound (consumed):** `hotel8:pms:inventory:updated` — re-derives and
+**Inbound (consumed):** `hotel8:pms:inventory:updated` - re-derives and
 verifies rate ads.
 
 ## 5. Business Rules & Invariants
 
 1. No ad is published for an unverified rate.
-2. Secrets exist only as encrypted references in the database — plaintext is
+2. Secrets exist only as encrypted references in the database - plaintext is
    never written or echoed.
 3. Every credential change records the acting admin.
 4. Click attribution rows are immutable telemetry.
-5. A sync outcome is ledgered (success, partial, miss) — silent skips are an
+5. A sync outcome is ledgered (success, partial, miss) - silent skips are an
    anomaly, not the norm.
 
 ## 6. Target-User Roles & Use Cases

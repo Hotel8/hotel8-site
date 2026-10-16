@@ -2,24 +2,24 @@
 sidebar_position: 7
 ---
 
-# Hotel8:Loyalty — Guest Loyalty Program
+# Hotel8:Loyalty - Guest Loyalty Program
 
 The guest-loyalty engine: it defines reward programs and tiers,
 enrolls and links members, awards stay points from PMS check-out
-events, meters earning rules, and processes redemptions —
+events, meters earning rules, and processes redemptions -
 deterministic, event-sourced, auditable.
 
 ## Use cases
 
-- **Programs & tiers** — per-brand programs with tier thresholds and
+- **Programs & tiers** - per-brand programs with tier thresholds and
   benefits; tier progress derives from stay events, never a batch
   job's recompute.
-- **Member enrollment** — guests enroll (app, front desk, corporate
+- **Member enrollment** - guests enroll (app, front desk, corporate
   import); members link across properties and brands.
-- **Stay points** — check-out events award points through declarative
+- **Stay points** - check-out events award points through declarative
   earning rules (base × elite multiplier, promotion windows);
   redemptions decrement balances with full audit.
-- **Redemptions** — free-night certificates, folio discounts, and
+- **Redemptions** - free-night certificates, folio discounts, and
   partner redemptions all flow through the same audited path.
 
 ## API surface (selected)
@@ -35,8 +35,8 @@ deterministic, event-sourced, auditable.
 
 The complete detail lives in this product's sub-pages:
 
-- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
-- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
-- [Security](security) — the full document, harvested from the unit's repository at build time.
-- [Overview (repo README)](/docs/reference/loyalty/) — the maintainer's README in the consolidated reference section.
+- [Architecture (DDD)](design) - the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) - the full document, harvested from the unit's repository at build time.
+- [Security](security) - the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/loyalty/) - the maintainer's README in the consolidated reference section.
 

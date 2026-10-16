@@ -1,11 +1,11 @@
 ---
-title: "Hotel8:Loyalty — Business rules (BRD)"
+title: "Hotel8:Loyalty - Business rules (BRD)"
 sidebar_label: "Business rules (BRD)"
 mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-loyalty/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Loyalty — Business Requirements & Functionality
+# BUSINESS.md: Hotel8:Loyalty - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Loyalty **does for the business**. For architecture read
@@ -67,7 +67,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-loyalty/edit/main/BUSINESS.md
 | `hotel8:loyalty:reward:created / updated / deleted / redeemed` | Redemption catalog and usage |
 | `hotel8:loyalty:tiers:reviewed` | Tier review pass |
 
-**Inbound (consumed):** `hotel8:pms:reservation:checked_out` — awards stay
+**Inbound (consumed):** `hotel8:pms:reservation:checked_out` - awards stay
 points.
 
 ## 5. Business Rules & Invariants
@@ -76,7 +76,7 @@ points.
 2. Points earned from a stay are awarded exactly once per stay.
 3. Tier progression follows program thresholds automatically.
 4. Every ledger movement records its actor and business reason.
-5. Redemption at POS deducts loyalty first-class — the guest never
+5. Redemption at POS deducts loyalty first-class - the guest never
    double-pays.
 6. Program rules changes affect future movements only.
 

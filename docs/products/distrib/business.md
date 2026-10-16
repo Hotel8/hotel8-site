@@ -1,11 +1,11 @@
 ---
-title: "Hotel8:Distrib — Business rules (BRD)"
+title: "Hotel8:Distrib - Business rules (BRD)"
 sidebar_label: "Business rules (BRD)"
 mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-distrib/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Distrib — Business Requirements & Functionality
+# BUSINESS.md: Hotel8:Distrib - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Distrib **does for the business**. For architecture read
@@ -46,7 +46,7 @@ custom_edit_url: https://github.com/Hotel8/hotel8-distrib/edit/main/BUSINESS.md
 | Area | Business rule |
 |---|---|
 | Onboarding | A channel sells only mapped properties; unmapped inventory is invisible to it. |
-| Markups | Channel rates derive from PMS retail rates plus the configured markup/markdown — deterministic and auditable. |
+| Markups | Channel rates derive from PMS retail rates plus the configured markup/markdown - deterministic and auditable. |
 | Edit windows | ARI changes respect each channel's commercial edit window (policy-authored), protecting commitments near arrival. |
 | Bookings | A channel booking maps to a PMS reservation; rejection (e.g. sold out) is surfaced to the channel and recorded. |
 | Sync | Every ARI/content/booking push is tracked pending→synced/failed/retry; failures replay. |
@@ -64,15 +64,15 @@ custom_edit_url: https://github.com/Hotel8/hotel8-distrib/edit/main/BUSINESS.md
 | `hotel8:distrib:reservation:received / updated / status_pushed` | Channel bookings |
 | `hotel8:distrib:sync:retried` | Delivery replay |
 
-**Inbound (consumed):** `hotel8:pms:inventory:updated` — republishes ARI per
+**Inbound (consumed):** `hotel8:pms:inventory:updated` - republishes ARI per
 mapping.
 
 ## 5. Business Rules & Invariants
 
 1. A channel never sees unmapped inventory.
-2. Channel rates always derive from PMS retail rates + recorded markup —
+2. Channel rates always derive from PMS retail rates + recorded markup -
    never hand-set deltas.
-3. ARI is deterministic for a given inventory state + markup — replays are
+3. ARI is deterministic for a given inventory state + markup - replays are
    safe.
 4. Sync attempts are capped; exhausted rows remain for manual replay rather
    than vanishing.

@@ -1,4 +1,4 @@
-# README.md: Hotel8:Site — hotel8.dev
+# README.md: Hotel8:Site - hotel8.dev
 
 > The Hotel8 public website at [hotel8.dev](https://hotel8.dev): every
 > product, app, and SDK of the vertical, with its domain invariants
@@ -12,12 +12,12 @@ hotel8.dev is the Hotel8 vertical's product site: a landing page
 detailing all six products and six apps, per-product
 pages with use cases and API surfaces, the vertical's security
 invariants, developer lifecycle, samples, and a **Reference** section
-harvested at build time from each unit repo's own docs — the
+harvested at build time from each unit repo's own docs - the
 repositories stay the source of truth.
 
 ## 2. Motivation
 
-Hotel8's six services carry deep maintainer docs, but nothing explains to a hotel group's evaluation team what the vertical guarantees: property truth in one place, channel parity, delegated payments, and deterministic loyalty. This site is that layer — harvested so marketing never drifts from the code.
+Hotel8's six services carry deep maintainer docs, but nothing explains to a hotel group's evaluation team what the vertical guarantees: property truth in one place, channel parity, delegated payments, and deterministic loyalty. This site is that layer - harvested so marketing never drifts from the code.
 
 ## 3. Architecture
 
