@@ -18,7 +18,12 @@ into the hotel8 services.
 - **Loyalty at a glance** — tier progress and point balance live
   from the loyalty engine's events.
 
-## Deep dive
+## Full documentation
 
-[eGuest reference](/docs/reference/eguest/) — harvested from
-`Hotel8/hotel8-eguest`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/eguest/) — the maintainer's README in the consolidated reference section.
+

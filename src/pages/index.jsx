@@ -2,7 +2,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import {
-  Hero, Section, ProductGrid, AppGrid, SdkGrid, VerticalShowcase, SecurityPillars,
+  Hero, Section, StartHere, ProductGrid, AppGrid, SdkGrid, VerticalShowcase, SecurityPillars,
 } from '@sentin8/site-engine/components';
 import site from '../../site.json';
 
@@ -22,6 +22,25 @@ export default function Home() {
             { label: 'GitHub', href: 'https://github.com/' + site.org },
           ]}
         />
+        <StartHere items={[
+          {
+            title: 'Product tour',
+            description: 'What Hotel8 is and what each product does — property management through loyalty.',
+            href: '/docs',
+            primary: true,
+          },
+          {
+            title: 'Security',
+            description: 'Hospitality guarantees plus the platform model — property truth, channel parity, delegated payments.',
+            href: '/docs/security',
+          },
+          {
+            title: 'Get started',
+            description: 'Clone one repo and build — the developer quickstart, samples, and every API surface.',
+            href: '/docs/developers',
+          },
+        ]} />
+
 
         {site.units?.length ? (
           <Section

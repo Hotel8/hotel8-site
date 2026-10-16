@@ -20,7 +20,12 @@ member's live role set.
 - **Operational dashboards** — arrivals, departures, in-house, and
   housekeeping status as live hook-driven views.
 
-## Deep dive
+## Full documentation
 
-[ePMS reference](/docs/reference/epms/) — README, DESIGN, BUSINESS
-harvested from `Hotel8/hotel8-epms`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/epms/) — the maintainer's README in the consolidated reference section.
+

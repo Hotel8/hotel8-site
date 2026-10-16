@@ -17,7 +17,12 @@ management, menu browsing, kitchen routing views, and payment capture
 - **Payment capture** — card capture on the outlet device; the money
   movement delegates to Bank8:Payments.
 
-## Deep dive
+## Full documentation
 
-[ePOS reference](/docs/reference/epos/) — harvested from
-`Hotel8/hotel8-epos`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/epos/) — the maintainer's README in the consolidated reference section.
+

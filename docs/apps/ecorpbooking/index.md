@@ -17,7 +17,12 @@ of the company.
 - **Company structures** — cost centers, travelers, and approvers
   manage through the same audited API surface.
 
-## Deep dive
+## Full documentation
 
-[eCorpBooking reference](/docs/reference/ecorpbooking/) — harvested
-from `Hotel8/hotel8-ecorpbooking`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/ecorpbooking/) — the maintainer's README in the consolidated reference section.
+

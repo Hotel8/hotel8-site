@@ -33,7 +33,12 @@ delegated payment path.
 | Kitchen | routing, station queues | `hotel8:pos:kitchen:write` |
 | Payments | capture, post-to-room | `hotel8:pos:payments:write` |
 
-## Deep dive
+## Full documentation
 
-[POS reference](/docs/reference/pos/) — harvested from
-`Hotel8/hotel8-pos`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/pos/) — the maintainer's README in the consolidated reference section.
+

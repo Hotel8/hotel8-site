@@ -46,7 +46,12 @@ composes against PMS; none shadow-writes it.
 | Housekeeping | room status, assignments | `hotel8:pms:housekeeping:write` |
 | Group blocks | blocks, allocations, releases | `hotel8:pms:blocks:write` |
 
-## Deep dive
+## Full documentation
 
-[PMS reference](/docs/reference/pms/) — README, DESIGN, and BUSINESS
-harvested from `Hotel8/hotel8-pms`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/pms/) — the maintainer's README in the consolidated reference section.
+

@@ -30,7 +30,12 @@ distribution story.
 | Prices | rate pushes | `hotel8:meta:prices:write` |
 | Signals | impressions, clicks, bookings | `hotel8:meta:signals:read` |
 
-## Deep dive
+## Full documentation
 
-[Meta reference](/docs/reference/meta/) — harvested from
-`Hotel8/hotel8-meta`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/meta/) — the maintainer's README in the consolidated reference section.
+

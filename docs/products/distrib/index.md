@@ -33,7 +33,12 @@ unvalidated inward writes.
 | Sync | push availability, restrictions | `hotel8:distrib:sync:write` |
 | Reservations | import, attribution | `hotel8:distrib:reservations:write` |
 
-## Deep dive
+## Full documentation
 
-[Distrib reference](/docs/reference/distrib/) — harvested from
-`Hotel8/hotel8-distrib`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/distrib/) — the maintainer's README in the consolidated reference section.
+

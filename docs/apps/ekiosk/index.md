@@ -18,7 +18,12 @@ pickup, and upsell surfacing — the unattended guest touchpoint.
 - **Upsell at the door** — arrival-time offers surface exactly like
   the other guest apps.
 
-## Deep dive
+## Full documentation
 
-[eKiosk reference](/docs/reference/ekiosk/) — harvested from
-`Hotel8/hotel8-ekiosk`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/ekiosk/) — the maintainer's README in the consolidated reference section.
+

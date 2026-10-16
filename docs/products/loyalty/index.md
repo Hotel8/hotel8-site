@@ -31,7 +31,12 @@ deterministic, event-sourced, auditable.
 | Tiers | progress, benefits | `hotel8:loyalty:tiers:read` |
 | Redemptions | certificates, folio discounts | `hotel8:loyalty:redemptions:write` |
 
-## Deep dive
+## Full documentation
 
-[Loyalty reference](/docs/reference/loyalty/) — harvested from
-`Hotel8/hotel8-loyalty`.
+The complete detail lives in this product's sub-pages:
+
+- [Architecture (DDD)](design) — the full document, harvested from the unit's repository at build time.
+- [Business rules (BRD)](business) — the full document, harvested from the unit's repository at build time.
+- [Security](security) — the full document, harvested from the unit's repository at build time.
+- [Overview (repo README)](/docs/reference/loyalty/) — the maintainer's README in the consolidated reference section.
+
