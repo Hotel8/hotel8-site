@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-ecorpbooking/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:eCorpBooking - Business Requirements & Functionality
+# Hotel8:eCorpBooking - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:eCorpBooking **does for the business**. For architecture read

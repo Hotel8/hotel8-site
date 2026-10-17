@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Meta - Business Requirements & Functionality
+# Hotel8:Meta - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Meta **does for the business**. For architecture read `README.md`;

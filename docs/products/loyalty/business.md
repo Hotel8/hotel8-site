@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-loyalty/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:Loyalty - Business Requirements & Functionality
+# Hotel8:Loyalty - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:Loyalty **does for the business**. For architecture read

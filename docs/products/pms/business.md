@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-pms/edit/main/BUSINESS.md
 ---
-# BUSINESS.md: Hotel8:PMS - Business Requirements & Functionality
+# Hotel8:PMS - Business Requirements & Functionality
 
 > Audience: product owners, business analysts, and anyone evaluating what
 > Hotel8:PMS **does for the business**. For architecture read `README.md`;

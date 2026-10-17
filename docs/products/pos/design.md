@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-pos/edit/main/DESIGN.md
 ---
-# DESIGN.md: Hotel8:POS - Detailed Design Document
+# Hotel8:POS - Detailed Design Document
 
 ## 1. Scope & Context
 

@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-ekiosk/edit/main/DESIGN.md
 ---
-# DESIGN.md: Hotel8:eKiosk - Detailed Design Document
+# Hotel8:eKiosk - Detailed Design Document
 
 ## 1. Scope & Context
 

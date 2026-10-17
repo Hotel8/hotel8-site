@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-meta/edit/main/DESIGN.md
 ---
-# DESIGN.md: Hotel8:Meta - Detailed Design Document
+# Hotel8:Meta - Detailed Design Document
 
 ## 1. Scope & Context
 

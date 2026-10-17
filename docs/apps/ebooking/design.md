@@ -5,7 +5,7 @@ mdx:
   format: md
 custom_edit_url: https://github.com/Hotel8/hotel8-ebooking/edit/main/DESIGN.md
 ---
-# DESIGN.md: Hotel8:eBooking - Detailed Design Document
+# Hotel8:eBooking - Detailed Design Document
 
 ## 1. Scope & Context
 
