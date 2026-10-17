@@ -26,7 +26,7 @@ Gate: `upsell:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of offers | - |
-| 403 | Missing upsell:admin scope | - |
+| 403 | Missing `upsell:admin` scope | - |
 
 ### `POST /v1/admin/offers`
 
@@ -42,7 +42,7 @@ Gate: `upsell:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Offer created | - |
-| 403 | Missing upsell:admin scope | - |
+| 403 | Missing `upsell:admin` scope | - |
 
 ### `GET /v1/admin/offers/{id}`
 
@@ -55,5 +55,5 @@ Gate: `upsell:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Offer status | - |
-| 403 | Missing upsell:admin scope | - |
+| 403 | Missing `upsell:admin` scope | - |
 

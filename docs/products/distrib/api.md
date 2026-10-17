@@ -17,7 +17,7 @@ Sentin8 Hotel8:Distrib - Distribution service.
 
 ### `GET /v1/admin/availability`
 
-`GET /v1/channels/{channel_code}/properties/{property_code}/ari`
+`GET /v1/channels/&#123;channel_code&#125;/properties/&#123;property_code&#125;/ari`
 
 Gate: `distrib:admin`
 
@@ -26,7 +26,7 @@ Gate: `distrib:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Channel availability (ARI) | - |
-| 403 | Missing distrib:admin scope | - |
+| 403 | Missing `distrib:admin` scope | - |
 
 ### `GET /v1/admin/channels`
 
@@ -39,7 +39,7 @@ Gate: `distrib:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of channels | - |
-| 403 | Missing distrib:admin scope | - |
+| 403 | Missing `distrib:admin` scope | - |
 
 ### `POST /v1/admin/channels`
 
@@ -55,5 +55,5 @@ Gate: `distrib:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Channel created | - |
-| 403 | Missing distrib:admin scope | - |
+| 403 | Missing `distrib:admin` scope | - |
 

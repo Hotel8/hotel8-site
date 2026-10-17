@@ -17,7 +17,7 @@ Sentin8 H8POS - Point of Sale service.
 
 ### `GET /v1/admin/orders`
 
-`GET /v1/outlets/{outlet_id}/checks`
+`GET /v1/outlets/&#123;outlet_id&#125;/checks`
 
 Gate: `pos:admin`
 
@@ -26,11 +26,11 @@ Gate: `pos:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of orders | - |
-| 403 | Missing pos:admin scope | - |
+| 403 | Missing `pos:admin` scope | - |
 
 ### `POST /v1/admin/orders`
 
-`POST /v1/outlets/{outlet_id}/checks`
+`POST /v1/outlets/&#123;outlet_id&#125;/checks`
 
 Gate: `pos:admin`
 
@@ -42,11 +42,11 @@ Gate: `pos:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Check created | - |
-| 403 | Missing pos:admin scope | - |
+| 403 | Missing `pos:admin` scope | - |
 
 ### `GET /v1/admin/orders/{id}`
 
-`GET /v1/outlets/{outlet_id}/checks/{check_id}`
+`GET /v1/outlets/&#123;outlet_id&#125;/checks/&#123;check_id&#125;`
 
 Gate: `pos:admin`
 
@@ -61,12 +61,12 @@ Gate: `pos:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Check details | - |
-| 403 | Missing pos:admin scope | - |
+| 403 | Missing `pos:admin` scope | - |
 | 404 | Check not found | - |
 
 ### `POST /v1/admin/payments`
 
-`POST /v1/outlets/{outlet_id}/checks/{check_id}/payments`
+`POST /v1/outlets/&#123;outlet_id&#125;/checks/&#123;check_id&#125;/payments`
 
 Gate: `pos:admin`
 
@@ -78,11 +78,11 @@ Gate: `pos:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Payment posted | - |
-| 403 | Missing pos:admin scope | - |
+| 403 | Missing `pos:admin` scope | - |
 
 ### `GET /v1/admin/reports`
 
-`GET /v1/outlets/{outlet_id}/reports/sales`
+`GET /v1/outlets/&#123;outlet_id&#125;/reports/sales`
 
 Gate: `pos:admin`
 
@@ -91,5 +91,5 @@ Gate: `pos:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Daily sales summary report | - |
-| 403 | Missing pos:admin scope | - |
+| 403 | Missing `pos:admin` scope | - |
 

@@ -17,7 +17,7 @@ Sentin8 Hotel8:PMS - Property Management System for the hospitality industry.
 
 ### `GET /v1/admin/blocks`
 
-`GET /v1/properties/{property_id}/blocks`
+`GET /v1/properties/&#123;property_id&#125;/blocks`
 
 Gate: `pms:admin`
 
@@ -26,11 +26,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of blocks | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/events`
 
-`GET /v1/properties/{property_id}/events`
+`GET /v1/properties/&#123;property_id&#125;/events`
 
 Gate: `pms:admin`
 
@@ -39,11 +39,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of events | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/frontdesk`
 
-`GET /v1/properties/{property_id}/in-house`
+`GET /v1/properties/&#123;property_id&#125;/in-house`
 
 Gate: `pms:admin`
 
@@ -52,11 +52,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of in-house guests | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/housekeeping`
 
-`GET /v1/properties/{property_id}/housekeeping`
+`GET /v1/properties/&#123;property_id&#125;/housekeeping`
 
 Gate: `pms:admin`
 
@@ -65,11 +65,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of housekeeping tasks | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/rates`
 
-`GET /v1/properties/{property_id}/rate-plans`
+`GET /v1/properties/&#123;property_id&#125;/rate-plans`
 
 Gate: `pms:admin`
 
@@ -78,11 +78,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of rate plans | `RatePlan`[] |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `POST /v1/admin/rates`
 
-`POST /v1/properties/{property_id}/rate-plans`
+`POST /v1/properties/&#123;property_id&#125;/rate-plans`
 
 Gate: `pms:admin`
 
@@ -113,11 +113,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Rate plan created | `RatePlan` |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/reports`
 
-`GET /v1/properties/{property_id}/reports/occupancy`
+`GET /v1/properties/&#123;property_id&#125;/reports/occupancy`
 
 Gate: `pms:admin`
 
@@ -126,11 +126,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Occupancy report | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/reservations`
 
-`GET /v1/properties/{property_id}/reservations`
+`GET /v1/properties/&#123;property_id&#125;/reservations`
 
 Gate: `pms:admin`
 
@@ -139,11 +139,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of reservations | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `POST /v1/admin/reservations`
 
-`POST /v1/properties/{property_id}/reservations`
+`POST /v1/properties/&#123;property_id&#125;/reservations`
 
 Gate: `pms:admin`
 
@@ -155,11 +155,11 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Reservation created | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 
 ### `GET /v1/admin/reservations/{id}`
 
-`GET /v1/properties/{property_id}/reservations/{res_id}`
+`GET /v1/properties/&#123;property_id&#125;/reservations/&#123;res_id&#125;`
 
 Gate: `pms:admin`
 
@@ -174,6 +174,6 @@ Gate: `pms:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Reservation | - |
-| 403 | Missing pms:admin scope | - |
+| 403 | Missing `pms:admin` scope | - |
 | 404 | Reservation not found | - |
 

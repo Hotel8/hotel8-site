@@ -17,7 +17,7 @@ Sentin8 Hotel8:Loyalty - Loyalty Program service.
 
 ### `GET /v1/admin/members`
 
-`GET /v1/admin/programs/{program_id}/members`
+`GET /v1/admin/programs/&#123;program_id&#125;/members`
 
 Gate: `loyalty:admin`
 
@@ -26,7 +26,7 @@ Gate: `loyalty:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | List of members | - |
-| 403 | Missing loyalty:admin scope | - |
+| 403 | Missing `loyalty:admin` scope | - |
 
 ### `POST /v1/admin/members`
 
@@ -42,11 +42,11 @@ Gate: `loyalty:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Member created | - |
-| 403 | Missing loyalty:admin scope | - |
+| 403 | Missing `loyalty:admin` scope | - |
 
 ### `GET /v1/admin/members/{id}`
 
-`GET /v1/members/{member_id}`
+`GET /v1/members/&#123;member_id&#125;`
 
 Gate: `loyalty:admin`
 
@@ -61,12 +61,12 @@ Gate: `loyalty:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Member details | - |
-| 403 | Missing loyalty:admin scope | - |
+| 403 | Missing `loyalty:admin` scope | - |
 | 404 | Member not found | - |
 
 ### `GET /v1/admin/points`
 
-`GET /v1/members/{member_id}/transactions`
+`GET /v1/members/&#123;member_id&#125;/transactions`
 
 Gate: `loyalty:admin`
 
@@ -81,5 +81,5 @@ Gate: `loyalty:admin`
 | Status | Description | Body |
 | --- | --- | --- |
 | 200 | Point transaction history | - |
-| 403 | Missing loyalty:admin scope | - |
+| 403 | Missing `loyalty:admin` scope | - |
 
