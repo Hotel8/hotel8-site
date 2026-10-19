@@ -1,0 +1,882 @@
+[
+  {
+    "type": "category",
+    "label": "pos",
+    "link": {
+      "type": "doc",
+      "id": "api/pos/hotel-8-pos"
+    },
+    "items": [
+      {
+        "type": "doc",
+        "id": "api/pos/hotel-8-pos",
+        "label": "Overview",
+        "className": "api-overview"
+      },
+      {
+        "type": "category",
+        "label": "v1",
+        "link": {
+          "type": "doc",
+          "id": "api/pos/policy-delete-attribute"
+        },
+        "items": [
+          {
+            "type": "category",
+            "label": "v1/admin",
+            "link": {
+              "type": "doc",
+              "id": "api/pos/policy-delete-attribute"
+            },
+            "items": [
+              {
+                "type": "category",
+                "label": "v1/admin/attributes",
+                "link": {
+                  "type": "doc",
+                  "id": "api/pos/policy-delete-attribute"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-delete-attribute",
+                    "label": "`DELETE v1/admin/attributes`",
+                    "className": "api-method delete"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-list-attributes",
+                    "label": "`GET v1/admin/attributes`",
+                    "className": "api-method get"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-put-attribute",
+                    "label": "`PUT v1/admin/attributes`",
+                    "className": "api-method put"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "v1/admin/policy-sets",
+                "link": {
+                  "type": "doc",
+                  "id": "api/pos/policy-test-set"
+                },
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "v1/admin/policy-sets/{name}",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/policy-test-set"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/pos/policy-test-set",
+                        "label": "`POST v1/admin/policy-sets/{name}/test`",
+                        "className": "api-method post"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/policy-delete-set",
+                        "label": "`DELETE v1/admin/policy-sets/{name}`",
+                        "className": "api-method delete"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/policy-get-set",
+                        "label": "`GET v1/admin/policy-sets/{name}`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/policy-put-set",
+                        "label": "`PUT v1/admin/policy-sets/{name}`",
+                        "className": "api-method put"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-mode-disable",
+                    "label": "`POST v1/admin/policy-sets/disable`",
+                    "className": "api-method post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-mode-enforce",
+                    "label": "`POST v1/admin/policy-sets/enforce`",
+                    "className": "api-method post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-mode-shadow",
+                    "label": "`POST v1/admin/policy-sets/shadow`",
+                    "className": "api-method post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-list-sets",
+                    "label": "`GET v1/admin/policy-sets`",
+                    "className": "api-method get"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "v1/admin/relations",
+                "link": {
+                  "type": "doc",
+                  "id": "api/pos/policy-check-relation"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-check-relation",
+                    "label": "`GET v1/admin/relations/check`",
+                    "className": "api-method get"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-delete-relation",
+                    "label": "`DELETE v1/admin/relations`",
+                    "className": "api-method delete"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-list-relations",
+                    "label": "`GET v1/admin/relations`",
+                    "className": "api-method get"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/policy-put-relation",
+                    "label": "`PUT v1/admin/relations`",
+                    "className": "api-method put"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "doc",
+                "id": "api/pos/get-admin-ui",
+                "label": "`GET v1/admin/ui/{page}`",
+                "className": "api-method get"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
+            "label": "v1/guest/{property_id}",
+            "link": {
+              "type": "doc",
+              "id": "api/pos/guest-menu"
+            },
+            "items": [
+              {
+                "type": "doc",
+                "id": "api/pos/guest-menu",
+                "label": "`GET v1/guest/{property_id}/menu`",
+                "className": "api-method get"
+              },
+              {
+                "type": "category",
+                "label": "v1/guest/{property_id}/orders",
+                "link": {
+                  "type": "doc",
+                  "id": "api/pos/guest-get-order"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/pos/guest-get-order",
+                    "label": "`GET v1/guest/{property_id}/orders/{check_id}`",
+                    "className": "api-method get"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/guest-create-order",
+                    "label": "`POST v1/guest/{property_id}/orders`",
+                    "className": "api-method post"
+                  }
+                ],
+                "collapsed": true
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/lookup-guest-by-room",
+            "label": "`GET v1/guests/lookup-by-room`",
+            "className": "api-method get"
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/health",
+            "label": "`GET v1/health`",
+            "className": "api-method get"
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/manager-approve",
+            "label": "`POST v1/manager-approve`",
+            "className": "api-method post"
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/get-offline-status",
+            "label": "`GET v1/offline-status`",
+            "className": "api-method get"
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/sync-offline-data",
+            "label": "`POST v1/offline-sync`",
+            "className": "api-method post"
+          },
+          {
+            "type": "category",
+            "label": "v1/outlets",
+            "link": {
+              "type": "doc",
+              "id": "api/pos/apply-discount"
+            },
+            "items": [
+              {
+                "type": "category",
+                "label": "v1/outlets/{outlet_id}",
+                "link": {
+                  "type": "doc",
+                  "id": "api/pos/apply-discount"
+                },
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/checks",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/apply-discount"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/checks/{check_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/apply-discount"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/apply-discount",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/discount`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/hold-check",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/hold`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "category",
+                            "label": "v1/outlets/{outlet_id}/checks/{check_id}/orders",
+                            "link": {
+                              "type": "doc",
+                              "id": "api/pos/route-order-to-kitchen"
+                            },
+                            "items": [
+                              {
+                                "type": "category",
+                                "label": "v1/outlets/{outlet_id}/checks/{check_id}/orders/{order_id}",
+                                "link": {
+                                  "type": "doc",
+                                  "id": "api/pos/route-order-to-kitchen"
+                                },
+                                "items": [
+                                  {
+                                    "type": "doc",
+                                    "id": "api/pos/route-order-to-kitchen",
+                                    "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/orders/{order_id}/route-kitchen`",
+                                    "className": "api-method post"
+                                  },
+                                  {
+                                    "type": "doc",
+                                    "id": "api/pos/assign-seat",
+                                    "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/orders/{order_id}/seat`",
+                                    "className": "api-method post"
+                                  }
+                                ],
+                                "collapsed": true
+                              },
+                              {
+                                "type": "doc",
+                                "id": "api/pos/add-order-item",
+                                "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/orders`",
+                                "className": "api-method post"
+                              }
+                            ],
+                            "collapsed": true
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/post-payment",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/payments`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/bill-8-payments-process-payment",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/payments-process`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/recall-check",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/recall`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/redeem-package",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/redeem-package`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/split-check",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/split`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/split-payment",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/split-payment`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/transfer-check",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/transfer`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/void-check",
+                            "label": "`POST v1/outlets/{outlet_id}/checks/{check_id}/void`",
+                            "className": "api-method post"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/get-check",
+                            "label": "`GET v1/outlets/{outlet_id}/checks/{check_id}`",
+                            "className": "api-method get"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/search-checks",
+                        "label": "`GET v1/outlets/{outlet_id}/checks`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-check",
+                        "label": "`POST v1/outlets/{outlet_id}/checks`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/menu/categories",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/delete-menu-category"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/menu/categories/{category_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/delete-menu-category"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/delete-menu-category",
+                            "label": "`DELETE v1/outlets/{outlet_id}/menu/categories/{category_id}`",
+                            "className": "api-method delete"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-menu-category",
+                            "label": "`PUT v1/outlets/{outlet_id}/menu/categories/{category_id}`",
+                            "className": "api-method put"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-menu-categories",
+                        "label": "`GET v1/outlets/{outlet_id}/menu/categories`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-menu-category",
+                        "label": "`POST v1/outlets/{outlet_id}/menu/categories`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/menu-items",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/update-item-availability"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/menu-items/{item_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/update-item-availability"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-item-availability",
+                            "label": "`PUT v1/outlets/{outlet_id}/menu-items/{item_id}/availability`",
+                            "className": "api-method put"
+                          },
+                          {
+                            "type": "category",
+                            "label": "v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups",
+                            "link": {
+                              "type": "doc",
+                              "id": "api/pos/delete-modifier"
+                            },
+                            "items": [
+                              {
+                                "type": "category",
+                                "label": "v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}",
+                                "link": {
+                                  "type": "doc",
+                                  "id": "api/pos/delete-modifier"
+                                },
+                                "items": [
+                                  {
+                                    "type": "category",
+                                    "label": "v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}/modifiers",
+                                    "link": {
+                                      "type": "doc",
+                                      "id": "api/pos/delete-modifier"
+                                    },
+                                    "items": [
+                                      {
+                                        "type": "doc",
+                                        "id": "api/pos/delete-modifier",
+                                        "label": "`DELETE v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}/modifiers/{modifier_id}`",
+                                        "className": "api-method delete"
+                                      },
+                                      {
+                                        "type": "doc",
+                                        "id": "api/pos/list-modifiers",
+                                        "label": "`GET v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}/modifiers`",
+                                        "className": "api-method get"
+                                      },
+                                      {
+                                        "type": "doc",
+                                        "id": "api/pos/create-modifier",
+                                        "label": "`POST v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}/modifiers`",
+                                        "className": "api-method post"
+                                      }
+                                    ],
+                                    "collapsed": true
+                                  },
+                                  {
+                                    "type": "doc",
+                                    "id": "api/pos/delete-modifier-group",
+                                    "label": "`DELETE v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups/{group_id}`",
+                                    "className": "api-method delete"
+                                  }
+                                ],
+                                "collapsed": true
+                              },
+                              {
+                                "type": "doc",
+                                "id": "api/pos/list-modifier-groups",
+                                "label": "`GET v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups`",
+                                "className": "api-method get"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "api/pos/create-modifier-group",
+                                "label": "`POST v1/outlets/{outlet_id}/menu-items/{item_id}/modifier-groups`",
+                                "className": "api-method post"
+                              }
+                            ],
+                            "collapsed": true
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/bulk-update-prices",
+                        "label": "`PUT v1/outlets/{outlet_id}/menu-items/prices`",
+                        "className": "api-method put"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-menu-items",
+                        "label": "`GET v1/outlets/{outlet_id}/menu-items`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-menu-item",
+                        "label": "`POST v1/outlets/{outlet_id}/menu-items`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/pos/void-order-item",
+                    "label": "`POST v1/outlets/{outlet_id}/orders/void`",
+                    "className": "api-method post"
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/payment-methods",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/get-payment-methods"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/pos/get-payment-methods",
+                        "label": "`GET v1/outlets/{outlet_id}/payment-methods`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/update-payment-methods",
+                        "label": "`PUT v1/outlets/{outlet_id}/payment-methods`",
+                        "className": "api-method put"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/printer-groups",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/delete-printer-group"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/printer-groups/{printer_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/delete-printer-group"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/delete-printer-group",
+                            "label": "`DELETE v1/outlets/{outlet_id}/printer-groups/{printer_id}`",
+                            "className": "api-method delete"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-printer-group",
+                            "label": "`PUT v1/outlets/{outlet_id}/printer-groups/{printer_id}`",
+                            "className": "api-method put"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-printer-groups",
+                        "label": "`GET v1/outlets/{outlet_id}/printer-groups`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-printer-group",
+                        "label": "`POST v1/outlets/{outlet_id}/printer-groups`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/reports",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/end-of-day-report"
+                    },
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/pos/end-of-day-report",
+                        "label": "`GET v1/outlets/{outlet_id}/reports/end-of-day`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/export-report",
+                        "label": "`GET v1/outlets/{outlet_id}/reports/export/{report_type}`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/item-sales-report",
+                        "label": "`GET v1/outlets/{outlet_id}/reports/items`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/labor-report",
+                        "label": "`GET v1/outlets/{outlet_id}/reports/labor`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/daily-sales-summary",
+                        "label": "`GET v1/outlets/{outlet_id}/reports/sales`",
+                        "className": "api-method get"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/service-areas",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/delete-service-area"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/service-areas/{area_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/delete-service-area"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/delete-service-area",
+                            "label": "`DELETE v1/outlets/{outlet_id}/service-areas/{area_id}`",
+                            "className": "api-method delete"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-service-area",
+                            "label": "`PUT v1/outlets/{outlet_id}/service-areas/{area_id}`",
+                            "className": "api-method put"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-service-areas",
+                        "label": "`GET v1/outlets/{outlet_id}/service-areas`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-service-area",
+                        "label": "`POST v1/outlets/{outlet_id}/service-areas`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/tables",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/update-table-status"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/tables/{table_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/update-table-status"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-table-status",
+                            "label": "`PUT v1/outlets/{outlet_id}/tables/{table_id}/status`",
+                            "className": "api-method put"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/delete-table",
+                            "label": "`DELETE v1/outlets/{outlet_id}/tables/{table_id}`",
+                            "className": "api-method delete"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/get-table",
+                            "label": "`GET v1/outlets/{outlet_id}/tables/{table_id}`",
+                            "className": "api-method get"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-table",
+                            "label": "`PUT v1/outlets/{outlet_id}/tables/{table_id}`",
+                            "className": "api-method put"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/combine-tables",
+                        "label": "`POST v1/outlets/{outlet_id}/tables/combine`",
+                        "className": "api-method post"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/get-floor-plan",
+                        "label": "`GET v1/outlets/{outlet_id}/tables/floor-plan`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/separate-tables",
+                        "label": "`POST v1/outlets/{outlet_id}/tables/separate`",
+                        "className": "api-method post"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-tables",
+                        "label": "`GET v1/outlets/{outlet_id}/tables`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-table",
+                        "label": "`POST v1/outlets/{outlet_id}/tables`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "v1/outlets/{outlet_id}/tax-groups",
+                    "link": {
+                      "type": "doc",
+                      "id": "api/pos/delete-tax-group"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "v1/outlets/{outlet_id}/tax-groups/{tax_id}",
+                        "link": {
+                          "type": "doc",
+                          "id": "api/pos/delete-tax-group"
+                        },
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/pos/delete-tax-group",
+                            "label": "`DELETE v1/outlets/{outlet_id}/tax-groups/{tax_id}`",
+                            "className": "api-method delete"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/pos/update-tax-group",
+                            "label": "`PUT v1/outlets/{outlet_id}/tax-groups/{tax_id}`",
+                            "className": "api-method put"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/list-tax-groups",
+                        "label": "`GET v1/outlets/{outlet_id}/tax-groups`",
+                        "className": "api-method get"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/pos/create-tax-group",
+                        "label": "`POST v1/outlets/{outlet_id}/tax-groups`",
+                        "className": "api-method post"
+                      }
+                    ],
+                    "collapsed": true
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "doc",
+                "id": "api/pos/list-outlets",
+                "label": "`GET v1/outlets`",
+                "className": "api-method get"
+              },
+              {
+                "type": "doc",
+                "id": "api/pos/create-outlet",
+                "label": "`POST v1/outlets`",
+                "className": "api-method post"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/room-charge",
+            "label": "`POST v1/payments/room-charge`",
+            "className": "api-method post"
+          },
+          {
+            "type": "doc",
+            "id": "api/pos/get-user-permissions",
+            "label": "`GET v1/permissions`",
+            "className": "api-method get"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "collapsed": true
+  }
+]
