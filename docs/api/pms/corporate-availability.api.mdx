@@ -1,0 +1,77 @@
+---
+id: corporate-availability
+title: "`POST /v1/properties/{property_id}/corporate-availability` — availability
+for a corporate session (company_profile_id). Rate-mix policy: when the
+request carries a company context, ONLY the negotiated rate plans linked
+to that company (via `preferences.negotiated_rate_plan_ids`) are returned;
+public plans are withheld so negotiated rates never leak to non-members
+and members never book public rates against their contract. Companies
+with no linked plans get an explicit empty result, not a public fallback."
+description: "`POST /v1/properties/{property_id}/corporate-availability` — availability"
+sidebar_label: "`POST /v1/properties/{property_id}/corporate-availability` — availability
+for a corporate session (company_profile_id). Rate-mix policy: when the
+request carries a company context, ONLY the negotiated rate plans linked
+to that company (via `preferences.negotiated_rate_plan_ids`) are returned;
+public plans are withheld so negotiated rates never leak to non-members
+and members never book public rates against their contract. Companies
+with no linked plans get an explicit empty result, not a public fallback."
+hide_title: true
+hide_table_of_contents: true
+api: eJztVcFu20YQ/ZXBnBKAluSkh4A9BQWKBo1jI04PhSTII3IkbrWc3ewOFRMCgX5EvjBfUgzNuoKdU885kdx9M29m+N7uCZX2GcslxjbjusAQOZG6IO9qLLEKKYZEyhs6kvO0dd5pjwUmzjFI5ozlCV8tFvaoOVfJRQvGEq9/xwKrIMqitksxeleNqed/ZYOcMFcNt4TlaRiGocCfFpfP83wICtRpw6IWzjWOyNfPkb+GtHV1zYKWLHPVJSu2XK6LJ8i7m+vbTzA/Xs5jsobVcZ6fpvd+4+ph/tj5xXnnd/Dt769wvrKSXUhA8IiHzDm7IPCiCm0k6TcxhZ3zvHH1yxl8tJStu4cYvKv6Er40LKANryTx546zQkUpOc5j0jEDjGO81wKuP7z/08AgvA/qbBwwkkZPksE7OXC9Eg2gDelj/IujI7iLiXecWCrOs//iN+PvtfiNq/PdS6DEkFi7JFz/vJLYbb2rJgLb++K0adjXkMPTMjIIHzmBZzqABpAgFy23W055JSQ1TB8TbBvCAab8D+G0JydZrUWXxrYTVTqDX8ZGHOeVGD1ImHqd6tqzAgnwvWnMKXAbtYfEufNagJiE/iXakfdbqg4zLLBlbYLpPIasWGAkbbDE/yEMLNDJLpgo1alnLLEJyv7Nhfnqqf5uTczyBn4bIeXN1e2oq5uJB65IaM8ti8Jtn5VbMJHZf29Cjk7JKMFJ3WVNvXXiXcWS2fiFWqO/evcJrj/C20hVwxevZgsrsTbineP0XcBQ4JFTfqhxMbt8WLLZtCRnqX/Y54d9Zk9FfULto6nDRj2PnpyYerrkbe/BWUs8XprNHlWDBZZnuhlvjO/aa11gYx4tl3g6bSnzH8kPgy1/7jhNh/yRkqOtmW+5HgpsmGpT+vKEB+6xxLdVxdF8fiTfWanP7qRhfXYomMpxGP4BhBCUtg==
+sidebar_class_name: "post api-method"
+info_path: docs/api/pms/hotel-8-pms
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"`POST /v1/properties/{property_id}/corporate-availability` — availability\nfor a corporate session (company_profile_id). Rate-mix policy: when the\nrequest carries a company context, ONLY the negotiated rate plans linked\nto that company (via `preferences.negotiated_rate_plan_ids`) are returned;\npublic plans are withheld so negotiated rates never leak to non-members\nand members never book public rates against their contract. Companies\nwith no linked plans get an explicit empty result, not a public fallback."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/v1/properties/{property_id}/corporate-availability"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+`POST /v1/properties/{property_id}/corporate-availability` — availability
+for a corporate session (company_profile_id). Rate-mix policy: when the
+request carries a company context, ONLY the negotiated rate plans linked
+to that company (via `preferences.negotiated_rate_plan_ids`) are returned;
+public plans are withheld so negotiated rates never leak to non-members
+and members never book public rates against their contract. Companies
+with no linked plans get an explicit empty result, not a public fallback.
+
+<ParamsDetails>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./corporate-availability.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./corporate-availability.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Channel created","content":{"application/json":{"schema":{}}}},"403":{"description":"Missing distrib:admin scope"}}}

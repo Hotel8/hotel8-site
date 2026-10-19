@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Reservation","content":{"application/json":{"schema":{}}}},"403":{"description":"Missing pms:admin scope"},"404":{"description":"Reservation not found"}}}

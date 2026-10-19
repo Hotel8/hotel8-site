@@ -1,0 +1,65 @@
+---
+id: link-reservation-guest
+title: "`POST /v1/properties/{p}/reservations/{res_id}/link-guest` — bind the
+signed-in session's guest profile to a booking made anonymously in eBooking."
+description: "The binding surface is the profile chain: the anonymous booking carries the"
+sidebar_label: "`POST /v1/properties/{p}/reservations/{res_id}/link-guest` — bind the
+signed-in session's guest profile to a booking made anonymously in eBooking."
+hide_title: true
+hide_table_of_contents: true
+api: eJztVEtu1EAQvUqpNoDkjCeBBTKrsEBEkI9IWE2ipMcujytpdztd7QmWZYlDcEJOgsoehiFBYsOSla3616v3usdoVoLZApta8CrBgiQP3ET2DjO8qAiW7Ap2K5A2lCYnYIFYETTBl2wJ8sqwy0aTcd51tW8Flt7faU5uQmAaEy6dGilsE4N/eAPCK6eB7CCQeLueguF540V4aTsouCwpkIsvfmZeOo0QEmHvQNrlLeUR/IOTGXxkNzauKaw2pR61PTq5OJ3m2VR4Jlvfms2YIqamqQQ0JlZAZ8fnINGUJbRCCYiH0lv26R11kl66QPctSRQw1qrH+oepTjTdDBP0DQWjkB4VmKFld3cdSCisR+P1SpMxwUDSeB0Lsx4P5nP9/H6P0w+YYO5dJBfVa5rGcj5WSW9FQ3qUvKLaYNYPwzAk+Gq+/7TOiY9g2liRi5pOBY6RL59GvvNhyUVBDrWYUN4Gjh1mi6sEa4qV140aP86vWGGG6Xo/bYLuHJkk7Tf/3TUXQ7qzt6R9IBmtCsneTxjYlV4HiRwtYYaVj2Rf7ylBH/PzXBdwr+H9GJLpmb5//QZnm45wbJxZUU0uwnknkWoofRhPU3lpOBrLsQN2RSsxjKeynJMT0v7O1Nr++OgCTj/BYWPyivYOZnMdsdDGJVP4Y8CQ4JqCTDPOZ/uTSVGqjdspfXN2en4BT/D6O0o345qqzA2VeeWo2GMHv0g9Bm6pHT2YrSxrU+yo1SoCQG8n5+wxyP0vwv1/D/7NexC7Rs8f6UtMG2vYKT3aYBXsSUQLXO+rora0wASzHSFNr8WWI+qdWDJSeCumqwQr1Wa2wL5fGqHPwQ6Dmu9bChsZr01gs1SpLa6GBCsyhfJ60eMddZjhYZ5To8JcG9vq3E9enWH3MVBO4zD8AGLoQ4o=
+sidebar_class_name: "post api-method"
+info_path: docs/api/pms/hotel-8-pms
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"`POST /v1/properties/{p}/reservations/{res_id}/link-guest` — bind the\nsigned-in session's guest profile to a booking made anonymously in eBooking."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/v1/properties/{property_id}/reservations/{res_id}/link-guest"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+The binding surface is the profile chain: the anonymous booking carries the
+booker profile row; signing in resolves the (possibly different) profile
+the session subject owns. Linking merges the booker profile INTO the
+session's profile via the same merge path ePMS staff use, so folio/keys/
+requests all follow the stay.
+
+<ParamsDetails>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./link-reservation-guest.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./link-reservation-guest.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

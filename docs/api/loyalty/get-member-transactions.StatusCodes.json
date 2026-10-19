@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Point transaction history","content":{"application/json":{"schema":{}}}},"403":{"description":"Missing loyalty:admin scope"}}}

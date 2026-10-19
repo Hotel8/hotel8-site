@@ -1,0 +1,62 @@
+---
+id: create-walk-in
+title: "`POST /v1/properties/{property_id}/walk-in` — kiosk express booking."
+description: "Creates a `CONFIRMED` reservation from an available room type + guest name"
+sidebar_label: "`POST /v1/properties/{property_id}/walk-in` — kiosk express booking."
+hide_title: true
+hide_table_of_contents: true
+api: eJzlU01v2zAM/SsEL90w56vboTCwQ9GtWJClKZoOO6RFrMhMrMWWVEl2ahgG9iP2C/dLBjpZ27U77L6TZeqJfHx8bDCIjcd4gbbweBthSl46ZYMyGmM8cyQCeRCQnM0uzsdX048fEnDkyVWCMbB2pgChQVRC5WKVEzhjCgi1JXgDm5J8AC0KutGvEm9KJ2kpTUrwHo6+nn6ejC+OkggSmQmtKX+4moxn88lR8roP1xnBVhm/hZCRvtEyI7ntKe2hUoJjoI0rRA7OlIH6cEXr0pOHXUa6u36kkwkP2tzoA1WVq1DD2rg9jO6YK6WwUzo1uz5GaCy5rstxijHKTovlTuTbpdIYoSNvjfbkMW7weDjkz5/yzSYYoTQ6kA58K6zNlexSDr55hjToZUaFwLhp27aN8N1w9DLPhQkgShYg8HNKsUO+fYk8N26l0pQ0cjJPsnQq1BgvbiMsKGSGO7HGB4zQipBhjINqNLCOew2K/KA5nOulStsBd9vrulV6bbheUCEnjDEzgfKTHtvmuWvmzFOfwKcOEl9O5/Dz+w+4PCSGqdBiQwXpAPPaByoeppAZb1UQ3WSUTksfXM2TyJUk7Ynrs5kwxun4GmZXcGqFzKh33B8yxZQLrxW5vwLaCCtyfs9x2B/tQyxGIfST1MnlbH4N/yJL0vW1tyfdW0few8qYrdKb/nNVmkcj/Odrxa8wxkD3YWBzoTSPoXQ5a7T35AKrERv0QX6MMH4yAIzwtzFvI8zYzvECm2YlPH1xedty+K4kd3B+JZxiEfmvjTAjkbJHFg1uqcYYT6UkyytRibxkbi8WtX26P+wPbNtfMojQBQ==
+sidebar_class_name: "post api-method"
+info_path: docs/api/pms/hotel-8-pms
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"`POST /v1/properties/{property_id}/walk-in` — kiosk express booking."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/v1/properties/{property_id}/walk-in"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Creates a `CONFIRMED` reservation from an available room type + guest name
+(`source_code = 'WALKIN'`, `channel_code = 'KIOSK'`). The kiosk then
+check-ins via the normal route. Refuses when the room type has no
+availability for the requested window.
+
+<ParamsDetails>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./create-walk-in.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./create-walk-in.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

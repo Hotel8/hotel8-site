@@ -1,0 +1,50 @@
+{
+  "pms": {
+    "specPath": "openapi/pms-spec.json",
+    "outputDir": "docs/api/pms",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  },
+  "pos": {
+    "specPath": "openapi/pos-spec.json",
+    "outputDir": "docs/api/pos",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  },
+  "upsell": {
+    "specPath": "openapi/upsell-spec.json",
+    "outputDir": "docs/api/upsell",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  },
+  "distrib": {
+    "specPath": "openapi/distrib-spec.json",
+    "outputDir": "docs/api/distrib",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  },
+  "meta": {
+    "specPath": "openapi/meta-spec.json",
+    "outputDir": "docs/api/meta",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  },
+  "loyalty": {
+    "specPath": "openapi/loyalty-spec.json",
+    "outputDir": "docs/api/loyalty",
+    "sidebarOptions": {
+      "groupPathsBy": "tag",
+      "categoryLinkSource": "info"
+    }
+  }
+}

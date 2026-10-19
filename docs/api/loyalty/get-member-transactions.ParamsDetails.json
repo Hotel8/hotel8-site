@@ -1,0 +1,1 @@
+{"parameters":[{"name":"member_id","in":"path","description":"Member ID","required":true,"schema":{"type":"string","format":"uuid"}}]}

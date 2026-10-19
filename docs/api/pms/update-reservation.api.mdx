@@ -1,0 +1,61 @@
+---
+id: update-reservation
+title: "`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."
+description: "Edits dates, occupancy, room type, rate plan, and special requests."
+sidebar_label: "`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."
+hide_title: true
+hide_table_of_contents: true
+api: eJzdVMtu20AM/JUFTy2wfqU5pLoFjosEediobfTgBPZGoqNtpd3NknIrCAL6Ef3CfklBOUjdpJdee5LE5ZIzw6EaYPNAkKwglAR3GjKkNNrA1jtIYJJZJpUZRtLKp2kVjEtrraL3peI6oFbRMKpQGKeVcZmigKk1hYr4WCEx9W/dAmNpnSl6xIYrUhEJ485IC1JvNuPTm/Hk6mpyttFqMz6fjC8nZ+vpciGfN9P1/Hz6afNWRdxWhLcOO0RfLefqePhe/fz+Q3GOSkqjKk2aW4dq6+O9zUiVFRu27kHlltjHug8afMDY9b7IIIEqCLn1ASTQEJGCd4QESQNHw6E8/tRlegkaUu8YHcupCaGwaXd/8JkkpQFKcywNJE3btq2G4+HodZ0bz8pUnKNjuY4ZdJnvXmd+6Chl6ECKEaZVtFxDsrrTUCLnXtiEikFDMJxDAoPdaBCi0GWLNGie3uu1zdrB4QwGTUSSKGiwbuulOVsuEBLIPWNx0hNzvPTGXEC7E3XepSSz63k3jdlTG3VtnHnAEh2reU2MpYylG1buKVg2heVaWZdVxPvRFDZFRyj9nSml/fXFQk0/qtNg0hx7R/2hQMyk8dZi/GtCq2GHkfYYh/3RPhQ8cWncQenNbLlQ/67RpiMZIvZMjHZnCiWO7L9Up/ntjv9xiQQ1JMD4jQehMNaJxlUshPjefivYjcSLz+KChuRA3v2aPVOQ073C8hPKPbGUaJp7Q7iMRdtK+LHC+GT5nYnW3ItFV3ethhxNJn5YNfAFa0jgNE0xyDLsTFEJ1Fcb2h4uzmy5gLb9BUNKw88=
+sidebar_class_name: "put api-method"
+info_path: docs/api/pms/hotel-8-pms
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"put"}
+  path={"/v1/properties/{property_id}/reservations/{res_id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Edits dates, occupancy, room type, rate plan, and special requests.
+Terminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse
+edits with 409 — the state machine forbids mutating history.
+
+<ParamsDetails>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./update-reservation.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./update-reservation.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

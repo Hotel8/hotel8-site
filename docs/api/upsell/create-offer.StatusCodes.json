@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Offer created","content":{"application/json":{"schema":{}}}},"403":{"description":"Missing upsell:admin scope"}}}
