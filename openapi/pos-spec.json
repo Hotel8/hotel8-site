@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "hotel8-pos",
-    "description": "Sentin8 H8POS — Point of Sale service.",
+    "description": "Sentin8 H8POS - Point of Sale service.",
     "license": {
       "name": "MIT OR Apache-2.0",
       "identifier": "MIT OR Apache-2.0"
@@ -595,7 +595,7 @@
           }
         },
         "security": [],
-        "description": "?outlet_id=` — menu catalog for the\nroom-service outlet (defaults to the property's first `ROOM_SERVICE`\noutlet when `outlet_id` is omitted)."
+        "description": "?outlet_id=` - menu catalog for the\nroom-service outlet (defaults to the property's first `ROOM_SERVICE`\noutlet when `outlet_id` is omitted)."
       }
     },
     "/v1/guest/{property_id}/orders": {
@@ -2432,7 +2432,7 @@
     },
     {
       "name": "pos",
-      "description": "Hotel8:POS admin API — orders, payments, reports"
+      "description": "Hotel8:POS admin API - orders, payments, reports"
     }
   ]
 }

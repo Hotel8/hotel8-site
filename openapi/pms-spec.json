@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "hotel8-pms",
-    "description": "Sentin8 Hotel8:PMS — Property Management System for the hospitality industry.",
+    "description": "Sentin8 Hotel8:PMS - Property Management System for the hospitality industry.",
     "license": {
       "name": "MIT OR Apache-2.0",
       "identifier": "MIT OR Apache-2.0"
@@ -595,7 +595,7 @@
           }
         },
         "security": [],
-        "description": "`GET /v1/admin/{resource}` — admin data for the RFW tables. Each resource\nmaps to its Shield `read` action; unknown resources 404."
+        "description": "`GET /v1/admin/{resource}` - admin data for the RFW tables. Each resource\nmaps to its Shield `read` action; unknown resources 404."
       },
       "post": {
         "tags": [
@@ -620,7 +620,7 @@
           }
         },
         "security": [],
-        "description": "`POST /v1/admin/{resource}` — form-submit aliases. The RFW renderer only\nPOSTs; each alias calls the SAME public domain handler (shared business\nrules), so the admin surface can create/update/delete exactly what staff\ncan."
+        "description": "`POST /v1/admin/{resource}` - form-submit aliases. The RFW renderer only\nPOSTs; each alias calls the SAME public domain handler (shared business\nrules), so the admin surface can create/update/delete exactly what staff\ncan."
       }
     },
     "/v1/async/result/{job_id}": {
@@ -1239,7 +1239,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../companies/{profile_id}/admin-provisioning` — whether the company\nstill needs its first corporate admin provisioned (no IdP + no bound\nADMIN user). The corporate login page reads this after company-code\nverification to decide between the normal login and the provisioning flow."
+        "description": "`GET .../companies/{profile_id}/admin-provisioning` - whether the company\nstill needs its first corporate admin provisioned (no IdP + no bound\nADMIN user). The corporate login page reads this after company-code\nverification to decide between the normal login and the provisioning flow."
       },
       "put": {
         "tags": [
@@ -1264,7 +1264,7 @@
           }
         },
         "security": [],
-        "description": "`PUT .../companies/{profile_id}/admin-provisioning` — provision the first\ncorporate admin: binds the traveler (created on the fly when needed) as\n`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent —\nre-provisioning an already-admin company is a no-op returning the\nexisting state with `already_provisioned: true`."
+        "description": "`PUT .../companies/{profile_id}/admin-provisioning` - provision the first\ncorporate admin: binds the traveler (created on the fly when needed) as\n`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent -\nre-provisioning an already-admin company is a no-op returning the\nexisting state with `already_provisioned: true`."
       }
     },
     "/v1/properties/{property_id}/companies/{profile_id}/payment-methods": {
@@ -1316,7 +1316,7 @@
           }
         },
         "security": [],
-        "description": "`POST .../companies/{profile_id}/payment-methods` — hotel sales registers a\nmethod or approves a pending one (admin surface)."
+        "description": "`POST .../companies/{profile_id}/payment-methods` - hotel sales registers a\nmethod or approves a pending one (admin surface)."
       }
     },
     "/v1/properties/{property_id}/companies/{profile_id}/users": {
@@ -1343,7 +1343,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../companies/{profile_id}/users` — the company's traveler roster."
+        "description": "`GET .../companies/{profile_id}/users` - the company's traveler roster."
       },
       "post": {
         "tags": [
@@ -1368,7 +1368,7 @@
           }
         },
         "security": [],
-        "description": "`POST .../companies/{profile_id}/users` — bind a traveler to the company."
+        "description": "`POST .../companies/{profile_id}/users` - bind a traveler to the company."
       }
     },
     "/v1/properties/{property_id}/config": {
@@ -1807,7 +1807,7 @@
           }
         },
         "security": [],
-        "description": "Submit (or update) stay feedback — one row per reservation."
+        "description": "Submit (or update) stay feedback - one row per reservation."
       }
     },
     "/v1/properties/{property_id}/flow/workflows": {
@@ -1860,7 +1860,7 @@
           }
         },
         "security": [],
-        "description": "Open folio for the in-house stay in a room — the kiosk/eGuest check-out\nview over the same folio rows the per-reservation route returns."
+        "description": "Open folio for the in-house stay in a room - the kiosk/eGuest check-out\nview over the same folio rows the per-reservation route returns."
       }
     },
     "/v1/properties/{property_id}/func/invoke": {
@@ -2325,7 +2325,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../kiosk-config` — the terminal's mode menu source of truth (eKiosk\nbootstrap read). Defaults are materialized on first read so the terminal\nalways gets a row."
+        "description": "`GET .../kiosk-config` - the terminal's mode menu source of truth (eKiosk\nbootstrap read). Defaults are materialized on first read so the terminal\nalways gets a row."
       },
       "put": {
         "tags": [
@@ -2350,7 +2350,7 @@
           }
         },
         "security": [],
-        "description": "`PUT .../kiosk-config` — admin RFW settings mutation (`hotel8:pms:admin`)."
+        "description": "`PUT .../kiosk-config` - admin RFW settings mutation (`hotel8:pms:admin`)."
       }
     },
     "/v1/properties/{property_id}/lov": {
@@ -2631,7 +2631,7 @@
           }
         },
         "security": [],
-        "description": "`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved\npayment methods, resolved by the session subject (holder-scoped). Rows\ncarry bill8 token references only — never PAN or token secrets (DESIGN.md\n§3 secret-reference rule)."
+        "description": "`GET /v1/properties/{p}/payment-methods` - the signed-in guest's saved\npayment methods, resolved by the session subject (holder-scoped). Rows\ncarry bill8 token references only - never PAN or token secrets (DESIGN.md\n§3 secret-reference rule)."
       },
       "post": {
         "tags": [
@@ -2656,7 +2656,7 @@
           }
         },
         "security": [],
-        "description": "`POST /v1/properties/{p}/payment-methods` — save a tokenized method\n(bill8 already holds the instrument; PMS stores the reference)."
+        "description": "`POST /v1/properties/{p}/payment-methods` - save a tokenized method\n(bill8 already holds the instrument; PMS stores the reference)."
       }
     },
     "/v1/properties/{property_id}/payment-methods/{method_id}": {
@@ -2683,7 +2683,7 @@
           }
         },
         "security": [],
-        "description": "`DELETE /v1/properties/{p}/payment-methods/{method_id}` — remove a saved\nmethod (holder-scoped: only the owner's rows are deletable)."
+        "description": "`DELETE /v1/properties/{p}/payment-methods/{method_id}` - remove a saved\nmethod (holder-scoped: only the owner's rows are deletable)."
       }
     },
     "/v1/properties/{property_id}/pci-compliance": {
@@ -2890,7 +2890,7 @@
           }
         },
         "security": [],
-        "description": "Sets the loyalty member number on a guest profile. Called by Hotel8:Loyalty\nvia `pms-client` over its HTTP API (DESIGN.md §1 — no cross-service SQL)."
+        "description": "Sets the loyalty member number on a guest profile. Called by Hotel8:Loyalty\nvia `pms-client` over its HTTP API (DESIGN.md §1 - no cross-service SQL)."
       }
     },
     "/v1/properties/{property_id}/profiles/{profile_id}/preferences": {
@@ -3559,7 +3559,7 @@
           "pms"
         ],
         "summary": "`PUT /v1/properties/{property_id}/reservations/{res_id}`",
-        "description": "Edits dates, occupancy, room type, rate plan, and special requests.\nTerminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse\nedits with 409 — the state machine forbids mutating history.\n\npre-arrival edit.",
+        "description": "Edits dates, occupancy, room type, rate plan, and special requests.\nTerminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse\nedits with 409 - the state machine forbids mutating history.\n\npre-arrival edit.",
         "operationId": "update_reservation",
         "responses": {
           "200": {
@@ -3604,7 +3604,7 @@
           }
         },
         "security": [],
-        "description": "Boarding pass — the check-in artifact the kiosk completion step renders\n(room, dates, guest, key count). Computed from live rows, never stored."
+        "description": "Boarding pass - the check-in artifact the kiosk completion step renders\n(room, dates, guest, key count). Computed from live rows, never stored."
       }
     },
     "/v1/properties/{property_id}/reservations/{res_id}/cancel": {
@@ -3871,7 +3871,7 @@
           "pms"
         ],
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/link-guest`",
-        "description": "The binding surface is the profile chain: the anonymous booking carries the\nbooker profile row; signing in resolves the (possibly different) profile\nthe session subject owns. Linking merges the booker profile INTO the\nsession's profile via the same merge path ePMS staff use, so folio/keys/\nrequests all follow the stay.\n\n`POST /v1/properties/{p}/reservations/{res_id}/link-guest` — bind the\nsigned-in session's guest profile to a booking made anonymously in eBooking.",
+        "description": "The binding surface is the profile chain: the anonymous booking carries the\nbooker profile row; signing in resolves the (possibly different) profile\nthe session subject owns. Linking merges the booker profile INTO the\nsession's profile via the same merge path ePMS staff use, so folio/keys/\nrequests all follow the stay.\n\n`POST /v1/properties/{p}/reservations/{res_id}/link-guest` - bind the\nsigned-in session's guest profile to a booking made anonymously in eBooking.",
         "operationId": "link_reservation_guest",
         "responses": {
           "200": {
@@ -4622,7 +4622,7 @@
     },
     {
       "name": "pms",
-      "description": "Hotel8:PMS admin API — reservations, rates, blocks, events, frontdesk, housekeeping, reports"
+      "description": "Hotel8:PMS admin API - reservations, rates, blocks, events, frontdesk, housekeeping, reports"
     }
   ]
 }
