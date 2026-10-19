@@ -1,23 +1,11 @@
 ---
 id: corporate-availability
-title: "`POST /v1/properties/{property_id}/corporate-availability` — availability
-for a corporate session (company_profile_id). Rate-mix policy: when the
-request carries a company context, ONLY the negotiated rate plans linked
-to that company (via `preferences.negotiated_rate_plan_ids`) are returned;
-public plans are withheld so negotiated rates never leak to non-members
-and members never book public rates against their contract. Companies
-with no linked plans get an explicit empty result, not a public fallback."
-description: "`POST /v1/properties/{property_id}/corporate-availability` — availability"
-sidebar_label: "`POST /v1/properties/{property_id}/corporate-availability` — availability
-for a corporate session (company_profile_id). Rate-mix policy: when the
-request carries a company context, ONLY the negotiated rate plans linked
-to that company (via `preferences.negotiated_rate_plan_ids`) are returned;
-public plans are withheld so negotiated rates never leak to non-members
-and members never book public rates against their contract. Companies
-with no linked plans get an explicit empty result, not a public fallback."
+title: "`POST /v1/properties/{property_id}/corporate-availability`"
+description: "availability"
+sidebar_label: "`POST /v1/properties/{property_id}/corporate-availability`"
 hide_title: true
 hide_table_of_contents: true
-api: eJztVcFu20YQ/ZXBnBKAluSkh4A9BQWKBo1jI04PhSTII3IkbrWc3ewOFRMCgX5EvjBfUgzNuoKdU885kdx9M29m+N7uCZX2GcslxjbjusAQOZG6IO9qLLEKKYZEyhs6kvO0dd5pjwUmzjFI5ozlCV8tFvaoOVfJRQvGEq9/xwKrIMqitksxeleNqed/ZYOcMFcNt4TlaRiGocCfFpfP83wICtRpw6IWzjWOyNfPkb+GtHV1zYKWLHPVJSu2XK6LJ8i7m+vbTzA/Xs5jsobVcZ6fpvd+4+ph/tj5xXnnd/Dt769wvrKSXUhA8IiHzDm7IPCiCm0k6TcxhZ3zvHH1yxl8tJStu4cYvKv6Er40LKANryTx546zQkUpOc5j0jEDjGO81wKuP7z/08AgvA/qbBwwkkZPksE7OXC9Eg2gDelj/IujI7iLiXecWCrOs//iN+PvtfiNq/PdS6DEkFi7JFz/vJLYbb2rJgLb++K0adjXkMPTMjIIHzmBZzqABpAgFy23W055JSQ1TB8TbBvCAab8D+G0JydZrUWXxrYTVTqDX8ZGHOeVGD1ImHqd6tqzAgnwvWnMKXAbtYfEufNagJiE/iXakfdbqg4zLLBlbYLpPIasWGAkbbDE/yEMLNDJLpgo1alnLLEJyv7Nhfnqqf5uTczyBn4bIeXN1e2oq5uJB65IaM8ti8Jtn5VbMJHZf29Cjk7JKMFJ3WVNvXXiXcWS2fiFWqO/evcJrj/C20hVwxevZgsrsTbineP0XcBQ4JFTfqhxMbt8WLLZtCRnqX/Y54d9Zk9FfULto6nDRj2PnpyYerrkbe/BWUs8XprNHlWDBZZnuhlvjO/aa11gYx4tl3g6bSnzH8kPgy1/7jhNh/yRkqOtmW+5HgpsmGpT+vKEB+6xxLdVxdF8fiTfWanP7qRhfXYomMpxGP4BhBCUtg==
+api: eJztVU2P20YM/SsETwkgf2zaQ6CeggJFg3Szi2x6CGzDS0u0NfGIM5mhnBUMAfkR+YX9JQG1zmbhzanHoidJM498JOe90RGVdhnLBcY246rAEDmRuiCvayyxCimGRMprOpDztHHeaY8FJs4xSOaM5RFfzOf2qDlXyUULxhKv3mCBVRBlUdulGL2rxtSzj9kgR8xVwy1heRyGYSjw1/nF0zxvgwJ12rCohXONI/KXp8g/Qtq4umZBS5a56pIVWy5WxRnycTNL2YYEBA+tQuacXRB4VoU2kvTrmMLWeV67+vkU3pHypHV3EIN3VV/C54YFtOGlJP7UcVaoKCXHeUw6ZoBxDndawNXbvz4YGIR3QZ31AyNp9CQZvJM910vRANqQPsQ/OziC25h4y4ml4jz9Eb8ez8fi167Ot8+BEkNi7ZJw/dtSYrfxrjoR2N5np03DvoYczsvIIHzgBJ5pDxpAgkxabjec8lJIajh9nGCbEPZwyn8fTjtyktVadGlsO1GlU/h9bMRxXorRg4RTr6e6dqxAAnxnInEK3EbtIXHuvBYgpoHvRFvyfkPVfooFtqxNMKHGkBULjKQNljg7XMxiMimr4zw7nt77tauH2cNBT8407WQbTFXq1DOW2ARl/3JixjgX0I2pUV7CnyOkvL68gX++fIXrEw9cktCOWxaFmz4rt2Ais3NvQo5OySjBSd1lTb114l3Fktn4hVqjv3z9Hq7ewatIVcOTF9O5lVgb8dZx+ilgKPDAKd/XOJ9e3C/ZbFqSR6lvr69u3sO/mNLt+SSOPyz+v6v+K67SPppKbLaz6MmJqahL3o773mELPFyY3R7UgwWWj/QzXv0/tdmqwMa8Wi7weNxQ5r+THwZb/tRxOt3WB0qONmbCxWoosGGqTfGLI+65xxJfVRVH8/uBfGelPvm5DKtHl4OpHYfhG/Dofb0=
 sidebar_class_name: "post api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -35,7 +23,7 @@ import Translate from "@docusaurus/Translate";
 <Heading
   as={"h1"}
   className={"openapi__heading"}
-  children={"`POST /v1/properties/{property_id}/corporate-availability` — availability\nfor a corporate session (company_profile_id). Rate-mix policy: when the\nrequest carries a company context, ONLY the negotiated rate plans linked\nto that company (via `preferences.negotiated_rate_plan_ids`) are returned;\npublic plans are withheld so negotiated rates never leak to non-members\nand members never book public rates against their contract. Companies\nwith no linked plans get an explicit empty result, not a public fallback."}
+  children={"`POST /v1/properties/{property_id}/corporate-availability`"}
 >
 </Heading>
 
@@ -49,7 +37,7 @@ import Translate from "@docusaurus/Translate";
 
 
 
-`POST /v1/properties/{property_id}/corporate-availability` — availability
+availability
 for a corporate session (company_profile_id). Rate-mix policy: when the
 request carries a company context, ONLY the negotiated rate plans linked
 to that company (via `preferences.negotiated_rate_plan_ids`) are returned;

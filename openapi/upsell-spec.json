@@ -32,7 +32,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/ab-tests`"
       }
     },
     "/v1/ab-tests/results": {
@@ -57,7 +58,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/ab-tests/results`"
       }
     },
     "/v1/admin/attributes": {
@@ -86,7 +88,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/attributes`"
       },
       "put": {
         "tags": [
@@ -121,7 +124,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/attributes`"
       },
       "delete": {
         "tags": [
@@ -151,7 +155,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/attributes`"
       }
     },
     "/v1/admin/policy-sets": {
@@ -180,7 +185,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/policy-sets`"
       }
     },
     "/v1/admin/policy-sets/disable": {
@@ -209,7 +215,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/disable`"
       }
     },
     "/v1/admin/policy-sets/enforce": {
@@ -238,7 +245,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/enforce`"
       }
     },
     "/v1/admin/policy-sets/shadow": {
@@ -267,7 +275,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/shadow`"
       }
     },
     "/v1/admin/policy-sets/{name}": {
@@ -307,7 +316,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/policy-sets/{name}`"
       },
       "put": {
         "tags": [
@@ -353,7 +363,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/policy-sets/{name}`"
       },
       "delete": {
         "tags": [
@@ -383,7 +394,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/policy-sets/{name}`"
       }
     },
     "/v1/admin/policy-sets/{name}/test": {
@@ -428,7 +440,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/{name}/test`"
       }
     },
     "/v1/admin/relations": {
@@ -457,7 +470,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/relations`"
       },
       "put": {
         "tags": [
@@ -492,7 +506,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/relations`"
       },
       "delete": {
         "tags": [
@@ -522,7 +537,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/relations`"
       }
     },
     "/v1/admin/relations/check": {
@@ -577,7 +593,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/relations/check`"
       }
     },
     "/v1/admin/ui/{page}": {
@@ -602,7 +619,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/admin/ui/{page}`"
       }
     },
     "/v1/analytics": {
@@ -627,7 +645,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/analytics`"
       }
     },
     "/v1/cron/daily-generation": {
@@ -652,7 +671,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/cron/daily-generation`"
       }
     },
     "/v1/eligibility/types": {
@@ -677,7 +697,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/eligibility/types`"
       }
     },
     "/v1/health": {
@@ -702,7 +723,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/health`"
       }
     },
     "/v1/integration/func/dynamic-price": {
@@ -727,7 +749,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/integration/func/dynamic-price`"
       }
     },
     "/v1/integration/payments/payment": {
@@ -752,7 +775,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/integration/payments/payment`"
       }
     },
     "/v1/integration/pms": {
@@ -777,7 +801,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/integration/pms`"
       }
     },
     "/v1/integration/pms/modify-reservation": {
@@ -802,7 +827,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/integration/pms/modify-reservation`"
       }
     },
     "/v1/integration/post/confirmation": {
@@ -827,7 +853,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/integration/post/confirmation`"
       }
     },
     "/v1/integration/post/notify": {
@@ -852,7 +879,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/integration/post/notify`"
       }
     },
     "/v1/offers": {
@@ -937,7 +965,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/offers/accept`"
       }
     },
     "/v1/offers/decline": {
@@ -962,7 +991,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/offers/decline`"
       }
     },
     "/v1/offers/expire": {
@@ -987,7 +1017,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/offers/expire`"
       }
     },
     "/v1/offers/for-reservation": {
@@ -1012,7 +1043,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/offers/for-reservation`"
       }
     },
     "/v1/offers/generate": {
@@ -1037,7 +1069,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/offers/generate`"
       }
     },
     "/v1/offers/status": {
@@ -1089,7 +1122,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/offers/{offer_id}`"
       }
     },
     "/v1/offers/{offer_id}/configure": {
@@ -1114,7 +1148,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/offers/{offer_id}/configure`"
       }
     },
     "/v1/rate-limits": {
@@ -1139,7 +1174,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/rate-limits`"
       }
     },
     "/v1/rules": {
@@ -1164,7 +1200,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/rules`"
       },
       "post": {
         "tags": [
@@ -1187,7 +1224,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/rules`"
       }
     },
     "/v1/rules/test": {
@@ -1212,7 +1250,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/rules/test`"
       }
     },
     "/v1/rules/{rule_id}": {
@@ -1237,7 +1276,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`DELETE /v1/rules/{rule_id}`"
       }
     }
   },

@@ -1,11 +1,11 @@
 ---
 id: update-reservation
-title: "`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."
+title: "`PUT /v1/properties/{property_id}/reservations/{res_id}`"
 description: "Edits dates, occupancy, room type, rate plan, and special requests."
-sidebar_label: "`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."
+sidebar_label: "`PUT /v1/properties/{property_id}/reservations/{res_id}`"
 hide_title: true
 hide_table_of_contents: true
-api: eJzdVMtu20AM/JUFTy2wfqU5pLoFjosEediobfTgBPZGoqNtpd3NknIrCAL6Ef3CfklBOUjdpJdee5LE5ZIzw6EaYPNAkKwglAR3GjKkNNrA1jtIYJJZJpUZRtLKp2kVjEtrraL3peI6oFbRMKpQGKeVcZmigKk1hYr4WCEx9W/dAmNpnSl6xIYrUhEJ485IC1JvNuPTm/Hk6mpyttFqMz6fjC8nZ+vpciGfN9P1/Hz6afNWRdxWhLcOO0RfLefqePhe/fz+Q3GOSkqjKk2aW4dq6+O9zUiVFRu27kHlltjHug8afMDY9b7IIIEqCLn1ASTQEJGCd4QESQNHw6E8/tRlegkaUu8YHcupCaGwaXd/8JkkpQFKcywNJE3btq2G4+HodZ0bz8pUnKNjuY4ZdJnvXmd+6Chl6ECKEaZVtFxDsrrTUCLnXtiEikFDMJxDAoPdaBCi0GWLNGie3uu1zdrB4QwGTUSSKGiwbuulOVsuEBLIPWNx0hNzvPTGXEC7E3XepSSz63k3jdlTG3VtnHnAEh2reU2MpYylG1buKVg2heVaWZdVxPvRFDZFRyj9nSml/fXFQk0/qtNg0hx7R/2hQMyk8dZi/GtCq2GHkfYYh/3RPhQ8cWncQenNbLlQ/67RpiMZIvZMjHZnCiWO7L9Up/ntjv9xiQQ1JMD4jQehMNaJxlUshPjefivYjcSLz+KChuRA3v2aPVOQ073C8hPKPbGUaJp7Q7iMRdtK+LHC+GT5nYnW3ItFV3ethhxNJn5YNfAFa0jgNE0xyDLsTFEJ1Fcb2h4uzmy5gLb9BUNKw88=
+api: eJzlVMtu20AM/JUFTy2wfqU5pLoFjosEedhobPRgB/ZGoqNtpd3NknIrCAL6Ef3CfklBOUjdpJeee5LE5XKGw6EaYPNAkCwhlAR3GjKkNNrA1jtIYJJZJpUZRtLKp2kVjEtrraL3peI6oFbRMKpQGKeVcZmigKk1hYr4WCEx9VdujrG0zhQ9YsMVqYiEcWcEgtSbzfj0Zjy5upqcbbTajM8n48vJ2Xq6mMvnzXR9ez79tHmrIm4rwpXDjtFXy7k6Hr5XP7//UJyjktKoSpPm1qHa+nhvM1JlxYate1C5Jfax7q/cyoWIPROj3ZlCSbU+aPABY0foIoMEqiAdrw94goaIFLwjJEgaOBoO5fGnWNNL0JB6x+hYTk0IhU27+4PPJCkNUJpjaSBp2rZtNRwPR6/r3HhWpuIcHct1zKDLfPc680PXZ4YOpBhhWkXLNSTLOw0lcu6lm1AxaAiGc0hgsBsNQpR22SINmqf3em2zdnA4mEETkSQKGqzbegFnywVCArlnLE564piXhrkV0u5EnXcpyez6thvR7AlGXRtnHrBEx+q2JsZSZtVNMPcULJvCcq2syyriWMtoCpuiIxR8Z0qBv76Yq+lHdRpMmmPvqD8UipkAby3Gvya0GnYYac9x2B/tQ8ETl8YdlN7MFnP17xptXurQ/PbBf7ND0gokwPiNB6Ew1onEVSxEjb37lrAbiRWftQUNyYG6+y177ktO9wLLjyn3xFKiae4N4SIWbSvhxwrjk+N3JlpzLw5d3rUacjSZ2GHZwBesIYHTNMUgu7AzRSVUXy1oe7g3s8Uc2vYXc9rLGg==
 sidebar_class_name: "put api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -23,7 +23,7 @@ import Translate from "@docusaurus/Translate";
 <Heading
   as={"h1"}
   className={"openapi__heading"}
-  children={"`PUT /v1/properties/{property_id}/reservations/{res_id}` — pre-arrival edit."}
+  children={"`PUT /v1/properties/{property_id}/reservations/{res_id}`"}
 >
 </Heading>
 
@@ -40,6 +40,8 @@ import Translate from "@docusaurus/Translate";
 Edits dates, occupancy, room type, rate plan, and special requests.
 Terminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse
 edits with 409 — the state machine forbids mutating history.
+
+pre-arrival edit.
 
 <ParamsDetails>
   

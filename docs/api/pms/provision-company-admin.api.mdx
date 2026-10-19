@@ -1,19 +1,11 @@
 ---
 id: provision-company-admin
-title: "`PUT .../companies/{profile_id}/admin-provisioning` — provision the first
-corporate admin: binds the traveler (created on the fly when needed) as
-`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent —
-re-provisioning an already-admin company is a no-op returning the
-existing state with `already_provisioned: true`."
+title: "`PUT /v1/properties/{property_id}/companies/{profile_id}/admin-provisioning`"
 description: "`PUT .../companies/{profile_id}/admin-provisioning` — provision the first"
-sidebar_label: "`PUT .../companies/{profile_id}/admin-provisioning` — provision the first
-corporate admin: binds the traveler (created on the fly when needed) as
-`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent —
-re-provisioning an already-admin company is a no-op returning the
-existing state with `already_provisioned: true`."
+sidebar_label: "`PUT /v1/properties/{property_id}/companies/{profile_id}/admin-provisioning`"
 hide_title: true
 hide_table_of_contents: true
-api: eJztVEtu2zAQvcpgVi0gy3baRaFdgKKoUTgxmmTlGBYtjiO2EsmSIyeCIKCH6Al7kmJkx3A+iy667ErU8M33PU6HrO4iZkv0dRwpXRuLqwSdp6DYODvTmKEPbmeicXZduNor2673wAQDRe9spIhZh2eTiXw0xSIYL96Y4eUXTLBwlsmy3CrvK1MMscffokA6jEVJtcKs6/u+T/D9ZPoyzoVjUA2XZFncSeOAfPcS+cmFjdGaLEqwSEUTDLeYLVfJM2S+uLmGNE3H+7YMxXHng9uaitZG9+Ohy9Gxe2Pvcvj98xccLcAlwdaEyLe2cMG7oJhgcMtgY6yOA4KD2lFFAd4UgaR2eHStWrgvyYIl0qTfgoq3Nj//OJ9d5KCshsiq9hFyH2hLgWxBMT1mJ73nYa04T2GmqfZOxiw13tpATyoHZUFVgZRu9zTDgUswERRYN3IeAnETBjSXdGvpwUSWv8jS173hEvJDkPVJGRlwaChPMcGauHSDZhrGBL3iEjMc76ZjH0RU/DhkObfDlP96+JigsVsnjLPhijDD0jFVH0a+jvic3CtRiv0AnwdItphfDdwtDqlhrqy6o1rmddVGphq2LgyslC56w6oy3IKxuokcWumtMgXZSJLfqlrSz2fXcPkVzr0qShqdpRMpUUviraHwKqBPcEch7mucpNO9ybvItbInof9r859r84k+OuTWy6CZHnjsK2WsENGESu72ul3ibioiPioXE8xOtDtstgM7h6sDP5jgK/pdJVi6yBK46zYq0k2o+l7MPxoKhxW1U8Gojah7ueoTLElpkdKyw+/UYobnRUFe3tZOVY008GKj9quTd7i4uca+/wN5Wh98
+api: eJztVMtu2zAQ/JXFnlpAfqU9BLoFKIoahROjSU62YdHiOmIrkSy5ciIIAvoR/cJ+SbGy47pJDj3k2JMkavY1s8MWWd1FTBfoqzhQujIWVwk6T0GxcXaqMUUf3M5E4+w6d5VXtlnvgQkGit7ZSBHTFs/GY3loinkwXqIxxavPmGDuLJNl+au8L03e5x59jQJpMeYFVQrTtuu6LsH348nzPJeOQdVckGUJJ4098t1z5EcXNkZrsijJIuV1MNxgulglT5DZ/PYGhsPhaD+WoThqfXBbU9La6G7UTzk4Tm/sXQa/fvyE4wlwQbA1IfLS5i54FxQT9GEpbIzVsUdwUDsqKcCbPJD0Do+hZQP3BVmwRJr0W1BxabOLD7PpZQbKaoisKh8h84G2FMjmFIfH6qT3OqwVZ0OYaqq8E5qlx6UN9FfnoCyoMpDSzV5mOGgJJoIC6wbOQyCuQ4/mgpaWHkxk+Yosc90bLiA7JFmftJECh5qyISZYEReu35maMUGvuMAUR7vJyAdZKn4kWd6bnuV/Jh8TNHbrRHE2XBKmWDim8nzgq4hPxb2WTbHn8KmHpPPZda/d/FAaZsqqO6qEr+smMlWwdaFXpXDRG1al4QaM1XXk0MhspcnJRpL6VlVSfja9gasvcOFVXtDgbDiWFrUU3hoKLwK6BHcU4r7H8XCyP/IucqXsSep+N1+Ht+wpN+0fQ/73wOt7gBsvCjI98MiXylhRuA6lEL83xAJ3E3HHUVpMMD0Rt78yD3Icfh0EwQRfMMYqwcJFlsRtu1GRbkPZdXL8vaZwuPt2Khi1EdssVl2CBSktO7po8Rs1mOJFnpMX0+5UWcsAz67qbnVi8PntDXbdb3UfQSY=
 sidebar_class_name: "put api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -31,7 +23,7 @@ import Translate from "@docusaurus/Translate";
 <Heading
   as={"h1"}
   className={"openapi__heading"}
-  children={"`PUT .../companies/{profile_id}/admin-provisioning` — provision the first\ncorporate admin: binds the traveler (created on the fly when needed) as\n`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent —\nre-provisioning an already-admin company is a no-op returning the\nexisting state with `already_provisioned: true`."}
+  children={"`PUT /v1/properties/{property_id}/companies/{profile_id}/admin-provisioning`"}
 >
 </Heading>
 

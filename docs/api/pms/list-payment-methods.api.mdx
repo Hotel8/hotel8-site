@@ -1,17 +1,11 @@
 ---
 id: list-payment-methods
-title: "`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved
-payment methods, resolved by the session subject (holder-scoped). Rows
-carry bill8 token references only — never PAN or token secrets (DESIGN.md
-§3 secret-reference rule)."
+title: "`GET /v1/properties/{property_id}/payment-methods`"
 description: "`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved"
-sidebar_label: "`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved
-payment methods, resolved by the session subject (holder-scoped). Rows
-carry bill8 token references only — never PAN or token secrets (DESIGN.md
-§3 secret-reference rule)."
+sidebar_label: "`GET /v1/properties/{property_id}/payment-methods`"
 hide_title: true
 hide_table_of_contents: true
-api: eJzlVFtu2zAQvAqxP00A+ZX0I9BfgKZpUOSBOP1yjIQm1xYTimS5K7WCIKCH6B16jx6lJykoC4ET9wb9kkDO7O7MjtQCyw1BvoBQEiwz8AGjZOPdhYYcrCF+CLIp0fFDiVx4TZBBRAreERLkLRxNp+mhkVQ0IVEhh+vPkIHyjtFxupUhWKP6wpMnSpAWSBVYSsjbruu6DN5PZ/t1rjwLWXGBjhMdNfTI433kRx9XRmt0kIoRqioabiBfLLM3yMfzszsxqWeTEJNaNkiTNnSTQedo0Pko/vz4KbhAQWbjUI+ME5sKid+RIFmjvncDQwyMTEQkb2vUYtVsmUhkvBNUrZ5QsTgovNUYR6R8QH04Frf+G907JWNsxMpYeyLYP6MTEdcY0Skk4Z1t+lEc1hjFzemV8HGAEaqITOLgw9n84vxqXOp79/vX8XA+eqkiYmXxcAwZbEeFHDbIkEGQXEAOe25s35sHo/d8gQyMW/u0ATZsEXIoPKM9GaUIvTV7njbnTsSnHpLfXM57LTdDA3Epndxg7+K8IcZSrJO6AkXhKRiW1nAjjNMVcWySAmsUOsLU38kytb+8uBPXt+I0SFXg6Gg8TSPq1HhtMP4T0GVQY6TtjNPxbHsUPHEp3U7p/zorrzbZAjchWcL4nSfBSuOSZVW06W6bowXUsxSqF68gg3wnS33gXodpmUHhiRO3bVeS8Eu0XZeOv1YYh++3ltHIVYraYtllUKDUaa+LFp6xgRxOlcKQ4lxLW6UZ93433XIn+udnd9B1fwGO88Jg
+api: eJzlVFtu2zAQvAqxP00A+ZX0I9BfgKZpUOSBOP1yjIQm1xYTimS5K7WCIKCH6B16jx6lJykoC2kaB71AvyRQM7s7w1m1wHJDkC8glATLDHzAKNl4d6YhB2uI74JsSnR8VyIXXhNkEJGCd4QEeQsH02l6aCQVTUhUyOHyI2SgvGN0nL7KEKxRfeHJAyVIC6QKLCXkbdd1XQZvp7PdOheehay4QMeJjhp65OEu8r2PK6M1OkjFCFUVDTeQL5bZC+T96cmNmNSzSYhJLRukSRu6yaBzNOi8F7++fRdcoCCzcahHxolNhcRvSJCsUd+6gSEGRiYikrc1arFqtkwkMt4JqlYPqFjsFd5qjCNSPqDeH4tr/4VunZIxNmJlrD0S7B/RiYhrjOgUkvDONv0oDmuM4ur4Qvg4wAhVRCax9+5kfnZ6MS71rfv543A4Hz1VEbGyuD+GDLajQg4bZMggSC4ghx03tu/NndE7vkAGxq19ugE2bBFyKDyjPRqlCL00e55uzh2JDz0kvzqf91quhgbiXDq5wd7FeUOMpVgndQWKwlMwLK3hRhinK+LYJAXWKHSEqb+TZWp/fnYjLq/FcZCqwNHBeJpG1Knx2mB8FdBlUGOk7YzT8Wx7FDxxKd2z0q9n5R/u3L90oP2zBv938rgJyVHGrzwJVhqXHK+iTRZtY7iAepYy+WQOZJA/M7vP699ZXGZQeOLEbduVJPwUbdel488VxmH9axmNXKWkLpZdBgVKnWKxaOERG8jhWCkMaRtqaas0487fqls+25zTkxvout+YpdmB
 sidebar_class_name: "get api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -29,7 +23,7 @@ import Translate from "@docusaurus/Translate";
 <Heading
   as={"h1"}
   className={"openapi__heading"}
-  children={"`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved\npayment methods, resolved by the session subject (holder-scoped). Rows\ncarry bill8 token references only — never PAN or token secrets (DESIGN.md\n§3 secret-reference rule)."}
+  children={"`GET /v1/properties/{property_id}/payment-methods`"}
 >
 </Heading>
 

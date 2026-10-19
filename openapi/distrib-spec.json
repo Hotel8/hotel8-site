@@ -36,7 +36,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/attributes`"
       },
       "put": {
         "tags": [
@@ -71,7 +72,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/attributes`"
       },
       "delete": {
         "tags": [
@@ -101,7 +103,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/attributes`"
       }
     },
     "/v1/admin/policy-sets": {
@@ -130,7 +133,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/policy-sets`"
       }
     },
     "/v1/admin/policy-sets/disable": {
@@ -159,7 +163,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/disable`"
       }
     },
     "/v1/admin/policy-sets/enforce": {
@@ -188,7 +193,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/enforce`"
       }
     },
     "/v1/admin/policy-sets/shadow": {
@@ -217,7 +223,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/shadow`"
       }
     },
     "/v1/admin/policy-sets/{name}": {
@@ -257,7 +264,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/policy-sets/{name}`"
       },
       "put": {
         "tags": [
@@ -303,7 +311,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/policy-sets/{name}`"
       },
       "delete": {
         "tags": [
@@ -333,7 +342,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/policy-sets/{name}`"
       }
     },
     "/v1/admin/policy-sets/{name}/test": {
@@ -378,7 +388,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`POST /v1/admin/policy-sets/{name}/test`"
       }
     },
     "/v1/admin/relations": {
@@ -407,7 +418,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/relations`"
       },
       "put": {
         "tags": [
@@ -442,7 +454,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`PUT /v1/admin/relations`"
       },
       "delete": {
         "tags": [
@@ -472,7 +485,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`DELETE /v1/admin/relations`"
       }
     },
     "/v1/admin/relations/check": {
@@ -527,7 +541,8 @@
           {
             "sentin8:admin": []
           }
-        ]
+        ],
+        "summary": "`GET /v1/admin/relations/check`"
       }
     },
     "/v1/admin/ui/{page}": {
@@ -552,7 +567,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/admin/ui/{page}`"
       }
     },
     "/v1/channel-properties": {
@@ -577,7 +593,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channel-properties`"
       }
     },
     "/v1/channel-properties/{channel_property_id}/controls": {
@@ -602,7 +619,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/channel-properties/{channel_property_id}/controls`"
       }
     },
     "/v1/channel-properties/{channel_property_id}/markup": {
@@ -627,7 +645,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/channel-properties/{channel_property_id}/markup`"
       }
     },
     "/v1/channels": {
@@ -712,7 +731,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/channels/{channel_code}/properties`"
       }
     },
     "/v1/channels/{channel_code}/properties/{property_code}/ari": {
@@ -764,7 +784,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/channels/{channel_code}/properties/{property_code}/content`"
       }
     },
     "/v1/channels/{channel_code}/properties/{property_code}/controls": {
@@ -789,7 +810,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/channels/{channel_code}/properties/{property_code}/controls`"
       }
     },
     "/v1/channels/{channel_code}/reservations": {
@@ -814,7 +836,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channels/{channel_code}/reservations`"
       }
     },
     "/v1/channels/{channel_code}/reservations/{booking_id}": {
@@ -839,7 +862,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/channels/{channel_code}/reservations/{booking_id}`"
       }
     },
     "/v1/channels/{channel_code}/reservations/{booking_id}/status": {
@@ -864,7 +888,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channels/{channel_code}/reservations/{booking_id}/status`"
       }
     },
     "/v1/channels/{channel_code}/validate": {
@@ -889,7 +914,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/channels/{channel_code}/validate`"
       }
     },
     "/v1/channels/{channel_id}": {
@@ -914,7 +940,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`PUT /v1/channels/{channel_id}`"
       },
       "delete": {
         "tags": [
@@ -937,7 +964,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`DELETE /v1/channels/{channel_id}`"
       }
     },
     "/v1/channels/{channel_id}/ari/push": {
@@ -962,7 +990,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channels/{channel_id}/ari/push`"
       }
     },
     "/v1/channels/{channel_id}/content/push": {
@@ -987,7 +1016,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channels/{channel_id}/content/push`"
       }
     },
     "/v1/channels/{channel_id}/controls/push": {
@@ -1012,7 +1042,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/channels/{channel_id}/controls/push`"
       }
     },
     "/v1/channels/{channel_id}/mapped-properties": {
@@ -1037,7 +1068,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/channels/{channel_id}/mapped-properties`"
       }
     },
     "/v1/health": {
@@ -1062,7 +1094,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/health`"
       }
     },
     "/v1/rate-plan-mappings": {
@@ -1087,7 +1120,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/rate-plan-mappings`"
       }
     },
     "/v1/room-type-mappings": {
@@ -1112,7 +1146,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/room-type-mappings`"
       }
     },
     "/v1/sync-log": {
@@ -1137,7 +1172,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`GET /v1/sync-log`"
       }
     },
     "/v1/sync/retry": {
@@ -1162,7 +1198,8 @@
             "description": "Forbidden"
           }
         },
-        "security": []
+        "security": [],
+        "summary": "`POST /v1/sync/retry`"
       }
     }
   },
