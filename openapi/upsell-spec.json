@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "hotel8-upsell",
-    "description": "Sentin8 Hotel8:Upsell - Upsell Engine service.",
+    "description": "Sentin8 Hotel8:Upsell — Upsell Engine service.",
     "license": {
       "name": "MIT OR Apache-2.0",
       "identifier": "MIT OR Apache-2.0"
@@ -33,6 +33,7 @@
           }
         },
         "security": [],
+        "description": "Create ab test.",
         "summary": "`POST /v1/ab-tests`"
       }
     },
@@ -59,6 +60,7 @@
           }
         },
         "security": [],
+        "description": "Get ab test results.",
         "summary": "`GET /v1/ab-tests/results`"
       }
     },
@@ -89,6 +91,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list attributes.",
         "summary": "`GET /v1/admin/attributes`"
       },
       "put": {
@@ -125,6 +128,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put attribute.",
         "summary": "`PUT /v1/admin/attributes`"
       },
       "delete": {
@@ -156,6 +160,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete attribute.",
         "summary": "`DELETE /v1/admin/attributes`"
       }
     },
@@ -186,6 +191,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list sets.",
         "summary": "`GET /v1/admin/policy-sets`"
       }
     },
@@ -216,6 +222,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode disable.",
         "summary": "`POST /v1/admin/policy-sets/disable`"
       }
     },
@@ -246,6 +253,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode enforce.",
         "summary": "`POST /v1/admin/policy-sets/enforce`"
       }
     },
@@ -276,6 +284,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode shadow.",
         "summary": "`POST /v1/admin/policy-sets/shadow`"
       }
     },
@@ -317,6 +326,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy get set.",
         "summary": "`GET /v1/admin/policy-sets/{name}`"
       },
       "put": {
@@ -364,6 +374,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put set.",
         "summary": "`PUT /v1/admin/policy-sets/{name}`"
       },
       "delete": {
@@ -395,6 +406,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete set.",
         "summary": "`DELETE /v1/admin/policy-sets/{name}`"
       }
     },
@@ -441,6 +453,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy test set.",
         "summary": "`POST /v1/admin/policy-sets/{name}/test`"
       }
     },
@@ -471,6 +484,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list relations.",
         "summary": "`GET /v1/admin/relations`"
       },
       "put": {
@@ -507,6 +521,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put relation.",
         "summary": "`PUT /v1/admin/relations`"
       },
       "delete": {
@@ -538,6 +553,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete relation.",
         "summary": "`DELETE /v1/admin/relations`"
       }
     },
@@ -594,6 +610,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy check relation.",
         "summary": "`GET /v1/admin/relations/check`"
       }
     },
@@ -620,6 +637,7 @@
           }
         },
         "security": [],
+        "description": "Get admin ui.",
         "summary": "`GET /v1/admin/ui/{page}`"
       }
     },
@@ -646,6 +664,7 @@
           }
         },
         "security": [],
+        "description": "Get analytics.",
         "summary": "`GET /v1/analytics`"
       }
     },
@@ -672,6 +691,7 @@
           }
         },
         "security": [],
+        "description": "Cron daily generation.",
         "summary": "`POST /v1/cron/daily-generation`"
       }
     },
@@ -698,6 +718,7 @@
           }
         },
         "security": [],
+        "description": "List eligibility types.",
         "summary": "`GET /v1/eligibility/types`"
       }
     },
@@ -724,6 +745,7 @@
           }
         },
         "security": [],
+        "description": "Health .",
         "summary": "`GET /v1/health`"
       }
     },
@@ -750,6 +772,7 @@
           }
         },
         "security": [],
+        "description": "Compute dynamic price.",
         "summary": "`POST /v1/integration/func/dynamic-price`"
       }
     },
@@ -776,6 +799,7 @@
           }
         },
         "security": [],
+        "description": "Process upgrade payment.",
         "summary": "`POST /v1/integration/payments/payment`"
       }
     },
@@ -802,6 +826,7 @@
           }
         },
         "security": [],
+        "description": "Fetch hotel8 pms data.",
         "summary": "`GET /v1/integration/pms`"
       }
     },
@@ -828,6 +853,7 @@
           }
         },
         "security": [],
+        "description": "Modify reservation on acceptance.",
         "summary": "`POST /v1/integration/pms/modify-reservation`"
       }
     },
@@ -854,6 +880,7 @@
           }
         },
         "security": [],
+        "description": "Send acceptance confirmation.",
         "summary": "`POST /v1/integration/post/confirmation`"
       }
     },
@@ -880,6 +907,7 @@
           }
         },
         "security": [],
+        "description": "Send offer notification.",
         "summary": "`POST /v1/integration/post/notify`"
       }
     },
@@ -907,7 +935,8 @@
           {
             "upsell:admin": []
           }
-        ]
+        ],
+        "description": "List offers."
       },
       "post": {
         "tags": [
@@ -940,7 +969,8 @@
           {
             "upsell:admin": []
           }
-        ]
+        ],
+        "description": "Create offer."
       }
     },
     "/v1/offers/accept": {
@@ -966,6 +996,7 @@
           }
         },
         "security": [],
+        "description": "Accept offer.",
         "summary": "`POST /v1/offers/accept`"
       }
     },
@@ -992,6 +1023,7 @@
           }
         },
         "security": [],
+        "description": "Decline offer.",
         "summary": "`POST /v1/offers/decline`"
       }
     },
@@ -1018,6 +1050,7 @@
           }
         },
         "security": [],
+        "description": "Expire offers.",
         "summary": "`POST /v1/offers/expire`"
       }
     },
@@ -1044,6 +1077,7 @@
           }
         },
         "security": [],
+        "description": "Get offers for reservation.",
         "summary": "`GET /v1/offers/for-reservation`"
       }
     },
@@ -1070,6 +1104,7 @@
           }
         },
         "security": [],
+        "description": "Generate offers.",
         "summary": "`POST /v1/offers/generate`"
       }
     },
@@ -1097,7 +1132,8 @@
           {
             "upsell:admin": []
           }
-        ]
+        ],
+        "description": "Get offer status."
       }
     },
     "/v1/offers/{offer_id}": {
@@ -1123,6 +1159,7 @@
           }
         },
         "security": [],
+        "description": "Update offer.",
         "summary": "`PUT /v1/offers/{offer_id}`"
       }
     },
@@ -1149,6 +1186,7 @@
           }
         },
         "security": [],
+        "description": "Configure offer.",
         "summary": "`PUT /v1/offers/{offer_id}/configure`"
       }
     },
@@ -1175,6 +1213,7 @@
           }
         },
         "security": [],
+        "description": "Get rate limit config.",
         "summary": "`GET /v1/rate-limits`"
       }
     },
@@ -1201,6 +1240,7 @@
           }
         },
         "security": [],
+        "description": "List rules.",
         "summary": "`GET /v1/rules`"
       },
       "post": {
@@ -1225,6 +1265,7 @@
           }
         },
         "security": [],
+        "description": "Create rule.",
         "summary": "`POST /v1/rules`"
       }
     },
@@ -1251,6 +1292,7 @@
           }
         },
         "security": [],
+        "description": "Test rule.",
         "summary": "`POST /v1/rules/test`"
       }
     },
@@ -1277,6 +1319,7 @@
           }
         },
         "security": [],
+        "description": "Delete rule.",
         "summary": "`DELETE /v1/rules/{rule_id}`"
       }
     }
@@ -1290,7 +1333,7 @@
     },
     {
       "name": "upsell",
-      "description": "Hotel8:Upsell admin API - offers"
+      "description": "Hotel8:Upsell admin API — offers"
     }
   ]
 }

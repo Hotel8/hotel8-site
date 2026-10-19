@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "hotel8-pms",
-    "description": "Sentin8 Hotel8:PMS - Property Management System for the hospitality industry.",
+    "description": "Sentin8 Hotel8:PMS — Property Management System for the hospitality industry.",
     "license": {
       "name": "MIT OR Apache-2.0",
       "identifier": "MIT OR Apache-2.0"
@@ -37,6 +37,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list attributes.",
         "summary": "`GET /v1/admin/attributes`"
       },
       "put": {
@@ -73,6 +74,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put attribute.",
         "summary": "`PUT /v1/admin/attributes`"
       },
       "delete": {
@@ -104,6 +106,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete attribute.",
         "summary": "`DELETE /v1/admin/attributes`"
       }
     },
@@ -134,6 +137,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list sets.",
         "summary": "`GET /v1/admin/policy-sets`"
       }
     },
@@ -164,6 +168,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode disable.",
         "summary": "`POST /v1/admin/policy-sets/disable`"
       }
     },
@@ -194,6 +199,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode enforce.",
         "summary": "`POST /v1/admin/policy-sets/enforce`"
       }
     },
@@ -224,6 +230,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode shadow.",
         "summary": "`POST /v1/admin/policy-sets/shadow`"
       }
     },
@@ -265,6 +272,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy get set.",
         "summary": "`GET /v1/admin/policy-sets/{name}`"
       },
       "put": {
@@ -312,6 +320,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put set.",
         "summary": "`PUT /v1/admin/policy-sets/{name}`"
       },
       "delete": {
@@ -343,6 +352,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete set.",
         "summary": "`DELETE /v1/admin/policy-sets/{name}`"
       }
     },
@@ -389,6 +399,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy test set.",
         "summary": "`POST /v1/admin/policy-sets/{name}/test`"
       }
     },
@@ -419,6 +430,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list relations.",
         "summary": "`GET /v1/admin/relations`"
       },
       "put": {
@@ -455,6 +467,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put relation.",
         "summary": "`PUT /v1/admin/relations`"
       },
       "delete": {
@@ -486,6 +499,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete relation.",
         "summary": "`DELETE /v1/admin/relations`"
       }
     },
@@ -542,6 +556,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy check relation.",
         "summary": "`GET /v1/admin/relations/check`"
       }
     },
@@ -568,6 +583,7 @@
           }
         },
         "security": [],
+        "description": "Get admin ui.",
         "summary": "`GET /v1/admin/ui/{page}`"
       }
     },
@@ -595,7 +611,7 @@
           }
         },
         "security": [],
-        "description": "`GET /v1/admin/{resource}` - admin data for the RFW tables. Each resource\nmaps to its Shield `read` action; unknown resources 404."
+        "description": "Get admin data.\n\n`GET /v1/admin/{resource}` — admin data for the RFW tables. Each resource\nmaps to its Shield `read` action; unknown resources 404."
       },
       "post": {
         "tags": [
@@ -620,7 +636,7 @@
           }
         },
         "security": [],
-        "description": "`POST /v1/admin/{resource}` - form-submit aliases. The RFW renderer only\nPOSTs; each alias calls the SAME public domain handler (shared business\nrules), so the admin surface can create/update/delete exactly what staff\ncan."
+        "description": "Submit admin data.\n\n`POST /v1/admin/{resource}` — form-submit aliases. The RFW renderer only\nPOSTs; each alias calls the SAME public domain handler (shared business\nrules), so the admin surface can create/update/delete exactly what staff\ncan."
       }
     },
     "/v1/async/result/{job_id}": {
@@ -646,6 +662,7 @@
           }
         },
         "security": [],
+        "description": "Get async result.",
         "summary": "`GET /v1/async/result/{job_id}`"
       }
     },
@@ -672,6 +689,7 @@
           }
         },
         "security": [],
+        "description": "Get async status.",
         "summary": "`GET /v1/async/status/{job_id}`"
       }
     },
@@ -698,6 +716,7 @@
           }
         },
         "security": [],
+        "description": "Search availability org.",
         "summary": "`GET /v1/availability`"
       }
     },
@@ -724,6 +743,7 @@
           }
         },
         "security": [],
+        "description": "Graphql .",
         "summary": "`POST /v1/graphql`"
       }
     },
@@ -750,6 +770,7 @@
           }
         },
         "security": [],
+        "description": "Health .",
         "summary": "`GET /v1/health`"
       }
     },
@@ -776,6 +797,7 @@
           }
         },
         "security": [],
+        "description": "List properties.",
         "summary": "`GET /v1/properties`"
       },
       "post": {
@@ -800,6 +822,7 @@
           }
         },
         "security": [],
+        "description": "Create property.",
         "summary": "`POST /v1/properties`"
       }
     },
@@ -826,6 +849,7 @@
           }
         },
         "security": [],
+        "description": "Get property.",
         "summary": "`GET /v1/properties/{property_id}`"
       },
       "put": {
@@ -850,6 +874,7 @@
           }
         },
         "security": [],
+        "description": "Update property.",
         "summary": "`PUT /v1/properties/{property_id}`"
       },
       "delete": {
@@ -874,6 +899,7 @@
           }
         },
         "security": [],
+        "description": "Delete property.",
         "summary": "`DELETE /v1/properties/{property_id}`"
       }
     },
@@ -900,6 +926,7 @@
           }
         },
         "security": [],
+        "description": "Create async job.",
         "summary": "`POST /v1/properties/{property_id}/async`"
       }
     },
@@ -926,6 +953,7 @@
           }
         },
         "security": [],
+        "description": "Create cashiering async.",
         "summary": "`POST /v1/properties/{property_id}/async/cashiering`"
       }
     },
@@ -952,6 +980,7 @@
           }
         },
         "security": [],
+        "description": "Create crm async.",
         "summary": "`POST /v1/properties/{property_id}/async/crm`"
       }
     },
@@ -978,6 +1007,7 @@
           }
         },
         "security": [],
+        "description": "Create inventory async.",
         "summary": "`POST /v1/properties/{property_id}/async/inventory`"
       }
     },
@@ -1004,6 +1034,7 @@
           }
         },
         "security": [],
+        "description": "Create par async.",
         "summary": "`POST /v1/properties/{property_id}/async/par`"
       }
     },
@@ -1030,6 +1061,7 @@
           }
         },
         "security": [],
+        "description": "Get audit log.",
         "summary": "`GET /v1/properties/{property_id}/audit-log`"
       }
     },
@@ -1056,6 +1088,7 @@
           }
         },
         "security": [],
+        "description": "Search availability.",
         "summary": "`GET /v1/properties/{property_id}/availability`"
       }
     },
@@ -1083,7 +1116,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "List blocks."
       },
       "post": {
         "tags": [
@@ -1107,6 +1141,7 @@
           }
         },
         "security": [],
+        "description": "Create block.",
         "summary": "`POST /v1/properties/{property_id}/blocks`"
       }
     },
@@ -1133,6 +1168,7 @@
           }
         },
         "security": [],
+        "description": "Get next statuses.",
         "summary": "`GET /v1/properties/{property_id}/blocks/{block_id}/next-statuses`"
       }
     },
@@ -1159,6 +1195,7 @@
           }
         },
         "security": [],
+        "description": "Create posting master.",
         "summary": "`POST /v1/properties/{property_id}/blocks/{block_id}/posting-master`"
       }
     },
@@ -1185,6 +1222,7 @@
           }
         },
         "security": [],
+        "description": "Update block status.",
         "summary": "`PUT /v1/properties/{property_id}/blocks/{block_id}/status`"
       }
     },
@@ -1212,7 +1250,7 @@
           }
         },
         "security": [],
-        "description": "the\ncompanies a traveler is bound to (multi-company session switcher)."
+        "description": "List companies for traveler.\n\nthe\ncompanies a traveler is bound to (multi-company session switcher)."
       }
     },
     "/v1/properties/{property_id}/companies/{profile_id}/admin-provisioning": {
@@ -1239,7 +1277,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../companies/{profile_id}/admin-provisioning` - whether the company\nstill needs its first corporate admin provisioned (no IdP + no bound\nADMIN user). The corporate login page reads this after company-code\nverification to decide between the normal login and the provisioning flow."
+        "description": "Get company admin provisioning.\n\n`GET .../companies/{profile_id}/admin-provisioning` — whether the company\nstill needs its first corporate admin provisioned (no IdP + no bound\nADMIN user). The corporate login page reads this after company-code\nverification to decide between the normal login and the provisioning flow."
       },
       "put": {
         "tags": [
@@ -1264,7 +1302,7 @@
           }
         },
         "security": [],
-        "description": "`PUT .../companies/{profile_id}/admin-provisioning` - provision the first\ncorporate admin: binds the traveler (created on the fly when needed) as\n`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent -\nre-provisioning an already-admin company is a no-op returning the\nexisting state with `already_provisioned: true`."
+        "description": "Provision company admin.\n\n`PUT .../companies/{profile_id}/admin-provisioning` — provision the first\ncorporate admin: binds the traveler (created on the fly when needed) as\n`ADMIN` and stamps `preferences.provisioned_admin_at`. Idempotent —\nre-provisioning an already-admin company is a no-op returning the\nexisting state with `already_provisioned: true`."
       }
     },
     "/v1/properties/{property_id}/companies/{profile_id}/payment-methods": {
@@ -1291,7 +1329,7 @@
           }
         },
         "security": [],
-        "description": "credit-approved methods for a company profile. Checkout surfaces the\n`POSTPAY`/`BILL_TO_COMPANY` rows; everything else is bookkeeping."
+        "description": "List company payment methods.\n\ncredit-approved methods for a company profile. Checkout surfaces the\n`POSTPAY`/`BILL_TO_COMPANY` rows; everything else is bookkeeping."
       },
       "post": {
         "tags": [
@@ -1316,7 +1354,7 @@
           }
         },
         "security": [],
-        "description": "`POST .../companies/{profile_id}/payment-methods` - hotel sales registers a\nmethod or approves a pending one (admin surface)."
+        "description": "Create company payment method.\n\n`POST .../companies/{profile_id}/payment-methods` — hotel sales registers a\nmethod or approves a pending one (admin surface)."
       }
     },
     "/v1/properties/{property_id}/companies/{profile_id}/users": {
@@ -1343,7 +1381,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../companies/{profile_id}/users` - the company's traveler roster."
+        "description": "List company users.\n\n`GET .../companies/{profile_id}/users` — the company's traveler roster."
       },
       "post": {
         "tags": [
@@ -1368,7 +1406,7 @@
           }
         },
         "security": [],
-        "description": "`POST .../companies/{profile_id}/users` - bind a traveler to the company."
+        "description": "Create company user.\n\n`POST .../companies/{profile_id}/users` — bind a traveler to the company."
       }
     },
     "/v1/properties/{property_id}/config": {
@@ -1394,6 +1432,7 @@
           }
         },
         "security": [],
+        "description": "Get property config.",
         "summary": "`GET /v1/properties/{property_id}/config`"
       }
     },
@@ -1421,7 +1460,7 @@
           }
         },
         "security": [],
-        "description": "availability\nfor a corporate session (company_profile_id). Rate-mix policy: when the\nrequest carries a company context, ONLY the negotiated rate plans linked\nto that company (via `preferences.negotiated_rate_plan_ids`) are returned;\npublic plans are withheld so negotiated rates never leak to non-members\nand members never book public rates against their contract. Companies\nwith no linked plans get an explicit empty result, not a public fallback."
+        "description": "Corporate availability.\n\navailability\nfor a corporate session (company_profile_id). Rate-mix policy: when the\nrequest carries a company context, ONLY the negotiated rate plans linked\nto that company (via `preferences.negotiated_rate_plan_ids`) are returned;\npublic plans are withheld so negotiated rates never leak to non-members\nand members never book public rates against their contract. Companies\nwith no linked plans get an explicit empty result, not a public fallback."
       }
     },
     "/v1/properties/{property_id}/digital-keys": {
@@ -1448,7 +1487,7 @@
           }
         },
         "security": [],
-        "description": "List digital keys for a reservation."
+        "description": "List digital keys.\n\nList digital keys for a reservation."
       },
       "post": {
         "tags": [
@@ -1473,7 +1512,7 @@
           }
         },
         "security": [],
-        "description": "Issue digital keys for a checked-in reservation (idempotent by room + count)."
+        "description": "Issue digital key.\n\nIssue digital keys for a checked-in reservation (idempotent by room + count)."
       }
     },
     "/v1/properties/{property_id}/digital-keys/{key_id}/activate": {
@@ -1500,7 +1539,7 @@
           }
         },
         "security": [],
-        "description": "Activate a digital key."
+        "description": "Activate digital key.\n\nActivate a digital key."
       }
     },
     "/v1/properties/{property_id}/digital-keys/{key_id}/deactivate": {
@@ -1527,7 +1566,7 @@
           }
         },
         "security": [],
-        "description": "Deactivate (revoke) a digital key."
+        "description": "Deactivate digital key.\n\nDeactivate (revoke) a digital key."
       }
     },
     "/v1/properties/{property_id}/end-of-day": {
@@ -1553,6 +1592,7 @@
           }
         },
         "security": [],
+        "description": "End of day.",
         "summary": "`POST /v1/properties/{property_id}/end-of-day`"
       }
     },
@@ -1579,6 +1619,7 @@
           }
         },
         "security": [],
+        "description": "Get eod exceptions.",
         "summary": "`GET /v1/properties/{property_id}/end-of-day/exceptions`"
       }
     },
@@ -1605,6 +1646,7 @@
           }
         },
         "security": [],
+        "description": "Retry eod.",
         "summary": "`POST /v1/properties/{property_id}/end-of-day/{eod_id}/retry`"
       }
     },
@@ -1631,6 +1673,7 @@
           }
         },
         "security": [],
+        "description": "List events.",
         "summary": "`GET /v1/properties/{property_id}/events`"
       },
       "post": {
@@ -1655,6 +1698,7 @@
           }
         },
         "security": [],
+        "description": "Create event.",
         "summary": "`POST /v1/properties/{property_id}/events`"
       }
     },
@@ -1681,6 +1725,7 @@
           }
         },
         "security": [],
+        "description": "Get event resources.",
         "summary": "`GET /v1/properties/{property_id}/events/{event_id}/resources`"
       },
       "put": {
@@ -1705,6 +1750,7 @@
           }
         },
         "security": [],
+        "description": "Update event resources.",
         "summary": "`PUT /v1/properties/{property_id}/events/{event_id}/resources`"
       }
     },
@@ -1731,6 +1777,7 @@
           }
         },
         "security": [],
+        "description": "Get external system config.",
         "summary": "`GET /v1/properties/{property_id}/external-systems`"
       },
       "put": {
@@ -1755,6 +1802,7 @@
           }
         },
         "security": [],
+        "description": "Update external system config.",
         "summary": "`PUT /v1/properties/{property_id}/external-systems`"
       }
     },
@@ -1782,7 +1830,7 @@
           }
         },
         "security": [],
-        "description": "Read stay feedback for a reservation."
+        "description": "Get feedback.\n\nRead stay feedback for a reservation."
       },
       "post": {
         "tags": [
@@ -1807,7 +1855,7 @@
           }
         },
         "security": [],
-        "description": "Submit (or update) stay feedback - one row per reservation."
+        "description": "Submit feedback.\n\nSubmit (or update) stay feedback — one row per reservation."
       }
     },
     "/v1/properties/{property_id}/flow/workflows": {
@@ -1833,6 +1881,7 @@
           }
         },
         "security": [],
+        "description": "Start sentin8 flow workflow.",
         "summary": "`POST /v1/properties/{property_id}/flow/workflows`"
       }
     },
@@ -1860,7 +1909,7 @@
           }
         },
         "security": [],
-        "description": "Open folio for the in-house stay in a room - the kiosk/eGuest check-out\nview over the same folio rows the per-reservation route returns."
+        "description": "Get folio by room.\n\nOpen folio for the in-house stay in a room — the kiosk/eGuest check-out\nview over the same folio rows the per-reservation route returns."
       }
     },
     "/v1/properties/{property_id}/func/invoke": {
@@ -1886,6 +1935,7 @@
           }
         },
         "security": [],
+        "description": "Invoke sentin8 func module.",
         "summary": "`POST /v1/properties/{property_id}/func/invoke`"
       }
     },
@@ -1912,6 +1962,7 @@
           }
         },
         "security": [],
+        "description": "Get available spaces.",
         "summary": "`GET /v1/properties/{property_id}/function-spaces`"
       }
     },
@@ -1938,6 +1989,7 @@
           }
         },
         "security": [],
+        "description": "Get guarantee policies.",
         "summary": "`GET /v1/properties/{property_id}/guarantee-policies`"
       }
     },
@@ -1965,7 +2017,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "List housekeeping tasks."
       }
     },
     "/v1/properties/{property_id}/housekeeping/forecast": {
@@ -1991,6 +2044,7 @@
           }
         },
         "security": [],
+        "description": "Get forecast.",
         "summary": "`GET /v1/properties/{property_id}/housekeeping/forecast`"
       }
     },
@@ -2017,6 +2071,7 @@
           }
         },
         "security": [],
+        "description": "List tasks.",
         "summary": "`GET /v1/properties/{property_id}/housekeeping/tasks`"
       },
       "post": {
@@ -2041,6 +2096,7 @@
           }
         },
         "security": [],
+        "description": "Create task.",
         "summary": "`POST /v1/properties/{property_id}/housekeeping/tasks`"
       }
     },
@@ -2067,6 +2123,7 @@
           }
         },
         "security": [],
+        "description": "Update task.",
         "summary": "`PUT /v1/properties/{property_id}/housekeeping/tasks/{task_id}`"
       }
     },
@@ -2093,6 +2150,7 @@
           }
         },
         "security": [],
+        "description": "Update housekeeping status.",
         "summary": "`PUT /v1/properties/{property_id}/housekeeping/{room_number}`"
       }
     },
@@ -2119,6 +2177,7 @@
           }
         },
         "security": [],
+        "description": "Upload property image.",
         "summary": "`POST /v1/properties/{property_id}/images`"
       }
     },
@@ -2146,7 +2205,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "List in house."
       }
     },
     "/v1/properties/{property_id}/inventory": {
@@ -2172,6 +2232,7 @@
           }
         },
         "security": [],
+        "description": "Get inventory.",
         "summary": "`GET /v1/properties/{property_id}/inventory`"
       }
     },
@@ -2198,6 +2259,7 @@
           }
         },
         "security": [],
+        "description": "Update sell limit.",
         "summary": "`PUT /v1/properties/{property_id}/inventory/sell-limits`"
       }
     },
@@ -2224,6 +2286,7 @@
           }
         },
         "security": [],
+        "description": "List items.",
         "summary": "`GET /v1/properties/{property_id}/items`"
       },
       "post": {
@@ -2248,6 +2311,7 @@
           }
         },
         "security": [],
+        "description": "Create item.",
         "summary": "`POST /v1/properties/{property_id}/items`"
       }
     },
@@ -2274,6 +2338,7 @@
           }
         },
         "security": [],
+        "description": "Update item.",
         "summary": "`PUT /v1/properties/{property_id}/items/{item_id}`"
       },
       "delete": {
@@ -2298,6 +2363,7 @@
           }
         },
         "security": [],
+        "description": "Delete item.",
         "summary": "`DELETE /v1/properties/{property_id}/items/{item_id}`"
       }
     },
@@ -2325,7 +2391,7 @@
           }
         },
         "security": [],
-        "description": "`GET .../kiosk-config` - the terminal's mode menu source of truth (eKiosk\nbootstrap read). Defaults are materialized on first read so the terminal\nalways gets a row."
+        "description": "Get kiosk config.\n\n`GET .../kiosk-config` — the terminal's mode menu source of truth (eKiosk\nbootstrap read). Defaults are materialized on first read so the terminal\nalways gets a row."
       },
       "put": {
         "tags": [
@@ -2350,7 +2416,7 @@
           }
         },
         "security": [],
-        "description": "`PUT .../kiosk-config` - admin RFW settings mutation (`hotel8:pms:admin`)."
+        "description": "Update kiosk config.\n\n`PUT .../kiosk-config` — admin RFW settings mutation (`hotel8:pms:admin`)."
       }
     },
     "/v1/properties/{property_id}/lov": {
@@ -2376,6 +2442,7 @@
           }
         },
         "security": [],
+        "description": "List lov.",
         "summary": "`GET /v1/properties/{property_id}/lov`"
       },
       "post": {
@@ -2400,6 +2467,7 @@
           }
         },
         "security": [],
+        "description": "Create lov.",
         "summary": "`POST /v1/properties/{property_id}/lov`"
       }
     },
@@ -2426,6 +2494,7 @@
           }
         },
         "security": [],
+        "description": "List lov by type.",
         "summary": "`GET /v1/properties/{property_id}/lov/{lov_type}`"
       }
     },
@@ -2452,6 +2521,7 @@
           }
         },
         "security": [],
+        "description": "Get property modules.",
         "summary": "`GET /v1/properties/{property_id}/modules`"
       },
       "put": {
@@ -2476,6 +2546,7 @@
           }
         },
         "security": [],
+        "description": "Update property modules.",
         "summary": "`PUT /v1/properties/{property_id}/modules`"
       }
     },
@@ -2502,6 +2573,7 @@
           }
         },
         "security": [],
+        "description": "List negotiated rate plans.",
         "summary": "`GET /v1/properties/{property_id}/negotiated-rate-plans`"
       }
     },
@@ -2528,6 +2600,7 @@
           }
         },
         "security": [],
+        "description": "Link negotiated rate to company.",
         "summary": "`POST /v1/properties/{property_id}/negotiated-rate-plans/{rate_plan_id}/link-company`"
       }
     },
@@ -2554,6 +2627,7 @@
           }
         },
         "security": [],
+        "description": "Send notification.",
         "summary": "`POST /v1/properties/{property_id}/notifications`"
       }
     },
@@ -2580,6 +2654,7 @@
           }
         },
         "security": [],
+        "description": "List packages.",
         "summary": "`GET /v1/properties/{property_id}/packages`"
       },
       "post": {
@@ -2604,6 +2679,7 @@
           }
         },
         "security": [],
+        "description": "Create package.",
         "summary": "`POST /v1/properties/{property_id}/packages`"
       }
     },
@@ -2631,7 +2707,7 @@
           }
         },
         "security": [],
-        "description": "`GET /v1/properties/{p}/payment-methods` - the signed-in guest's saved\npayment methods, resolved by the session subject (holder-scoped). Rows\ncarry bill8 token references only - never PAN or token secrets (DESIGN.md\n§3 secret-reference rule)."
+        "description": "List payment methods.\n\n`GET /v1/properties/{p}/payment-methods` — the signed-in guest's saved\npayment methods, resolved by the session subject (holder-scoped). Rows\ncarry bill8 token references only — never PAN or token secrets (DESIGN.md\n§3 secret-reference rule)."
       },
       "post": {
         "tags": [
@@ -2656,7 +2732,7 @@
           }
         },
         "security": [],
-        "description": "`POST /v1/properties/{p}/payment-methods` - save a tokenized method\n(bill8 already holds the instrument; PMS stores the reference)."
+        "description": "Create payment method.\n\n`POST /v1/properties/{p}/payment-methods` — save a tokenized method\n(bill8 already holds the instrument; PMS stores the reference)."
       }
     },
     "/v1/properties/{property_id}/payment-methods/{method_id}": {
@@ -2683,7 +2759,7 @@
           }
         },
         "security": [],
-        "description": "`DELETE /v1/properties/{p}/payment-methods/{method_id}` - remove a saved\nmethod (holder-scoped: only the owner's rows are deletable)."
+        "description": "Delete payment method.\n\n`DELETE /v1/properties/{p}/payment-methods/{method_id}` — remove a saved\nmethod (holder-scoped: only the owner's rows are deletable)."
       }
     },
     "/v1/properties/{property_id}/pci-compliance": {
@@ -2709,6 +2785,7 @@
           }
         },
         "security": [],
+        "description": "Verify pci compliance.",
         "summary": "`GET /v1/properties/{property_id}/pci-compliance`"
       }
     },
@@ -2735,6 +2812,7 @@
           }
         },
         "security": [],
+        "description": "Send sentin8 post email.",
         "summary": "`POST /v1/properties/{property_id}/post/emails`"
       }
     },
@@ -2761,6 +2839,7 @@
           }
         },
         "security": [],
+        "description": "List profiles.",
         "summary": "`GET /v1/properties/{property_id}/profiles`"
       },
       "post": {
@@ -2785,6 +2864,7 @@
           }
         },
         "security": [],
+        "description": "Create profile.",
         "summary": "`POST /v1/properties/{property_id}/profiles`"
       }
     },
@@ -2811,6 +2891,7 @@
           }
         },
         "security": [],
+        "description": "Merge profiles.",
         "summary": "`POST /v1/properties/{property_id}/profiles/merge`"
       }
     },
@@ -2837,6 +2918,7 @@
           }
         },
         "security": [],
+        "description": "Get profile.",
         "summary": "`GET /v1/properties/{property_id}/profiles/{profile_id}`"
       }
     },
@@ -2863,6 +2945,7 @@
           }
         },
         "security": [],
+        "description": "Link loyalty.",
         "summary": "`POST /v1/properties/{property_id}/profiles/{profile_id}/loyalty`"
       }
     },
@@ -2890,7 +2973,7 @@
           }
         },
         "security": [],
-        "description": "Sets the loyalty member number on a guest profile. Called by Hotel8:Loyalty\nvia `pms-client` over its HTTP API (DESIGN.md §1 - no cross-service SQL)."
+        "description": "Set loyalty number.\n\nSets the loyalty member number on a guest profile. Called by Hotel8:Loyalty\nvia `pms-client` over its HTTP API (DESIGN.md §1 — no cross-service SQL)."
       }
     },
     "/v1/properties/{property_id}/profiles/{profile_id}/preferences": {
@@ -2916,6 +2999,7 @@
           }
         },
         "security": [],
+        "description": "List preferences.",
         "summary": "`GET /v1/properties/{property_id}/profiles/{profile_id}/preferences`"
       },
       "post": {
@@ -2940,6 +3024,7 @@
           }
         },
         "security": [],
+        "description": "Add preference.",
         "summary": "`POST /v1/properties/{property_id}/profiles/{profile_id}/preferences`"
       }
     },
@@ -2966,6 +3051,7 @@
           }
         },
         "security": [],
+        "description": "Remove preference.",
         "summary": "`DELETE /v1/properties/{property_id}/profiles/{profile_id}/preferences/{pref_id}`"
       }
     },
@@ -2992,6 +3078,7 @@
           }
         },
         "security": [],
+        "description": "Get stay history.",
         "summary": "`GET /v1/properties/{property_id}/profiles/{profile_id}/stay-history`"
       }
     },
@@ -3018,6 +3105,7 @@
           }
         },
         "security": [],
+        "description": "Validate promo code.",
         "summary": "`POST /v1/properties/{property_id}/promo/validate`"
       }
     },
@@ -3044,6 +3132,7 @@
           }
         },
         "security": [],
+        "description": "Get rate limit config.",
         "summary": "`GET /v1/properties/{property_id}/rate-limits`"
       }
     },
@@ -3076,7 +3165,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "List rate plans."
       },
       "post": {
         "tags": [
@@ -3113,7 +3203,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "Create rate plan."
       }
     },
     "/v1/properties/{property_id}/rate-plans/{plan_id}": {
@@ -3139,6 +3230,7 @@
           }
         },
         "security": [],
+        "description": "Get rate plan.",
         "summary": "`GET /v1/properties/{property_id}/rate-plans/{plan_id}`"
       }
     },
@@ -3165,6 +3257,7 @@
           }
         },
         "security": [],
+        "description": "List rate schedules.",
         "summary": "`GET /v1/properties/{property_id}/rate-plans/{plan_id}/schedules`"
       },
       "post": {
@@ -3189,6 +3282,7 @@
           }
         },
         "security": [],
+        "description": "Create rate schedule.",
         "summary": "`POST /v1/properties/{property_id}/rate-plans/{plan_id}/schedules`"
       }
     },
@@ -3215,6 +3309,7 @@
           }
         },
         "security": [],
+        "description": "Delete rate schedule.",
         "summary": "`DELETE /v1/properties/{property_id}/rate-plans/{plan_id}/schedules/{schedule_id}`"
       }
     },
@@ -3241,6 +3336,7 @@
           }
         },
         "security": [],
+        "description": "Get channel performance report.",
         "summary": "`GET /v1/properties/{property_id}/reports/channel-performance`"
       }
     },
@@ -3267,6 +3363,7 @@
           }
         },
         "security": [],
+        "description": "Get guest history report.",
         "summary": "`GET /v1/properties/{property_id}/reports/guest-history`"
       }
     },
@@ -3293,6 +3390,7 @@
           }
         },
         "security": [],
+        "description": "Get housekeeping analysis report.",
         "summary": "`GET /v1/properties/{property_id}/reports/housekeeping-analysis`"
       }
     },
@@ -3319,6 +3417,7 @@
           }
         },
         "security": [],
+        "description": "Get market segment report.",
         "summary": "`GET /v1/properties/{property_id}/reports/market-segment`"
       }
     },
@@ -3346,7 +3445,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "Get occupancy report."
       }
     },
     "/v1/properties/{property_id}/reports/rate-analysis": {
@@ -3372,6 +3472,7 @@
           }
         },
         "security": [],
+        "description": "Get rate analysis report.",
         "summary": "`GET /v1/properties/{property_id}/reports/rate-analysis`"
       }
     },
@@ -3398,6 +3499,7 @@
           }
         },
         "security": [],
+        "description": "Get reservation summary.",
         "summary": "`GET /v1/properties/{property_id}/reports/reservation-summary`"
       }
     },
@@ -3424,6 +3526,7 @@
           }
         },
         "security": [],
+        "description": "Get revenue report.",
         "summary": "`GET /v1/properties/{property_id}/reports/revenue`"
       }
     },
@@ -3450,6 +3553,7 @@
           }
         },
         "security": [],
+        "description": "Get sales catering report.",
         "summary": "`GET /v1/properties/{property_id}/reports/sales-catering`"
       }
     },
@@ -3477,7 +3581,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "Search reservations."
       },
       "post": {
         "tags": [
@@ -3510,7 +3615,8 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "Create reservation."
       }
     },
     "/v1/properties/{property_id}/reservations/{res_id}": {
@@ -3552,14 +3658,15 @@
           {
             "pms:admin": []
           }
-        ]
+        ],
+        "description": "Get reservation."
       },
       "put": {
         "tags": [
           "pms"
         ],
         "summary": "`PUT /v1/properties/{property_id}/reservations/{res_id}`",
-        "description": "Edits dates, occupancy, room type, rate plan, and special requests.\nTerminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse\nedits with 409 - the state machine forbids mutating history.\n\npre-arrival edit.",
+        "description": "Edits dates, occupancy, room type, rate plan, and special requests.\nTerminal-status reservations (`CANCELLED`, `CHECKED_OUT`, `NO_SHOW`) refuse\nedits with 409 — the state machine forbids mutating history.\n\npre-arrival edit.",
         "operationId": "update_reservation",
         "responses": {
           "200": {
@@ -3604,7 +3711,7 @@
           }
         },
         "security": [],
-        "description": "Boarding pass - the check-in artifact the kiosk completion step renders\n(room, dates, guest, key count). Computed from live rows, never stored."
+        "description": "Get boarding pass.\n\nBoarding pass — the check-in artifact the kiosk completion step renders\n(room, dates, guest, key count). Computed from live rows, never stored."
       }
     },
     "/v1/properties/{property_id}/reservations/{res_id}/cancel": {
@@ -3630,6 +3737,7 @@
           }
         },
         "security": [],
+        "description": "Cancel reservation.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/cancel`"
       }
     },
@@ -3656,6 +3764,7 @@
           }
         },
         "security": [],
+        "description": "Post charge.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/charges`"
       }
     },
@@ -3682,6 +3791,7 @@
           }
         },
         "security": [],
+        "description": "Dispute charge.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/charges/dispute`"
       }
     },
@@ -3708,6 +3818,7 @@
           }
         },
         "security": [],
+        "description": "Check in.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/check-in`"
       },
       "delete": {
@@ -3732,6 +3843,7 @@
           }
         },
         "security": [],
+        "description": "Revert check in.",
         "summary": "`DELETE /v1/properties/{property_id}/reservations/{res_id}/check-in`"
       }
     },
@@ -3758,6 +3870,7 @@
           }
         },
         "security": [],
+        "description": "Check out.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/check-out`"
       }
     },
@@ -3784,6 +3897,7 @@
           }
         },
         "security": [],
+        "description": "Get folio.",
         "summary": "`GET /v1/properties/{property_id}/reservations/{res_id}/folio`"
       }
     },
@@ -3810,6 +3924,7 @@
           }
         },
         "security": [],
+        "description": "Generate folio.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/folio/generate`"
       }
     },
@@ -3836,6 +3951,7 @@
           }
         },
         "security": [],
+        "description": "Fetch instructions.",
         "summary": "`GET /v1/properties/{property_id}/reservations/{res_id}/instructions`"
       }
     },
@@ -3862,6 +3978,7 @@
           }
         },
         "security": [],
+        "description": "Post to ledger.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/ledger-post`"
       }
     },
@@ -3871,7 +3988,7 @@
           "pms"
         ],
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/link-guest`",
-        "description": "The binding surface is the profile chain: the anonymous booking carries the\nbooker profile row; signing in resolves the (possibly different) profile\nthe session subject owns. Linking merges the booker profile INTO the\nsession's profile via the same merge path ePMS staff use, so folio/keys/\nrequests all follow the stay.\n\n`POST /v1/properties/{p}/reservations/{res_id}/link-guest` - bind the\nsigned-in session's guest profile to a booking made anonymously in eBooking.",
+        "description": "The binding surface is the profile chain: the anonymous booking carries the\nbooker profile row; signing in resolves the (possibly different) profile\nthe session subject owns. Linking merges the booker profile INTO the\nsession's profile via the same merge path ePMS staff use, so folio/keys/\nrequests all follow the stay.\n\n`POST /v1/properties/{p}/reservations/{res_id}/link-guest` — bind the\nsigned-in session's guest profile to a booking made anonymously in eBooking.",
         "operationId": "link_reservation_guest",
         "responses": {
           "200": {
@@ -3915,6 +4032,7 @@
           }
         },
         "security": [],
+        "description": "Get messages.",
         "summary": "`GET /v1/properties/{property_id}/reservations/{res_id}/messages`"
       },
       "post": {
@@ -3939,6 +4057,7 @@
           }
         },
         "security": [],
+        "description": "Send message.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/messages`"
       }
     },
@@ -3965,6 +4084,7 @@
           }
         },
         "security": [],
+        "description": "Post payment.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/payments`"
       }
     },
@@ -3991,6 +4111,7 @@
           }
         },
         "security": [],
+        "description": "Process payment via payments.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/payments-process`"
       }
     },
@@ -4017,6 +4138,7 @@
           }
         },
         "security": [],
+        "description": "Pre check in.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/pre-check-in`"
       }
     },
@@ -4043,6 +4165,7 @@
           }
         },
         "security": [],
+        "description": "Get service requests.",
         "summary": "`GET /v1/properties/{property_id}/reservations/{res_id}/service-requests`"
       },
       "post": {
@@ -4067,6 +4190,7 @@
           }
         },
         "security": [],
+        "description": "Create service request.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/service-requests`"
       }
     },
@@ -4093,6 +4217,7 @@
           }
         },
         "security": [],
+        "description": "Split reservation.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/split`"
       }
     },
@@ -4119,6 +4244,7 @@
           }
         },
         "security": [],
+        "description": "Upsell reservation.",
         "summary": "`POST /v1/properties/{property_id}/reservations/{res_id}/upsell`"
       }
     },
@@ -4145,6 +4271,7 @@
           }
         },
         "security": [],
+        "description": "List room types.",
         "summary": "`GET /v1/properties/{property_id}/room-types`"
       },
       "post": {
@@ -4169,6 +4296,7 @@
           }
         },
         "security": [],
+        "description": "Create room type.",
         "summary": "`POST /v1/properties/{property_id}/room-types`"
       }
     },
@@ -4195,6 +4323,7 @@
           }
         },
         "security": [],
+        "description": "Delete room type.",
         "summary": "`DELETE /v1/properties/{property_id}/room-types/{type_id}`"
       }
     },
@@ -4221,6 +4350,7 @@
           }
         },
         "security": [],
+        "description": "List rooms.",
         "summary": "`GET /v1/properties/{property_id}/rooms`"
       },
       "post": {
@@ -4245,6 +4375,7 @@
           }
         },
         "security": [],
+        "description": "Create room.",
         "summary": "`POST /v1/properties/{property_id}/rooms`"
       }
     },
@@ -4271,6 +4402,7 @@
           }
         },
         "security": [],
+        "description": "Update room status.",
         "summary": "`PUT /v1/properties/{property_id}/rooms/{room_number}`"
       }
     },
@@ -4297,6 +4429,7 @@
           }
         },
         "security": [],
+        "description": "List transaction codes.",
         "summary": "`GET /v1/properties/{property_id}/transaction-codes`"
       }
     },
@@ -4323,6 +4456,7 @@
           }
         },
         "security": [],
+        "description": "Redeem voucher.",
         "summary": "`POST /v1/properties/{property_id}/vouchers/redeem`"
       }
     },
@@ -4349,6 +4483,7 @@
           }
         },
         "security": [],
+        "description": "Validate voucher.",
         "summary": "`POST /v1/properties/{property_id}/vouchers/validate`"
       }
     },
@@ -4622,7 +4757,7 @@
     },
     {
       "name": "pms",
-      "description": "Hotel8:PMS admin API - reservations, rates, blocks, events, frontdesk, housekeeping, reports"
+      "description": "Hotel8:PMS admin API — reservations, rates, blocks, events, frontdesk, housekeeping, reports"
     }
   ]
 }

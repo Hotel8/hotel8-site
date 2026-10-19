@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "hotel8-distrib",
-    "description": "Sentin8 Hotel8:Distrib - Distribution service.",
+    "description": "Sentin8 Hotel8:Distrib — Distribution service.",
     "license": {
       "name": "MIT OR Apache-2.0",
       "identifier": "MIT OR Apache-2.0"
@@ -37,6 +37,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list attributes.",
         "summary": "`GET /v1/admin/attributes`"
       },
       "put": {
@@ -73,6 +74,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put attribute.",
         "summary": "`PUT /v1/admin/attributes`"
       },
       "delete": {
@@ -104,6 +106,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete attribute.",
         "summary": "`DELETE /v1/admin/attributes`"
       }
     },
@@ -134,6 +137,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list sets.",
         "summary": "`GET /v1/admin/policy-sets`"
       }
     },
@@ -164,6 +168,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode disable.",
         "summary": "`POST /v1/admin/policy-sets/disable`"
       }
     },
@@ -194,6 +199,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode enforce.",
         "summary": "`POST /v1/admin/policy-sets/enforce`"
       }
     },
@@ -224,6 +230,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy mode shadow.",
         "summary": "`POST /v1/admin/policy-sets/shadow`"
       }
     },
@@ -265,6 +272,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy get set.",
         "summary": "`GET /v1/admin/policy-sets/{name}`"
       },
       "put": {
@@ -312,6 +320,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put set.",
         "summary": "`PUT /v1/admin/policy-sets/{name}`"
       },
       "delete": {
@@ -343,6 +352,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete set.",
         "summary": "`DELETE /v1/admin/policy-sets/{name}`"
       }
     },
@@ -389,6 +399,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy test set.",
         "summary": "`POST /v1/admin/policy-sets/{name}/test`"
       }
     },
@@ -419,6 +430,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy list relations.",
         "summary": "`GET /v1/admin/relations`"
       },
       "put": {
@@ -455,6 +467,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy put relation.",
         "summary": "`PUT /v1/admin/relations`"
       },
       "delete": {
@@ -486,6 +499,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy delete relation.",
         "summary": "`DELETE /v1/admin/relations`"
       }
     },
@@ -542,6 +556,7 @@
             "sentin8:admin": []
           }
         ],
+        "description": "Policy check relation.",
         "summary": "`GET /v1/admin/relations/check`"
       }
     },
@@ -568,6 +583,7 @@
           }
         },
         "security": [],
+        "description": "Get admin ui.",
         "summary": "`GET /v1/admin/ui/{page}`"
       }
     },
@@ -594,6 +610,7 @@
           }
         },
         "security": [],
+        "description": "Map channel property.",
         "summary": "`POST /v1/channel-properties`"
       }
     },
@@ -620,6 +637,7 @@
           }
         },
         "security": [],
+        "description": "Set property controls.",
         "summary": "`PUT /v1/channel-properties/{channel_property_id}/controls`"
       }
     },
@@ -646,6 +664,7 @@
           }
         },
         "security": [],
+        "description": "Set rate markup.",
         "summary": "`PUT /v1/channel-properties/{channel_property_id}/markup`"
       }
     },
@@ -673,7 +692,8 @@
           {
             "distrib:admin": []
           }
-        ]
+        ],
+        "description": "List channels."
       },
       "post": {
         "tags": [
@@ -706,7 +726,8 @@
           {
             "distrib:admin": []
           }
-        ]
+        ],
+        "description": "Create channel."
       }
     },
     "/v1/channels/{channel_code}/properties": {
@@ -732,6 +753,7 @@
           }
         },
         "security": [],
+        "description": "Get channel properties.",
         "summary": "`GET /v1/channels/{channel_code}/properties`"
       }
     },
@@ -759,7 +781,8 @@
           {
             "distrib:admin": []
           }
-        ]
+        ],
+        "description": "Get channel ari."
       }
     },
     "/v1/channels/{channel_code}/properties/{property_code}/content": {
@@ -785,6 +808,7 @@
           }
         },
         "security": [],
+        "description": "Get channel property content.",
         "summary": "`GET /v1/channels/{channel_code}/properties/{property_code}/content`"
       }
     },
@@ -811,6 +835,7 @@
           }
         },
         "security": [],
+        "description": "Get channel controls.",
         "summary": "`GET /v1/channels/{channel_code}/properties/{property_code}/controls`"
       }
     },
@@ -837,6 +862,7 @@
           }
         },
         "security": [],
+        "description": "Receive reservation.",
         "summary": "`POST /v1/channels/{channel_code}/reservations`"
       }
     },
@@ -863,6 +889,7 @@
           }
         },
         "security": [],
+        "description": "Update channel reservation.",
         "summary": "`PUT /v1/channels/{channel_code}/reservations/{booking_id}`"
       }
     },
@@ -889,6 +916,7 @@
           }
         },
         "security": [],
+        "description": "Push reservation status.",
         "summary": "`POST /v1/channels/{channel_code}/reservations/{booking_id}/status`"
       }
     },
@@ -915,6 +943,7 @@
           }
         },
         "security": [],
+        "description": "Validate channel credentials.",
         "summary": "`GET /v1/channels/{channel_code}/validate`"
       }
     },
@@ -941,6 +970,7 @@
           }
         },
         "security": [],
+        "description": "Update channel.",
         "summary": "`PUT /v1/channels/{channel_id}`"
       },
       "delete": {
@@ -965,6 +995,7 @@
           }
         },
         "security": [],
+        "description": "Delete channel.",
         "summary": "`DELETE /v1/channels/{channel_id}`"
       }
     },
@@ -991,6 +1022,7 @@
           }
         },
         "security": [],
+        "description": "Push ari.",
         "summary": "`POST /v1/channels/{channel_id}/ari/push`"
       }
     },
@@ -1017,6 +1049,7 @@
           }
         },
         "security": [],
+        "description": "Push content.",
         "summary": "`POST /v1/channels/{channel_id}/content/push`"
       }
     },
@@ -1043,6 +1076,7 @@
           }
         },
         "security": [],
+        "description": "Push controls.",
         "summary": "`POST /v1/channels/{channel_id}/controls/push`"
       }
     },
@@ -1069,6 +1103,7 @@
           }
         },
         "security": [],
+        "description": "List channel properties.",
         "summary": "`GET /v1/channels/{channel_id}/mapped-properties`"
       }
     },
@@ -1095,6 +1130,7 @@
           }
         },
         "security": [],
+        "description": "Health .",
         "summary": "`GET /v1/health`"
       }
     },
@@ -1121,6 +1157,7 @@
           }
         },
         "security": [],
+        "description": "Map rate plan.",
         "summary": "`POST /v1/rate-plan-mappings`"
       }
     },
@@ -1147,6 +1184,7 @@
           }
         },
         "security": [],
+        "description": "Map room type.",
         "summary": "`POST /v1/room-type-mappings`"
       }
     },
@@ -1173,6 +1211,7 @@
           }
         },
         "security": [],
+        "description": "Get sync log.",
         "summary": "`GET /v1/sync-log`"
       }
     },
@@ -1199,6 +1238,7 @@
           }
         },
         "security": [],
+        "description": "Retry failed syncs.",
         "summary": "`POST /v1/sync/retry`"
       }
     }
@@ -1212,7 +1252,7 @@
     },
     {
       "name": "distrib",
-      "description": "Hotel8:Distrib admin API - availability, channels"
+      "description": "Hotel8:Distrib admin API — availability, channels"
     }
   ]
 }
