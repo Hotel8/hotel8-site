@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Content push request (property is optional - omit for all mapped).","properties":{"property_id":{"type":["string","null"],"format":"uuid"}},"title":"ContentPushRequest"}}},"required":true}}

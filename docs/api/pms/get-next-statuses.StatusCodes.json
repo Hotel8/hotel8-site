@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{"type":"object","description":"Legal next statuses for a block.","required":["current_status","next_statuses"],"properties":{"current_status":{"type":"string"},"next_statuses":{"type":"array","items":{"type":"string"}}},"title":"BlockNextStatuses"}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}

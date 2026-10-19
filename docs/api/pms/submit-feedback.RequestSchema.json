@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/feedback`.","required":["reservation_id","rating"],"properties":{"comment":{"type":["string","null"]},"rating":{"type":"integer","format":"int32","description":"1..=5."},"reservation_id":{"type":"string","format":"uuid"}},"title":"SubmitFeedbackRequest"}}},"required":true}}

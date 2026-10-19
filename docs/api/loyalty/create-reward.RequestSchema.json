@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/programs/{program_id}/rewards.","required":["program_id"],"properties":{"category":{"type":"string"},"description":{"type":["string","null"]},"item_code":{"type":"string"},"item_name":{"type":"string"},"points_cost":{"type":"integer","format":"int64"},"program_id":{"type":"string","format":"uuid"},"reward_type":{"type":"string"},"voucher_validity_days":{"type":"integer","format":"int32"}},"title":"RewardCreateRequest"}}},"required":true}}

@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"`GET /v1/properties/{property_id}/modules` (also the PUT body).","required":["items"],"properties":{"items":{"type":"array","items":{"type":"object","description":"One property module toggle.","required":["module","is_enabled"],"properties":{"is_enabled":{"type":"boolean"},"module":{"type":"string"}},"title":"PropertyModule"}}},"title":"PropertyModuleList"}}},"required":true}}

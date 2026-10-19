@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../companies/{profile_id}/payment-methods`.","properties":{"approval":{"type":"string"},"credit_limit":{"type":["string","null"],"description":"Decimal string; empty = no limit."},"label":{"type":"string"},"payment_method_id":{"type":["string","null"]}},"title":"CompanyPaymentMethodInput"}}},"required":true}}

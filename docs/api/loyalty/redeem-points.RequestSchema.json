@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","required":["member_id","points"],"properties":{"description":{"type":["string","null"]},"member_id":{"type":"string","format":"uuid"},"points":{"type":"integer","format":"int64"}},"title":"RedeemPointsRequest"}}},"required":true}}

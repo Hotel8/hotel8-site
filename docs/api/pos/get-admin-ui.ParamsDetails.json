@@ -1,0 +1,1 @@
+{"parameters":[{"name":"page","in":"path","description":"Admin UI page id (overview | orders | payments | reports | settings | policy pages)","required":true,"schema":{"type":"string"}}]}

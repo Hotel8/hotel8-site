@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/rate-plan-mappings`.","required":["channel_property_id","property_rate_plan_id","channel_rate_plan_code"],"properties":{"channel_property_id":{"type":"string","format":"uuid"},"channel_rate_plan_code":{"type":"string"},"property_rate_plan_id":{"type":"string","format":"uuid"}},"title":"RatePlanMapRequest"}}},"required":true}}

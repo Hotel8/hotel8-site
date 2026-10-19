@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT .../profiles/{profile_id}/loyalty-number`.","required":["loyalty_number"],"properties":{"loyalty_number":{"type":"string"}},"title":"SetLoyaltyNumberRequest"}}},"required":true}}

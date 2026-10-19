@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/lov`.","properties":{"is_active":{"type":"boolean"},"lov_code":{"type":"string"},"lov_type":{"type":"string"},"lov_value":{"type":"string"},"sort_order":{"type":"integer","format":"int32"}},"title":"LovCreateRequest"}}},"required":true}}

@@ -5,7 +5,7 @@ description: "Create payment method."
 sidebar_label: "`POST /v1/properties/{property_id}/payment-methods`"
 hide_title: true
 hide_table_of_contents: true
-api: eJzVU02P0zAU/CvWO4GUfi0cKnNaISFWqLSiy6mtWjd+3Zh1bGO/VIQoEj9ifyG/BL2kgtICd06J7PG8mfG4AVIPCeQKQplgk4EPGBUZ7+40SMgjKsJtUHWJjrYlUuE1ZBAxBe8SJpAN3IzH/NGY8mgCnwUJ83eQQe4doSPeVSFYk3fMo0+JIQ2kvMBSgWzatm0zeDmeXPO89yRURQU64uOooUO+uEa+8XFvtEYHTJYwr6KhGuRqk10gX3euxMmV6F0N127tdov58l6MjpNRiJwEGUyjJrSjE3bQY9NOfP/2JJI6olCC/CM68xX1iWntnu2NtVOhbESla1F4q5OgAoVxiWLFTK/EYrYUiXzEfiviASO6HJ8PIYNT0hKCTwQZBEUFSLhS1v/XW6OvNEIGxh08B0WGLIKEwhPa6YCv+jKTJQfspuJtB5Esji0uTgPETDn1gF1eyzoRluLgYye88CkYUtZQLYzTVaJYswVrcnQJeb5TJY+f3d2L+QdxG1Re4OBmOGaJmgcfDMY/AtoMjhhTr3E8nPRLHEqp3Bn1Xy7uH/HsLiNoftX1f2gI1YGNE36hUbDKOA6mipaN9G1ZwXHC1fmpEzKQZ5F0tfq9MpsMCi6cXEHT7FXCj9G2LS9/rjCeHtNRRaP2XKjVps2gQKX59lYNPGINEm7zHAOX9qhsxRqv3n67OWs4Bwpt+wNJwJiI
+api: eJzNlk1v2zgQhv8KMacWkO2k3UOgPWWLfh3SGnF6cgyXFscWU4pUyZFbraH/vhhKsWXL290GPdQXC9Rw+HLeh0PtgOQmQDqHsgiwSMCV6CVpZ98rSCHzKAmXpawLtLQskHKnIAGPXysM9JdTNaQ7yJwltMSPsiyNzmKGyUNwlsdClmMh+YnqEiEFt3rAjCABhSHzuuRoSIHTCbcWn6cfZ3disr2clJ71kMYw2XXP9VKrZtIpGrWKwudxJ0p7VHE3R4qXmkUbuULDezxkZU06LBWuZWWop3DlnEFpoXmcdngVyGu7GYi/7VZPhHV2hEVJ9ZinD5X8Z6qVNuZKkPuCVnhco0eboXjmhys8H0PTJECaDOd7Fe16y9ZM22Vv4qq3rV3QcPChTOQrjAOhdDa01XhxccF/x4JmcotKdDsRewp+ke3XIsT87baPnR1WweIWvZhef5gEzDxSeH7qfc/sc+VP+o4nHeJqKWmIRu/dGdPWzhf8BpQkHJEukP0+b/A+tqq0imFPo+7/AdVnYkgDY9Ak8Mc5pwfJhbRKRDFiX+M4+XI4+YMjISvK0RKz8Bj5chj5xvmVVgptlBowq7ymGtL54hSOFukT9sb39t7+S5cY9gYxioAJ2cKk/0bV5bm3z1ropPEoVS1yZ1QQlKPQNpCvOM+fYnozE4Gcx/bVHsZIXncaUihdoAgc5ZDCz3QvSIDPzO2hqb7+LouS7TtuT3xg92gc4DpDRI8XbdcuItIBkTtCczXifn9a7Bk7Z6/EuxiS8r5HYtopFzfSyg1GG2Z1ICzE2vlYkdyFUpM0mmqhraoC+ZprY3SGNsRtWFnw4jfv78THW3FdyizH0YvxBR9HxcuuNfqzAU0CW/ShVXgxvmyHuNqFtL3UT7g1TgvQu8l+f/C6I0/4nSalkTq2jcrHptFCOIftJRz1tATSXkEO6OxJXCSQM8fpHHa7lQz4yZum4eGvFfruhG6l13LFMM0XTQI5SsXezXfwBWsuXVvE0R0r5HBTsdLBHdEkjzOuswxL+mHsonfU2ABIYNV9fhRO8Rwvv/FNIL9BCsBfMjw79vE4tgMj7aaSG45tc/LvH6msKMU=
 sidebar_class_name: "post api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -39,8 +39,16 @@ import Translate from "@docusaurus/Translate";
 
 Create payment method.
 
-`POST /v1/properties/{p}/payment-methods` — save a tokenized method
+`POST /v1/properties/{p}/payment-methods` - save a tokenized method
 (bill8 already holds the instrument; PMS stores the reference).
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
 
 <ParamsDetails>
   

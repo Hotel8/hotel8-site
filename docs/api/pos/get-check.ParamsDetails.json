@@ -1,1 +1,1 @@
-{"parameters":[{"name":"id","in":"path","description":"Check ID","required":true,"schema":{"type":"string","format":"uuid"}}]}
+{"parameters":[{"name":"check_id","in":"path","description":"Check ID","required":true,"schema":{"type":"string","format":"uuid"}}]}

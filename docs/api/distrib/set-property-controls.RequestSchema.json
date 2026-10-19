@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the property-controls PUT (all fields optional - partial update).","properties":{"cta_enabled":{"type":["boolean","null"]},"ctd_enabled":{"type":["boolean","null"]},"max_los":{"type":["integer","null"],"format":"int32"},"min_los":{"type":["integer","null"],"format":"int32"}},"title":"PropertyControlsRequest"}}},"required":true}}

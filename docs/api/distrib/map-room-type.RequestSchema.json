@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/room-type-mappings`.","required":["channel_property_id","property_room_type_id","channel_room_type_code"],"properties":{"channel_property_id":{"type":"string","format":"uuid"},"channel_room_type_code":{"type":"string"},"property_room_type_id":{"type":"string","format":"uuid"}},"title":"RoomTypeMapRequest"}}},"required":true}}

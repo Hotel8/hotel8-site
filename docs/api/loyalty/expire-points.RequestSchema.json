@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/cron/expire-points.","properties":{"inactivity_months":{"type":"integer","format":"int32"}},"title":"ExpirePointsRequest"}}},"required":true}}

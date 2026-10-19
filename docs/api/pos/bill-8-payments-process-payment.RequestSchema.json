@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../payments-process` (bill8 card token).","required":["card_token"],"properties":{"amount":{"type":"string","description":"Decimal string."},"card_token":{"type":"string"},"tip_amount":{"type":"string","description":"Decimal string."}},"title":"CardPaymentRequest"}}},"required":true}}

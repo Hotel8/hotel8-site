@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/channels/{channel_id}` (all fields optional - absent\nkeys keep the stored value via `COALESCE`).","properties":{"api_key_ref":{"type":["string","null"],"description":"Store-by-reference pointer only (never a plaintext key)."},"channel_name":{"type":["string","null"]},"is_active":{"type":["boolean","null"]}},"title":"ChannelUpdateRequest"}}},"required":true}}

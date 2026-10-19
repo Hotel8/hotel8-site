@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the ARI push (`start_date`/`end_date` accepted for API compat -\nthe push uses a rolling 30-day window).","properties":{"end_date":{"type":"string"},"property_id":{"type":["string","null"],"format":"uuid","description":"Scopes the push to one property (required for the PMS fetch)."},"start_date":{"type":"string"}},"title":"AriPushRequest"}}},"required":true}}

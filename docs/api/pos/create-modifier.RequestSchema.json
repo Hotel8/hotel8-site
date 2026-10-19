@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../modifier-groups/{group_id}/modifiers`.","properties":{"modifier_name":{"type":"string"},"price_adjustment":{"type":"string"}},"title":"ModifierCreateRequest"}}},"required":true}}

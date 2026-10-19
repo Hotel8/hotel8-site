@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/rules/test` (all fields optional; a `reservation_id`\nwithout a `property_id` is a 400).","properties":{"offer_id":{"type":["string","null"],"format":"uuid"},"property_id":{"type":["string","null"],"format":"uuid"},"reservation_id":{"type":["string","null"],"format":"uuid"}},"title":"RuleTestRequest"}}},"required":true}}

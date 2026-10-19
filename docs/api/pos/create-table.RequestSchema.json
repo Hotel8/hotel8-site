@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/tables`.","required":["service_area_id","table_number"],"properties":{"capacity":{"type":"integer","format":"int32"},"service_area_id":{"type":"string","format":"uuid"},"table_name":{"type":["string","null"]},"table_number":{"type":"string"}},"title":"TableCreateRequest"}}},"required":true}}

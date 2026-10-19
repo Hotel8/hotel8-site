@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/offers/accept`.","required":["transaction_id"],"properties":{"price_charged":{"type":["string","null"],"description":"`NUMERIC(12,2)` amount as a string (default `\"0\"`)."},"transaction_id":{"type":"string","format":"uuid"}},"title":"AcceptOfferRequest"}}},"required":true}}

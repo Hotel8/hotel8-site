@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/properties/{property_id}/housekeeping/{room_number}`.","properties":{"status":{"type":"string","description":"DIRTY | CLEAN | INSPECTED (defaults CLEAN)."}},"title":"HkStatusChangeRequest"}}},"required":true}}

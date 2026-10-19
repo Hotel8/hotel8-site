@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/offers/decline`.","required":["transaction_id"],"properties":{"reason":{"type":["string","null"],"description":"Free-form decline reason (event payload only)."},"transaction_id":{"type":"string","format":"uuid"}},"title":"DeclineOfferRequest"}}},"required":true}}

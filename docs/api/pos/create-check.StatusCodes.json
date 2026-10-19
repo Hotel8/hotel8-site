@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"Check created","content":{"application/json":{"schema":{}}}},"403":{"description":"Missing pos:admin scope"}}}
+{"responses":{"200":{"description":"Check created","content":{"application/json":{"schema":{"type":"object","description":"Created check.","required":["id","outlet_id","check_number","status"],"properties":{"check_number":{"type":"string"},"id":{"type":"string","format":"uuid"},"outlet_id":{"type":"string","format":"uuid"},"status":{"type":"string"}},"title":"CheckCreated"}}}},"403":{"description":"Missing pos:admin scope"}}}

@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/payments-process`\n(bill8 Payments token - never raw card data).","properties":{"amount":{"type":"number","format":"double"},"currency":{"type":"string"},"payment_method_token":{"type":"string","description":"bill8 Payments token (PCI: no raw card data crosses PMS)."}},"title":"PaymentProcessRequest"}}},"required":true}}

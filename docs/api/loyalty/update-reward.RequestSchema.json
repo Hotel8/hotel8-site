@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of PUT .../rewards/{reward_id} (partial update).","properties":{"is_active":{"type":["boolean","null"]},"item_name":{"type":["string","null"]},"points_cost":{"type":["integer","null"],"format":"int64"}},"title":"RewardUpdateRequest"}}},"required":true}}

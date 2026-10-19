@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../post/emails`.","properties":{"email_type":{"type":"string"},"to":{"type":"string"}},"title":"PostEmailRequest"}}},"required":true}}

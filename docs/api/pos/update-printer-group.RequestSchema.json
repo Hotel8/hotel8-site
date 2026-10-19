@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/outlets/{outlet_id}/printer-groups/{printer_id}` (partial).","properties":{"is_active":{"type":["boolean","null"]},"printer_name":{"type":["string","null"]},"station_code":{"type":["string","null"]}},"title":"PrinterGroupUpdateRequest"}}},"required":true}}

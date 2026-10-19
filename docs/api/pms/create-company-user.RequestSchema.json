@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../companies/{profile_id}/users`.","required":["traveler_profile_id"],"properties":{"is_default":{"type":"boolean"},"role_at_company":{"type":"string"},"traveler_profile_id":{"type":"string","format":"uuid"}},"title":"CompanyUserInput"}}},"required":true}}

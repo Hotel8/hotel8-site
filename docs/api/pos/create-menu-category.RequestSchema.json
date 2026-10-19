@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/menu/categories`.","properties":{"category_code":{"type":"string"},"category_name":{"type":"string"},"sort_order":{"type":"integer","format":"int32"}},"title":"MenuCategoryCreateRequest"}}},"required":true}}

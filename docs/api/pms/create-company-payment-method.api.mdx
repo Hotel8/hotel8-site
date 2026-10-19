@@ -5,7 +5,7 @@ description: "Create company payment method."
 sidebar_label: "`POST /v1/properties/{property_id}/companies/{profile_id}/payment-methods`"
 hide_title: true
 hide_table_of_contents: true
-api: eJzVVMGO0zAQ/RVrTiClSbtwWPm2QkKs0LIVXU7dqp1Npo0hsY09qYiiSHwEX8iXrCYJULYcOHDhFMt+nnnvzXM6YDxE0GvwdYRNAs5TQDbOXhegIQ+ETNvc1R5tu/XY1mR5WxOXroAEAkXvbKQIuoOL+Vw+BcU8GC81QMPtW0ggd5bJspyi95XJhw7ZxyiQDmJeUo2gu77v+wRezhfndd45VthwSZblOhUwIF+cI1+78GCKgixIsUh5Ewy3oNeb5Any1aBOTerUpE6N6tJ7e293y9vVnUrTNBtBhmLW+eD2pqKtKfpsujMb78Sd+v71myodU6UiVhRVoIOJTCEqvLcjSrmg0PvgjhQVKk+2MPagnCX1DIvaWBWbsMecnqeQwOS1Bu8iQwIeuQQN2XGR+SDT4h+kZN0OrP6OLCRg7N6Jg2y4ItAwML+cSRaemrUS5+2lejNA9PJmNWhdTn3VDVo80GDgqo1Mtdq7oLgkVbroDWNluFXGFk3k0IqyyuRkI0l/i7W0v7m+U7fv1ZXHvKTZRToXioU03hsKfwT0CRwpxJHjPF2MW+JVjfak9DjJf+Da7qkz3a94/x+J4taLI0xfOPMVGiuONaESKWO61nBcSNR+OgUJ6BOvhic9sZ+OJv5DQH9P2SaBUqKr19B1DxjpQ6j6XrY/NxSmh3nEYPBBMrje9AmUhIUMfN3BJ2pBw1Wek5f4H7FqhP3Zf6TfnLwVMRn6/hFW07kq
+api: eJzVVsFu4zYQ/ZXBnBJUtpNtDgsVPXgTt3W7dozEeyicwKGlscWNRHJJylnB0L8XQ8mxHQfBbrEoUF8sjN6Qj/PeDLVBL1YO4xmawuF9hNqQFV5qNUwxxsSS8DRPdGGEquZGVAUpPy/IZzrFCC19Kcn5DzqtMN5gopUn5flRGJPLJKzU++y04phLMioEP/nKEMaoF58p8RhhSi6x0jAaY+TlQC/hYXJ9O4Vut9trCEhyvY2xeilzmsu07rV8Og0f99DFCI3lI3hJrqVh9Vrke5s6b6VaYR3x6VLp57kspN8BZltEhKrMcy7KIb0rSmQhcmhgvwAVxlfwKygNYakur52LBb2+62ER5zJ9Y+u6jtBLn/MKl40IkyZ9FLKHypQea4axFNJSirG3JYWAM1q5pg7vzs747/Ag139BBxoaUBpH1lMKJ4lWy1wmHh6piqGVHn6CcKJTjH6Uyn1ItDXaCk/QKLHlcsK6T/p/Qw8+DD9+nE+v55fXo0l/zJHJYHw1HP8OPbgZ/Dm4nA6uTru4f/wZyjSwbD377BfcqhLtbBG1Fk/nwrPS3+Ge5mWT+ZZ5ltoWDMFUeOp4WVDw3jG9o032cstSpq1lt2zfgh9u9e9sPv40GtwML7fahHQQDjx99XAy1orgKSMFpdpW4jQ4/xtP8t80CPdGHeHFa/Yv1aPSTwq2KsNa5GWo2MXZ+TF8rD2I0mekPFue0gb58zHyN20XMk1JNYiLY0RLFVr1QWkPS10q5huho6S00lcYz45UuQwGeG7LtlZt53Tv1J367qkJHci0pxycyMmBpZV0nqwDcafajtS2rRI5EGBIpVKtgC1wItJCKnClXYqEQiu2t0OMRjtueyN8hjH21ue9XXsFSvxcBU7fRhUj5Clzs7t1Bl9FYVj9/WbdmeTQ+rt4a75d4BXP7TlSqqUOJmydFsr1vsNX5kt9btke6j38ESDxZHQLHZi0R4WRUGJFQbHbynkqYKkt+Iwg085IL3LpK5AqLZ23FRczlwkpFw6oRMGbj4ZTuL6BvhFJRp133TPknuNtl5Lsq4A6wjVZ1zA86543IZanEGpv6cY6P0Coh5d12fs2+D9YuJ1JPOp6JhcydHJpw7xq7DzD9fnh10aE8V6lnm+g3avdNfTS1vcRZtwr8Qw3m4Vw9Mnmdc3hLyXZdg6shZViwf6b3dcRZiRSlnu2wUeqwkwJBe5MmTvDeZjFx1d0HW0z+klCxr+Jvd9rZxYFI1y0H3uFTjnHiie+fsUTxoj8/cjZ4fYMsQ3mQq1KsWJssyb//gEY8aYb
 sidebar_class_name: "post api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -39,8 +39,16 @@ import Translate from "@docusaurus/Translate";
 
 Create company payment method.
 
-`POST .../companies/{profile_id}/payment-methods` — hotel sales registers a
+`POST .../companies/{profile_id}/payment-methods` - hotel sales registers a
 method or approves a pending one (admin surface).
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
 
 <ParamsDetails>
   

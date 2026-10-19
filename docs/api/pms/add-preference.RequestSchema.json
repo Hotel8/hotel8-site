@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../profiles/{profile_id}/preferences`.","properties":{"preference_code":{"type":"string"},"preference_type":{"type":"string"},"preference_value":{"type":["string","null"]}},"title":"AddPreferenceRequest"}}},"required":true}}

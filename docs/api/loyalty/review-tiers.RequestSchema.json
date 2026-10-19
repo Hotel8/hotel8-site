@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Query of the tiers endpoint (optional program filter).","properties":{"program_id":{"type":["string","null"],"format":"uuid"}},"title":"TierListRequest"}}},"required":true}}

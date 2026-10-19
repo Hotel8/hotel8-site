@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/members/link-guest.","required":["member_id","guest_profile_id","property_id"],"properties":{"guest_profile_id":{"type":"string","format":"uuid"},"member_id":{"type":"string","format":"uuid"},"property_id":{"type":"string","format":"uuid"}},"title":"LinkedGuestProfile"}}},"required":true}}

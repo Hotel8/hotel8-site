@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/channels`.","required":["property_id"],"properties":{"channel_code":{"type":["string","null"],"description":"Ad-platform channel code (empty string when omitted)."},"channel_name":{"type":["string","null"]},"channel_type":{"type":["string","null"],"description":"`meta.channel_type` label (default `GOOGLE`)."},"property_id":{"type":"string","format":"uuid"}},"title":"ChannelCreateRequest"}}},"required":true}}

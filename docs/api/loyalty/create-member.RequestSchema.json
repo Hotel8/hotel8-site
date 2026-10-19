@@ -1,1 +1,1 @@
-{"title":"Body","body":{"content":{"application/json":{"schema":{}}},"required":true}}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/members.","required":["program_id"],"properties":{"email":{"type":["string","null"]},"first_name":{"type":"string"},"last_name":{"type":"string"},"program_id":{"type":"string","format":"uuid"}},"title":"MemberCreateRequest"}}},"required":true}}

@@ -1,0 +1,1 @@
+{"parameters":[{"name":"property_id","in":"query","description":"Property id","required":false,"schema":{"type":"string","format":"uuid"}},{"name":"reservation_id","in":"query","description":"Reservation id","required":false,"schema":{"type":"string","format":"uuid"}}]}

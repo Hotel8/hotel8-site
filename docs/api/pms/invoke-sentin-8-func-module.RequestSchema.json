@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../func/invoke`.","properties":{"module_name":{"type":"string"}},"title":"FuncInvokeRequest"}}},"required":true}}

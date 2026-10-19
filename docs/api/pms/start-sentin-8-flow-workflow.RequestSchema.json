@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../flow/workflows`.","properties":{"workflow_type":{"type":"string"}},"title":"FlowWorkflowStartRequest"}}},"required":true}}

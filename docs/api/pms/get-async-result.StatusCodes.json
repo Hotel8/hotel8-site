@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"200":{"description":"OK - the stored job result document; JSON shape is module-defined (passthrough of pms.async_jobs.result)","content":{"application/json":{"schema":{"description":"The module-defined async-job result document (honest transparent\nwrapper over `pms.async_jobs.result`).","title":"AsyncJobResult"}}}},"409":{"description":"Job is not completed"}}}

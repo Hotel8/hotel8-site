@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../discount`.","required":["discount_type"],"properties":{"discount_type":{"type":"string","description":"PERCENTAGE | DOLLAR | EMPLOYEE_MEAL | MANAGER_COMP."},"manager_approved":{"type":"boolean"},"value":{"type":"string","description":"Decimal string (percentage value for PERCENTAGE)."}},"title":"ApplyDiscountRequest"}}},"required":true}}

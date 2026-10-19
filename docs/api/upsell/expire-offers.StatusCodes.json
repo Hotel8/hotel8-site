@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{"type":"object","description":"Result of `POST /v1/offers/expire`.","required":["expired_count"],"properties":{"expired_count":{"type":"integer","format":"int64"}},"title":"ExpireOffersResult"}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}

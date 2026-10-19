@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the rate markup/markdown PUT.","properties":{"rate_markdown_pct":{"type":"string"},"rate_markup_pct":{"type":"string","description":"Decimal strings (defaults \"0\")."}},"title":"RateMarkupRequest"}}},"required":true}}

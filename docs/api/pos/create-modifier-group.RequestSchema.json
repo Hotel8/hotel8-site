@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../menu-items/{item_id}/modifier-groups`.","properties":{"group_name":{"type":"string"},"is_required":{"type":"boolean"},"max_selections":{"type":"integer","format":"int32"},"min_selections":{"type":"integer","format":"int32"}},"title":"ModifierGroupCreateRequest"}}},"required":true}}

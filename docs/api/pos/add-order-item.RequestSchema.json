@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../checks/{check_id}/orders`.","required":["menu_item_id"],"properties":{"menu_item_id":{"type":"string","format":"uuid"},"modifiers":{"description":"Free-form modifiers bag (stored JSONB as provided)."},"quantity":{"type":"integer","format":"int32"},"special_instructions":{"type":["string","null"]}},"title":"AddOrderItemRequest"}}},"required":true}}

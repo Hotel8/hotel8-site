@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"204":{"description":"Transition applied"},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"},"409":{"description":"Transition not allowed by the block state machine"}}}

@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/async` (module job launch).","properties":{"module":{"type":"string"},"operation":{"type":"string"}},"title":"AsyncJobRequest"}}},"required":true}}

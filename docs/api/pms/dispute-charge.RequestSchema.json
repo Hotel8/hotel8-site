@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../charges/dispute` (the disputed charge is rebated).","required":["charge_id"],"properties":{"charge_id":{"type":"string","format":"uuid"},"reason":{"type":"string"},"rebate_amount":{"type":"string"}},"title":"DisputeChargeRequest"}}},"required":true}}

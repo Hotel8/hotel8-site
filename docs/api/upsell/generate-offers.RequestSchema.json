@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/offers/generate`.","required":["property_id"],"properties":{"property_id":{"type":"string","format":"uuid"},"reservation_id":{"type":["string","null"],"format":"uuid","description":"Reservation the transaction is attached to (optional seed)."}},"title":"GenerateOffersRequest"}}},"required":true}}

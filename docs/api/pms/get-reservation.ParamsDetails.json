@@ -1,1 +1,1 @@
-{"parameters":[{"name":"id","in":"path","description":"Reservation ID","required":true,"schema":{"type":"string","format":"uuid"}}]}
+{"parameters":[{"name":"res_id","in":"path","description":"Reservation ID","required":true,"schema":{"type":"string","format":"uuid"}}]}

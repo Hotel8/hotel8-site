@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the reservation-status push.","properties":{"status":{"type":"string"}},"title":"ReservationStatusPush"}}},"required":true}}

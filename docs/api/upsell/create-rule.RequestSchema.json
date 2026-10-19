@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/rules` (one eligibility rule of an offer).","required":["offer_id","rule_type"],"properties":{"offer_id":{"type":"string","format":"uuid"},"rule_type":{"type":"string","description":"Rule predicate key, e.g. one of `GET /v1/eligibility/types` codes."},"rule_value":{"description":"Free-form predicate payload (JSONB, default `{}`)."}},"title":"RuleCreateRequest"}}},"required":true}}

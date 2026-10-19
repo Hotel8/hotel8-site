@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/payment-methods`.","required":["payment_method_id","label"],"properties":{"is_default":{"type":"boolean"},"label":{"type":"string","description":"Required, non-empty."},"payment_method_id":{"type":"string","description":"bill8 token reference (required, non-empty)."}},"title":"CreateGuestPaymentMethodRequest"}}},"required":true}}

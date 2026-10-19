@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/menu-items`\n(price/tax_rate are decimal strings, defaults \"0\"; the response carries\nthe inserted ids as `MenuItemCreated`).","properties":{"category_id":{"type":["string","null"],"format":"uuid"},"description":{"type":["string","null"]},"item_code":{"type":"string"},"item_name":{"type":"string"},"price":{"type":"string"},"tax_rate":{"type":"string"}},"title":"MenuItemCreateRequest"}}},"required":true}}

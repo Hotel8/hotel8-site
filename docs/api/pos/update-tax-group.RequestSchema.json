@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/outlets/{outlet_id}/tax-groups/{tax_id}` (partial).","properties":{"is_active":{"type":["boolean","null"]},"tax_name":{"type":["string","null"]},"tax_rate":{"type":["string","null"]}},"title":"TaxGroupUpdateRequest"}}},"required":true}}

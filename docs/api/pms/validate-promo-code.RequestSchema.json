@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/promo/validate`.","required":["promo_code"],"properties":{"check_in":{"type":["string","null"],"description":"Optional stay window for restriction warnings."},"check_out":{"type":["string","null"],"description":"Optional stay window for restriction warnings."},"promo_code":{"type":"string","description":"Required; the PROMO rate_plan_code."}},"title":"PromoValidateRequest"}}},"required":true}}

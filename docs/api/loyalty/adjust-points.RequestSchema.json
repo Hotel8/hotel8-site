@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Manual points-adjustment body (POST .../adjust).","properties":{"description":{"type":"string"},"points":{"type":"integer","format":"int64"}},"title":"AdjustPointsRequest"}}},"required":true}}

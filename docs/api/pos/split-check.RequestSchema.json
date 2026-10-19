@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../checks/{check_id}/split`.","properties":{"num_splits":{"type":"integer","format":"int32"},"split_type":{"type":"string","description":"\"equal\" (only the equal split is implemented)."}},"title":"SplitCheckRequest"}}},"required":true}}

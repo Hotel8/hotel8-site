@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/rewards/redeem.","required":["member_id","catalog_item_id"],"properties":{"catalog_item_id":{"type":"string","format":"uuid"},"member_id":{"type":"string","format":"uuid"}},"title":"RedeemRewardRequest"}}},"required":true}}

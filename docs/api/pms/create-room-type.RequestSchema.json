@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","required":["room_type_code","room_type_name","max_occupancy","is_smoking"],"properties":{"bed_type":{"type":["string","null"]},"description":{"type":["string","null"]},"features":{"type":["array","null"],"items":{"type":"string"}},"is_smoking":{"type":"boolean"},"max_occupancy":{"type":"integer","format":"int32"},"room_type_code":{"type":"string"},"room_type_name":{"type":"string"}},"title":"RoomTypeCreate"}}},"required":true}}

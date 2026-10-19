@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/orders/void`.","required":["order_id"],"properties":{"manager_approved":{"type":"boolean"},"order_id":{"type":"string","format":"uuid"},"reason":{"type":"string"}},"title":"VoidOrderItemRequest"}}},"required":true}}

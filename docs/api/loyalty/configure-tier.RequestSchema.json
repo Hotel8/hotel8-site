@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/tiers (benefits is a free-form JSONB bag by design).","required":["program_id"],"properties":{"benefits":{"description":"Free-form benefits bag (defaults {}), stored as provided."},"min_points":{"type":"integer","format":"int64"},"program_id":{"type":"string","format":"uuid"},"tier":{"type":"string","description":"Tier label (defaults BASE)."}},"title":"TierConfigureRequest"}}},"required":true}}

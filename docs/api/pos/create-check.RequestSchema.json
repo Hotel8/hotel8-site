@@ -1,1 +1,1 @@
-{"title":"Body","body":{"content":{"application/json":{"schema":{}}},"required":true}}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/checks`.","properties":{"guest_count":{"type":"integer","format":"int32"},"guest_name":{"type":["string","null"]},"room_number":{"type":["string","null"]},"table_id":{"type":["string","null"],"format":"uuid"}},"title":"CheckCreateRequest"}}},"required":true}}

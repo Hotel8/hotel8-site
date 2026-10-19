@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Walk-in request body (`arrival_date`/`departure_date` are required).","required":["room_type_id","arrival_date","departure_date"],"properties":{"arrival_date":{"type":"string"},"departure_date":{"type":"string"},"first_name":{"type":"string"},"last_name":{"type":"string"},"num_rooms":{"type":"integer","format":"int32"},"room_type_id":{"type":"string","format":"uuid"}},"title":"WalkInRequest"}}},"required":true}}

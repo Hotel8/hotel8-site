@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/upsell` (room-type/rate-plan swap).","properties":{"new_rate_plan_id":{"type":["string","null"],"format":"uuid"},"new_room_type_id":{"type":["string","null"],"format":"uuid"}},"title":"UpsellRequest"}}},"required":true}}

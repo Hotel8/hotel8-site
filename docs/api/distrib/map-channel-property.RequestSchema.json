@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/channel-properties`.","required":["channel_id","property_id"],"properties":{"channel_id":{"type":"string","format":"uuid"},"is_enabled":{"type":"boolean"},"property_id":{"type":"string","format":"uuid"}},"title":"ChannelPropertyMapRequest"}}},"required":true}}

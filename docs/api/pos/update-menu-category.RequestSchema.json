@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/outlets/{outlet_id}/menu/categories/{category_id}` (partial).","properties":{"category_name":{"type":["string","null"]},"is_active":{"type":["boolean","null"]},"sort_order":{"type":["integer","null"],"format":"int32"}},"title":"MenuCategoryUpdateRequest"}}},"required":true}}

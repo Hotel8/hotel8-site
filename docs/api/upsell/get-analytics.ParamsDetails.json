@@ -1,0 +1,1 @@
+{"parameters":[{"name":"property_id","in":"query","description":"Filter by property","required":false,"schema":{"type":"string","format":"uuid"}},{"name":"start_date","in":"query","description":"YYYY-MM-DD lower bound","required":false,"schema":{"type":"string"}},{"name":"end_date","in":"query","description":"YYYY-MM-DD upper bound","required":false,"schema":{"type":"string"}}]}

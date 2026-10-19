@@ -1,0 +1,1 @@
+{"parameters":[{"name":"arrivalDate","in":"query","description":"Arrival date (YYYY-MM-DD)","required":true,"schema":{"type":"string"}},{"name":"departureDate","in":"query","description":"Departure date (YYYY-MM-DD)","required":true,"schema":{"type":"string"}}]}

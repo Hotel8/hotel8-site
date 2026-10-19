@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/check-in` (room assignment).","properties":{"room_number":{"type":["string","null"]}},"title":"CheckInRequest"}}},"required":true}}

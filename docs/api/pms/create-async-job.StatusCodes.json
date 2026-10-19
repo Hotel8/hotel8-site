@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"202":{"description":"Job accepted (Location: /v1/async/status/{job_id})","content":{"text/plain":{"schema":{"type":"string"}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}

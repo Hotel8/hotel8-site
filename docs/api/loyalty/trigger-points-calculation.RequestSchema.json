@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/points/calculate (stay-points accrual).","required":["member_id"],"properties":{"eligible_spend":{"type":"string","description":"Decimal-string eligible spend (defaults \"0\")."},"member_id":{"type":"string","format":"uuid"},"reservation_id":{"type":["string","null"],"format":"uuid"}},"title":"PointsCalculationRequest"}}},"required":true}}

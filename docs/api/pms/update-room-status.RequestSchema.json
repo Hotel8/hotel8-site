@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","properties":{"front_office_status":{"oneOf":[{"type":"null"},{"type":"string","enum":["VACANT","OCCUPIED","DUE_OUT","DEPARTED","STAYOVER"],"title":"FrontOfficeStatus"}]},"housekeeping_status":{"oneOf":[{"type":"null"},{"type":"string","enum":["CLEAN","DIRTY","INSPECTED","PICKUP","OUT_OF_ORDER","OUT_OF_SERVICE"],"title":"HousekeepingStatus"}]}},"title":"RoomStatusUpdate"}}},"required":true}}

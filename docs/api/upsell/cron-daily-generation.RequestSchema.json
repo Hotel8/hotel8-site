@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/cron/daily-generation` (absent `property_id` is a 400).","properties":{"property_id":{"type":["string","null"],"format":"uuid"}},"title":"CronDailyGenerationRequest"}}},"required":true}}

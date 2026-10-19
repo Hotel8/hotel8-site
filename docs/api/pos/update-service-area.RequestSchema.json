@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/outlets/{outlet_id}/service-areas/{area_id}` (partial).","properties":{"area_name":{"type":["string","null"]},"is_active":{"type":["boolean","null"]}},"title":"ServiceAreaUpdateRequest"}}},"required":true}}

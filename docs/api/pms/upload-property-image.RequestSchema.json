@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../images` (base64 content; empty = metadata-only call).","properties":{"content_base64":{"type":"string","description":"Base64 of the bytes (empty = metadata-only call)."},"content_type":{"type":"string"},"image_type":{"type":"string"}},"title":"UploadImageRequest"}}},"required":true}}

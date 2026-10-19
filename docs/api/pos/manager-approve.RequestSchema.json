@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/manager-approve`.","required":["action_type"],"properties":{"action_type":{"type":"string"},"amount":{"type":"string","description":"Decimal string."},"manager_id":{"type":"string"},"pin":{"type":"string","description":"Verified against Sentin8:Auth (required, non-empty)."},"reference_id":{"type":"string"}},"title":"ManagerApproveRequest"}}},"required":true}}

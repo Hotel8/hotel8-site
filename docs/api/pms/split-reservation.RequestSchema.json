@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/reservations/{res_id}/split` -\nno fields (the split source is the path).","title":"SplitReservationRequest"}}},"required":true}}

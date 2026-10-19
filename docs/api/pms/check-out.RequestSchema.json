@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/check-out` (folio settlement hint).","properties":{"payment_method":{"type":["string","null"]}},"title":"CheckOutRequest"}}},"required":true}}

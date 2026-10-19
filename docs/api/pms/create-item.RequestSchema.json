@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../items` (prices are decimal strings).","required":["item_code","item_name"],"properties":{"category":{"type":"string"},"is_sellable":{"type":"boolean"},"item_code":{"type":"string"},"item_name":{"type":"string"},"reorder_point":{"type":"integer","format":"int32"},"stock_qty":{"type":"integer","format":"int32"},"unit_cost":{"type":"string"},"unit_price":{"type":"string"}},"title":"ItemCreateRequest"}}},"required":true}}

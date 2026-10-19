@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/outlets/{outlet_id}/tables/{table_id}/status`.","required":["status"],"properties":{"current_check_id":{"type":["string","null"],"format":"uuid","description":"Only honored when `status` is OCCUPIED."},"status":{"type":"string","description":"AVAILABLE | OCCUPIED | RESERVED | DIRTY | OUT_OF_SERVICE."}},"title":"TableStatusChange"}}},"required":true}}

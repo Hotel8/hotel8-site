@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/tables/separate`.","required":["table_id"],"properties":{"table_id":{"type":"string","format":"uuid"}},"title":"SeparateTablesRequest"}}},"required":true}}

@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../redeem-package`.","required":["package_code","reservation_id"],"properties":{"package_code":{"type":"string"},"reservation_id":{"type":"string","format":"uuid"}},"title":"RedeemPackageRequest"}}},"required":true}}

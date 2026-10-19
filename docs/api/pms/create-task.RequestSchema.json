@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/housekeeping/tasks`.","properties":{"assigned_to":{"type":["string","null"]},"notes":{"type":["string","null"]},"priority":{"type":"string"},"room_number":{"type":["string","null"]},"task_type":{"type":"string"}},"title":"HkTaskCreateRequest"}}},"required":true}}

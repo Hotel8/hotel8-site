@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of POST /v1/programs (currency_code defaults PTS).","properties":{"currency_code":{"type":"string"},"program_code":{"type":"string"},"program_name":{"type":"string"}},"title":"ProgramCreateRequest"}}},"required":true}}

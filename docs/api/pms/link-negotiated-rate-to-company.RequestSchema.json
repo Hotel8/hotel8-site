@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../negotiated-rate-plans/{rate_plan_id}/link-company`.","required":["company_profile_id"],"properties":{"company_profile_id":{"type":"string","format":"uuid"}},"title":"LinkCompanyRequest"}}},"required":true}}

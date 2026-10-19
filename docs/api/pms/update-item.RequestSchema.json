@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT .../items/{item_id}` (all fields optional - partial update).","properties":{"is_sellable":{"type":["boolean","null"]},"item_name":{"type":["string","null"]},"reorder_point":{"type":["integer","null"],"format":"int32"},"stock_qty":{"type":["integer","null"],"format":"int32"},"unit_cost":{"type":["string","null"]},"unit_price":{"type":["string","null"]}},"title":"ItemUpdateRequest"}}},"required":true}}

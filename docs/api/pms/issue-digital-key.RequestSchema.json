@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/digital-keys` (key issuance).","required":["reservation_id"],"properties":{"count":{"type":"integer","format":"int32","description":"Keys to have ready for the stay (clamped server-side to 1..=8)."},"key_type":{"type":"string"},"reservation_id":{"type":"string","format":"uuid"}},"title":"IssueDigitalKeyRequest"}}},"required":true}}

@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the channel-reservation update.","properties":{"status":{"type":"string","description":"DELIVERED | MODIFIED | CANCELLED (defaults MODIFIED)."}},"title":"ChannelReservationUpdate"}}},"required":true}}

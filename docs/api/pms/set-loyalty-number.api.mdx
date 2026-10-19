@@ -5,7 +5,7 @@ description: "Set loyalty number."
 sidebar_label: "`PUT /v1/properties/{property_id}/profiles/{profile_id}/loyalty-number`"
 hide_title: true
 hide_table_of_contents: true
-api: eJzVVEuO00AQvUqpViA5v4HFyLuI30TMJ5DMKhNNOnZl3NDubrrLFpZliUNwB+7BUTgJqsQMw4QdK1Zu1f+9euUWWd1FTFfoy4jrBJ2noFg7O8sxxUh8a1yjDDe3tiq3FDDBQNE7Gyli2uLJeCyfnGIWtJdETPHqLSaYOctkWbzKe6OzfdnRhyghLcasoFJh2nZd1yX4fDw5rnPpGFTFBVmWdMpxH/nsOPK1C1ud52RRikXKqqC5wXS1Th5FLoihhwQHSMMbe2MXxBG4oHtfSeLrQ8BZUHBXUWTwwe20oSG8UMZQDtsGzhyTOU3PD6k3ttYKNr6Mg8xosrwBV1MAzRHOlss5TOczePLy1WL25nJY5vD92wR+fPkK1kEWXIyDSKHWGcHi3fnTISZYEhdO1uErxgS94gJTHNWTkQ+yL9YUR23/bm513o36IQ9mee2tPbbB/Sq13TkhkzUbwhSLPZCBaOGYN8vanv7COr9Y7Iee913hQll1RyVZhkUTmUrYubBntHDRa1ZGcwPa5lXk0AgsozOykaS/VaW0v5gt4eo9TL3KChqcDMcyYi6Nd5rCXwO6BGsK8TDjeDg5mLyLXCr7oPRmfr2Ef6Zs85iW9rfM/0dlceOFHKbPPPJGaSvkVcEIsIPMVlhPRHP3rGGC6QPeDr49cb2np04W/Kfc1gkWLrLUbNutinQdTNeJ+VNFoT/WWgWttiLG1bpLsCCVy+ZXLX6kBlOcZhl5uYJamUpmP/q3dOsHFzO/XmLX/QQv47bv
+api: eJzVVU2P2zYQ/SvEnFKAlu0kh0C3bZo2i+xunLX35DXWtDS2mFAkQ46cFQz9nvyP/LJgJO36qy0KtJf6YmL4yHnzOPO0A1KbCOkcfBlhIcF5DIq0s5c5pBCRHoyrlaH6wVblCgNICPi1wki/uryGdAeZs4SWeKm8Nzprjw8/R2c5FrMCS8Urqj1CCm71GTMCCTnGLGjPaEiBrxNuLZaTu5lIkmTog1trg3G461cPOm+GPZtBx2aZ9Hx0wJyrOCG7kOADl0QaI3M42d+zihS03UDTSCBNhkNTpKsOftOib7u6oWHQPimFCttA9M7GLs3L0Yj/jiv8+AHkf6XW1ZEMIiKJgLEydCrIXjuQYLT9gvmfqNLF91lXzhlUFhr5l4rNnySTYCtjYNHIw2RnykpYu1AqghSqSudHSh/JPMVW4kbC69H4XMUbR0JVVKAlFg9zaJGvzpG/u7DSeY62Q7w+R0w6vsI6EmtX2Y5VxKwKmmpI54tT3adIoldEdIok9/beTpGioAKf90ps36V/HmeFEhtuHtFLlIi3yhjMxaoW7x2heZP2ItzbrVZi6cs4yIxGS0vhthiEpijez2YTcTG5FC9+eze9/OMmKXPx4/tYDIR1IgsuxkHEsNUZiumnq1+4F0qkwvEo+4q7yCsqIIXhdjzct0A7Ybyu2xH7J4MHErhlb/dW8O5RlZ5f83zInodLgrZr1/ZG//JFW/uAzedcakvavnmSZ3I9FQMx6YmKa2XVBku0JKZ1JCzF2oX2CQoXvSZlNNVC27yKFOqkbf4MbWwJWlVy8uvLmfh4Ky68ygocvExGIEHnnHatW97ngEbCFkPsGI6ScRfyLlKp7MHVrYv9a5WXp6IcuO3/rxV7PyB8pKE3SrdzWQXDZXV9OYftGI7MSUJ6oBo8W8zTzoG3HffnQkLhIvGdu91KRbwLpmk4/LXC0M/2VgWtVtyIc7avAlXO7z7fwResIYW3ndiDGTNnuKm4gjPjbuTTiYssQ09/i10cDOXkbgYSVv2XtHQ5HwnqG5u4+gYpAH+R+XDr021sB0bZTaU2jO2u5N9PTwW5Rg==
 sidebar_class_name: "put api-method"
 info_path: docs/api/pms/hotel-8-pms
 custom_edit_url: null
@@ -40,7 +40,15 @@ import Translate from "@docusaurus/Translate";
 Set loyalty number.
 
 Sets the loyalty member number on a guest profile. Called by Hotel8:Loyalty
-via `pms-client` over its HTTP API (DESIGN.md §1 — no cross-service SQL).
+via `pms-client` over its HTTP API (DESIGN.md §1 - no cross-service SQL).
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
 
 <ParamsDetails>
   

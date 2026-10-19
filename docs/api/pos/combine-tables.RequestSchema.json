@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/tables/combine`.","required":["table_ids","combined_name"],"properties":{"combined_name":{"type":"string"},"table_ids":{"type":"array","items":{"type":"string","format":"uuid"}}},"title":"CombineTablesRequest"}}},"required":true}}

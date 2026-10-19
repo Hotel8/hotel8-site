@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/properties/{property_id}/housekeeping/tasks/{task_id}`.","properties":{"assigned_to":{"type":["string","null"]},"status":{"type":"string"}},"title":"HkTaskUpdateRequest"}}},"required":true}}

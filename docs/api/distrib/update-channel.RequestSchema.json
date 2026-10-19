@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT /v1/channels/{channel_id}` (partial update).","properties":{"api_endpoint":{"type":["string","null"]},"channel_name":{"type":["string","null"]},"channel_type":{"type":["string","null"]},"is_active":{"type":["boolean","null"]}},"title":"ChannelUpdateRequest"}}},"required":true}}

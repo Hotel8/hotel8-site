@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `PUT .../kiosk-config` (defaults applied per-key when absent).","properties":{"addon_package_codes":{"type":"array","items":{"type":"string"}},"enabled_modes":{"type":"array","items":{"type":"string"},"description":"Defaults [CHECK_IN, CHECK_OUT, COLLECT_KEY] when empty."},"lockdown":{"type":"boolean"},"max_keys_per_stay":{"type":"integer","format":"int32"}},"title":"KioskConfigUpdate"}}},"required":true}}

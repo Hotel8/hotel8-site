@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/outlets/{outlet_id}/tax-groups`.","properties":{"tax_code":{"type":"string"},"tax_name":{"type":"string"},"tax_rate":{"type":"string"}},"title":"TaxGroupCreateRequest"}}},"required":true}}

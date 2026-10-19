@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/pre-check-in`.","properties":{"arrival_time":{"type":["string","null"]},"special_requests":{"type":["string","null"]}},"title":"PreCheckInRequest"}}},"required":true}}

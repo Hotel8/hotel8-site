@@ -1,1 +1,1 @@
-{"title":"Body","body":{"content":{"application/json":{"schema":{}}},"required":true}}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/channels` (`channel_type` defaults OTA).","required":["property_id"],"properties":{"channel_code":{"type":"string"},"channel_name":{"type":"string"},"channel_type":{"type":"string"},"property_id":{"type":"string","format":"uuid"}},"title":"ChannelCreateRequest"}}},"required":true}}

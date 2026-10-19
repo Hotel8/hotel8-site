@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"200":{"description":"Tier-review counts","content":{"application/json":{"schema":{"type":"object","description":"Tier-review run result.","required":["upgraded","downgraded"],"properties":{"downgraded":{"type":"integer","minimum":0},"upgraded":{"type":"integer","minimum":0}},"title":"TierReviewResult"}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}

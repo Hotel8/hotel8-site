@@ -1,1 +1,1 @@
-{"responses":{"200":{"description":"OK","content":{"application/json":{"schema":{}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}
+{"responses":{"200":{"description":"Retry scheduled","content":{"application/json":{"schema":{"type":"object","description":"Failed-sync retry result.","required":["retried_count"],"properties":{"retried_count":{"type":"integer","minimum":0}},"title":"SyncRetryResult"}}}},"401":{"description":"Not authenticated"},"403":{"description":"Forbidden"}}}

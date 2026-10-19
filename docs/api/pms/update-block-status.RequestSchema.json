@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of the block status transition.","properties":{"status":{"type":"string"}},"title":"BlockStatusChange"}}},"required":true}}

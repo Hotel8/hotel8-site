@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST .../reservations/{res_id}/service-requests`.","properties":{"description":{"type":["string","null"]},"request_type":{"type":"string"}},"title":"CreateServiceRequestRequest"}}},"required":true}}

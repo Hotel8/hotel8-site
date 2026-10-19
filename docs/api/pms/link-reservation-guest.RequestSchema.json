@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/reservations/{res_id}/link-guest`.","properties":{"target_profile_id":{"type":["string","null"],"format":"uuid","description":"Optional explicit target profile; resolved from the session when absent."}},"title":"LinkGuestRequest"}}},"required":true}}

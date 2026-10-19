@@ -1,1 +1,1 @@
-{"title":"Body"}
+{"title":"Body","body":{"content":{"application/json":{"schema":{"type":"object","description":"Body of `POST /v1/properties/{property_id}/profiles/merge`.","required":["source_profile_id","target_profile_id"],"properties":{"source_profile_id":{"type":"string","format":"uuid"},"target_profile_id":{"type":"string","format":"uuid"}},"title":"MergeProfilesRequest"}}},"required":true}}
