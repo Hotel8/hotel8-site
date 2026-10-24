@@ -1,4 +1,4 @@
-# README.md: Hotel8:Site - hotel8.dev
+# Hotel8:Site - hotel8.dev
 
 > The Hotel8 public website at [hotel8.dev](https://hotel8.dev): every
 > product, app, and SDK of the vertical, with its domain invariants
