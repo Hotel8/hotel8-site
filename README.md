@@ -1,4 +1,8 @@
 # Hotel8:Site - hotel8.dev
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](../LICENSE)
+[![Built with Flutter](https://img.shields.io/badge/Built%20with-Flutter-blue.svg)](https://flutter.dev/)
+[![Docs](https://img.shields.io/badge/docs/read-3aa757.svg)](https://hotel8.dev/docs/services/site)
+[![Website](https://img.shields.io/badge/website-hotel8.dev-1a73e8.svg)](https://hotel8.dev/docs/products/hotel8-site)
 
 > The Hotel8 public website at [hotel8.dev](https://hotel8.dev): every
 > product, app, and SDK of the vertical, with its domain invariants
