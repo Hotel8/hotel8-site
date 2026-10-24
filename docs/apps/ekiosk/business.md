@@ -156,5 +156,5 @@ events. See `services/pms/DESIGN.md` §4.
 
 ---
 
-**Design attribution:** hotel8:ekiosk and its underlying concepts were designed by Hamid Jahanzad <Hamid@Jahanzad.com>.
+**Architecture & Design:** hotel8:ekiosk and its underlying concepts were designed by [Hamid Jahanzad](https://www.linkedin.com/in/hamidjahanzad/).
 

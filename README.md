@@ -64,4 +64,4 @@ step: WEB-10).
 
 ---
 
-**Design attribution:** Hotel8:Site and its underlying concepts were designed by Hamid Jahanzad <Hamid@Jahanzad.com>.
+**Architecture & Design:** Hotel8:Site and its underlying concepts were designed by [Hamid Jahanzad](https://www.linkedin.com/in/hamidjahanzad/).
