@@ -27,23 +27,23 @@ custom_edit_url: https://github.com/Hotel8/hotel8-epms/edit/main/BUSINESS.md
 
 | Capability | Provided by ePMS |
 |---|---|
-| Front-desk dashboard (occupancy, arrivals, departures, housekeeping, revenue) | ✅ |
-| Reservation search, detail, create, edit, cancel, split | ✅ |
-| Pre-check-in / check-in / check-out wizard | ✅ |
-| Room status grid + housekeeping updates | ✅ |
-| Folio view + charge/payment posting | ✅ |
-| Rate plans + schedules view | ✅ |
-| Blocks + events view | ✅ |
-| Guest profiles (CRM) lookup | ✅ |
-| EOD dashboard + exceptions | ✅ |
-| Property audit-log view | ✅ |
-| Availability + inventory views | ✅ |
-| RFW operations pages (service-defined admin UI hosted in-app) | ✅ |
-| Full rate-plan CRUD, block/event CRUD admin | ✅ via the service RFW admin pages (Dash + in-app RFW host on the RFW Ops tab) |
-| Distribution channel management | ❌ delegated - Hotel8:Distrib (Dash) |
-| POS terminal | ❌ delegated - Hotel8:ePOS |
-| Guest-facing apps | ❌ delegated - eBooking / eGuest / eKiosk |
-| Payment acceptance | ❌ delegated - PMS → Bill8 server-side |
+| Front-desk dashboard (occupancy, arrivals, departures, housekeeping, revenue) ||
+| Reservation search, detail, create, edit, cancel, split ||
+| Pre-check-in / check-in / check-out wizard ||
+| Room status grid + housekeeping updates ||
+| Folio view + charge/payment posting ||
+| Rate plans + schedules view ||
+| Blocks + events view ||
+| Guest profiles (CRM) lookup ||
+| EOD dashboard + exceptions ||
+| Property audit-log view ||
+| Availability + inventory views ||
+| RFW operations pages (service-defined admin UI hosted in-app) ||
+| Full rate-plan CRUD, block/event CRUD admin |via the service RFW admin pages (Dash + in-app RFW host on the RFW Ops tab) |
+| Distribution channel management |delegated - Hotel8:Distrib (Dash) |
+| POS terminal |delegated - Hotel8:ePOS |
+| Guest-facing apps |delegated - eBooking / eGuest / eKiosk |
+| Payment acceptance |delegated - PMS → Bill8 server-side |
 
 ## 3. Business Capabilities
 
