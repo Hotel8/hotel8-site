@@ -4,6 +4,9 @@
   "org": "Hotel8",
   "domain": "hotel8.dev",
   "tagline": "Open-Source Secure Post-Quantum-Safe Hospitality Platform That Heals and Scales Itself.",
+  "heroEyebrow": "Open-Source Hospitality",
+  "heroTitle": "Hotel8: Autonomous Quantum-Safe Hospitality",
+  "heroDescription": "The whole property in one system: PMS with inventory, rate plans and reservations; food-and-beverage point of sale; upsell offers generated from live booking events; channel and metasearch distribution with no parity leaks; and a deterministic loyalty engine. Payments are delegated to Bank8 rather than duplicated, so folios, offers and redemptions all settle against one money authority.",
   "accent": "#C08A3E",
   "pillarsLead": "Hotel8 inherits the Sentin8 security model by construction and adds hospitality's own guarantees - rate integrity, reservation atomicity, and PCI-clean money flows.",
   "pillars": [
@@ -188,6 +191,5 @@
       "label": "POS and Upsell payments ride Bank8:Payments",
       "url": "https://bank8.dev/docs/products/payments/"
     }
-  ],
-  "heroTagline": "Open-Source Post-Quantum Hospitality Platform - PMS, POS and distribution; heals and scales itself."
+  ]
 }
